@@ -44,6 +44,7 @@ import android.webkit.WebView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.webkit.WebSettingsCompat;
 import androidx.webkit.WebViewClientCompat;
@@ -52,6 +53,7 @@ import androidx.webkit.WebViewFeature;
 import com.google.android.gms.R;
 
 import org.json.JSONArray;
+import org.microg.gms.accountsettings.ui.MainActivity;
 import org.microg.gms.auth.AuthConstants;
 import org.microg.gms.auth.AuthManager;
 import org.microg.gms.auth.AuthRequest;
@@ -67,6 +69,7 @@ import org.microg.gms.profile.ProfileManager;
 import java.io.IOException;
 import java.security.MessageDigest;
 import java.util.Locale;
+import java.util.Objects;
 
 import static android.accounts.AccountManager.PACKAGE_NAME_KEY_LEGACY_NOT_VISIBLE;
 import static android.accounts.AccountManager.VISIBILITY_USER_MANAGED_VISIBLE;
@@ -94,8 +97,10 @@ public class LoginActivity extends AssistantActivity {
     private static final String EMBEDDED_SETUP_URL = "https://accounts.google.com/EmbeddedSetup";
     private static final String PROGRAMMATIC_AUTH_URL = "https://accounts.google.com/o/oauth2/programmatic_auth";
     private static final String GOOGLE_SUITE_URL = "https://accounts.google.com/signin/continue";
+    private static final String GOOGLE_SIGNUP_URL = "https://accounts.google.com/signup";
     private static final String MAGIC_USER_AGENT = " MinuteMaid";
     private static final String COOKIE_OAUTH_TOKEN = "oauth_token";
+    private static final int REQUEST_CODE_SIGNUP = 1001;
 
     private WebView webView;
     private String accountType;
@@ -117,6 +122,24 @@ public class LoginActivity extends AssistantActivity {
         authContent = (ViewGroup) findViewById(R.id.auth_content);
         ((ViewGroup) findViewById(R.id.auth_root)).addView(webView);
         webView.setWebViewClient(new WebViewClientCompat() {
+
+            @SuppressWarnings("deprecation")
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                Log.d(TAG, "shouldOverrideUrlLoading: url: " + url);
+                Uri uri = Uri.parse(url);
+                String uriPath = uri.getPath();
+                if (uriPath != null && uriPath.contains("/signup")) {
+                    String biz = uri.getQueryParameter("biz");
+                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                    intent.setPackage(GMS_PACKAGE_NAME);
+                    intent.putExtra("extra.url", biz != null ? GOOGLE_SIGNUP_URL + "?biz=" + biz : GOOGLE_SIGNUP_URL);
+                    startActivityForResult(intent, REQUEST_CODE_SIGNUP);
+                    return true;
+                }
+                return super.shouldOverrideUrlLoading(view, url);
+            }
+
             @Override
             public void onPageFinished(WebView view, String url) {
                 Log.d(TAG, "pageFinished: " + view.getUrl());
@@ -151,7 +174,7 @@ public class LoginActivity extends AssistantActivity {
         if (getIntent().hasExtra(EXTRA_TOKEN)) {
             if (getIntent().hasExtra(EXTRA_EMAIL)) {
                 AccountManager accountManager = AccountManager.get(this);
-                Account account = new Account(getIntent().getStringExtra(EXTRA_EMAIL), accountType);
+                Account account = new Account(Objects.requireNonNull(getIntent().getStringExtra(EXTRA_EMAIL)), accountType);
                 accountManager.addAccountExplicitly(account, getIntent().getStringExtra(EXTRA_TOKEN), null);
                 if (isAuthVisible(this) && SDK_INT >= 26) {
                     accountManager.setAccountVisibility(account, PACKAGE_NAME_KEY_LEGACY_NOT_VISIBLE, VISIBILITY_USER_MANAGED_VISIBLE);
@@ -164,6 +187,13 @@ public class LoginActivity extends AssistantActivity {
             setMessage(R.string.auth_before_connect);
             setSpoofButtonText(R.string.brand_spoof_button);
             setNextButtonText(R.string.auth_sign_in);
+        }
+    }
+
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == REQUEST_CODE_SIGNUP) {
+            webView.reload();
         }
     }
 
