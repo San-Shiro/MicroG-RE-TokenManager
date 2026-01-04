@@ -33,7 +33,7 @@
             android:paddingTop="24dp"
             android:paddingEnd="16dp"
             android:paddingBottom="12dp"
-            android:text="Libraries"
+            android:text="@string/about_root_libraries"
             android:textAppearance="?attr/textAppearanceLabelLarge"
             android:textColor="?attr/colorPrimary" />
 

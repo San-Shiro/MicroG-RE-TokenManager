@@ -6,7 +6,7 @@
     android:clickable="true"
     android:focusable="true"
     android:layout_height="wrap_content"
-    android:background="@drawable/preference_background_top"
+    android:background="@drawable/about_background_top"
     android:padding="20dp">
 
     <com.google.android.material.imageview.ShapeableImageView
