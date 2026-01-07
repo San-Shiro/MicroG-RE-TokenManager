@@ -2,13 +2,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/list_item_check"
-    style="?attr/listItemLayoutSegmentedStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="2dp"
-    android:background="@android:color/transparent">
+    android:layout_marginBottom="2dp">
 
-    <com.google.android.material.card.MaterialCardView
+    <com.google.android.material.listitem.ListItemCardView
         android:id="@+id/material_card_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,9 +15,8 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingVertical="16dp"
-            android:paddingStart="?attr/listPreferredItemPaddingStart"
-            android:paddingEnd="?attr/listPreferredItemPaddingEnd">
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp">
 
             <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/self_check_name"
@@ -55,7 +52,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:visibility="gone"
-                app:chipSpacingVertical="4dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@id/self_check_name"
                 app:layout_constraintStart_toStartOf="@id/self_check_name"
@@ -72,5 +68,5 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
-    </com.google.android.material.card.MaterialCardView>
+    </com.google.android.material.listitem.ListItemCardView>
 </com.google.android.material.listitem.ListItemLayout>

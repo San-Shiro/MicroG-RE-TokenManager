@@ -5,11 +5,13 @@ import android.accounts.AccountManager
 import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.graphics.Bitmap
+import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.provider.Settings
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
+import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.graphics.drawable.RoundedBitmapDrawableFactory
 import androidx.core.net.toUri
 import androidx.lifecycle.lifecycleScope
@@ -78,7 +80,8 @@ class AccountsFragment : PreferenceFragmentCompat() {
     private fun setupPreferenceListeners() {
         findPreference<Preference>("pref_manage_accounts")?.setOnPreferenceClickListener {
             startActivitySafelyIntent(
-                Intent(Settings.ACTION_SYNC_SETTINGS), "Failed to launch sync in device settings"
+                Intent(Settings.ACTION_SYNC_SETTINGS),
+                "Failed to launch account sync in device settings"
             )
             true
         }
@@ -105,8 +108,10 @@ class AccountsFragment : PreferenceFragmentCompat() {
         }
     }
 
-    private fun startActivitySafely(activityClass: Class<*>, errorMessage: String) {
-        startActivitySafelyIntent(Intent(requireContext(), activityClass), errorMessage)
+    private fun startActivitySafely(activityClass: Class<*>) {
+        startActivitySafelyIntent(
+            Intent(requireContext(), activityClass), "Failed to launch login activity"
+        )
     }
 
     private fun openUrl(url: String) {
@@ -120,7 +125,7 @@ class AccountsFragment : PreferenceFragmentCompat() {
         fab.text = getString(R.string.auth_add_account)
         fab.setIconResource(R.drawable.ic_add)
         fab.setOnClickListener {
-            startActivitySafely(LoginActivity::class.java, "Failed to launch login activity")
+            startActivitySafely(LoginActivity::class.java)
         }
     }
 
@@ -289,8 +294,16 @@ class AccountsFragment : PreferenceFragmentCompat() {
         }
     }
 
-    private fun getCircleBitmapDrawable(bitmap: Bitmap?) = bitmap?.let {
-        RoundedBitmapDrawableFactory.create(resources, it).apply { isCircular = true }
+    private fun getCircleBitmapDrawable(bitmap: Bitmap?): Drawable {
+        return if (bitmap != null) {
+            RoundedBitmapDrawableFactory.create(resources, bitmap).apply {
+                isCircular = true
+            }
+        } else {
+            AppCompatResources.getDrawable(
+                requireContext(), R.drawable.ic_account_avatar
+            )!!
+        }
     }
 
     private fun showSnackbar(message: String) {

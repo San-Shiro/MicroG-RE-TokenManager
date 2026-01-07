@@ -23,6 +23,7 @@ import com.google.android.gms.R
 import com.google.android.material.color.MaterialColors
 import com.google.android.material.transition.MaterialSharedAxis
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.microg.gms.gcm.*
@@ -132,22 +133,11 @@ class PushNotificationAdvancedFragment : PreferenceFragmentCompat() {
             true
         }
 
-        findPreference<Preference>("pref_push_notification_reset")?.setOnPreferenceClickListener {
-            AlertDialog.Builder(requireContext())
-                .setIcon(R.drawable.ic_unregister)
-                .setTitle(R.string.gcm_remove_registers_dialog_title)
-                .setMessage(R.string.gcm_remove_registers_dialog_message)
-                .setPositiveButton(android.R.string.ok) { _, _ ->
-                    lifecycleScope.launch {
-                        withContext(Dispatchers.IO) {
-                            database.resetDatabase()
-                        }
-                    }
-                }
-                .setNegativeButton(android.R.string.cancel, null)
-                .show()
-            true
-        }
+        findPreference<Preference>("pref_push_notification_reset")
+            ?.setOnPreferenceClickListener {
+                showRemoveRegistersDialog()
+                true
+            }
     }
 
     private suspend fun updateContent() {
@@ -201,5 +191,44 @@ class PushNotificationAdvancedFragment : PreferenceFragmentCompat() {
             Settings.ACTION_MANAGE_OVERLAY_PERMISSION, Uri.parse("package:${context.packageName}")
         )
         startActivity(intent)
+    }
+
+    private fun showRemoveRegistersDialog() {
+        val dialog = AlertDialog.Builder(requireContext()).setIcon(R.drawable.ic_unregister)
+            .setTitle(R.string.gcm_remove_registers_dialog_title)
+            .setMessage(R.string.gcm_remove_registers_dialog_message)
+            .setPositiveButton(android.R.string.ok, null)
+            .setNegativeButton(android.R.string.cancel, null).create()
+
+        dialog.setOnShowListener {
+            val positiveButton = dialog.getButton(AlertDialog.BUTTON_POSITIVE)
+            positiveButton.isEnabled = false
+
+            var secondsLeft = 10
+            positiveButton.text = "${getString(android.R.string.ok)} ($secondsLeft)"
+            positiveButton.alpha = 0.6f
+
+            viewLifecycleOwner.lifecycleScope.launch {
+                while (secondsLeft > 0) {
+                    delay(1_000)
+                    secondsLeft--
+                    positiveButton.text = "${getString(android.R.string.ok)} ($secondsLeft)"
+                }
+
+                positiveButton.text = getString(android.R.string.ok)
+                positiveButton.alpha = 1f
+                positiveButton.isEnabled = true
+                positiveButton.setOnClickListener {
+                    lifecycleScope.launch {
+                        withContext(Dispatchers.IO) {
+                            database.resetDatabase()
+                        }
+                    }
+                    dialog.dismiss()
+                }
+            }
+        }
+
+        dialog.show()
     }
 }

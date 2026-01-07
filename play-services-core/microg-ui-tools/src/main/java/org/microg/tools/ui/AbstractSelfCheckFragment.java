@@ -31,8 +31,10 @@ import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.chip.Chip;
 import com.google.android.material.chip.ChipGroup;
+import com.google.android.material.color.MaterialColors;
 import com.google.android.material.transition.MaterialSharedAxis;
 
 import org.microg.tools.selfcheck.SelfCheckGroup;
@@ -49,6 +51,10 @@ import static org.microg.tools.selfcheck.SelfCheckGroup.Result.Unknown;
 
 public abstract class AbstractSelfCheckFragment extends Fragment {
     private ViewGroup root;
+    private ImageView statusShape;
+    private MaterialCardView statusCard;
+    private boolean hasFailures = false;
+
     protected ActivityResultLauncher<Intent> resolutionLauncher;
     protected ActivityResultLauncher<String[]> permissionsLauncher;
 
@@ -81,8 +87,11 @@ public abstract class AbstractSelfCheckFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View scrollRoot = inflater.inflate(org.microg.tools.ui.R.layout.self_check, container, false);
-        root = scrollRoot.findViewById(org.microg.tools.ui.R.id.self_check_root);
+        View scrollRoot = inflater.inflate(R.layout.self_check, container, false);
+        root = scrollRoot.findViewById(R.id.self_check_root);
+        statusShape = scrollRoot.findViewById(R.id.self_check_status_shape);
+        statusCard = scrollRoot.findViewById(R.id.self_check_status_card);
+
         reset(inflater);
         return scrollRoot;
     }
@@ -91,16 +100,32 @@ public abstract class AbstractSelfCheckFragment extends Fragment {
 
     protected void reset(LayoutInflater inflater) {
         if (root == null) return;
+
+        hasFailures = false;
+        updateStatusHeader();
+
         List<SelfCheckGroup> selfCheckGroupList = new ArrayList<>();
         prepareSelfCheckList(selfCheckGroupList);
         root.removeAllViews();
         for (SelfCheckGroup group : selfCheckGroupList) {
-            View groupView = inflater.inflate(org.microg.tools.ui.R.layout.self_check_group, root, false);
+            View groupView = inflater.inflate(R.layout.self_check_group, root, false);
             ((TextView) groupView.findViewById(android.R.id.title)).setText(group.getGroupName(getContext()));
-            final ViewGroup viewGroup = groupView.findViewById(org.microg.tools.ui.R.id.group_content);
+
+            ViewGroup viewGroup = groupView.findViewById(R.id.group_content);
             group.doChecks(getContext(), new GroupResultCollector(viewGroup));
             root.addView(groupView);
         }
+    }
+
+    private void updateStatusHeader() {
+        if (statusShape == null || statusCard == null) return;
+
+        statusShape.setImageResource(hasFailures ? R.drawable.ic_negative : R.drawable.ic_positive);
+
+        int cardColorAttr = hasFailures ? R.attr.colorErrorContainer : R.attr.colorPrimaryContainer;
+
+        int cardColor = MaterialColors.getColor(statusCard, cardColorAttr);
+        statusCard.setCardBackgroundColor(cardColor);
     }
 
     private class GroupResultCollector implements SelfCheckGroup.ResultCollector {
@@ -123,12 +148,18 @@ public abstract class AbstractSelfCheckFragment extends Fragment {
         @Override
         public void addResult(String name, SelfCheckGroup.Result result, String resolution, boolean showIcon, List<ChipInfo> chips, SelfCheckGroup.CheckResolver resolver) {
             if (getActivity() == null || getContext() == null) return;
+
+            if (result == Negative && showIcon) {
+                hasFailures = true;
+            }
+
             getActivity().runOnUiThread(() -> {
-                View entry = LayoutInflater.from(getContext()).inflate(org.microg.tools.ui.R.layout.self_check_entry, viewGroup, false);
-                TextView nameView = entry.findViewById(org.microg.tools.ui.R.id.self_check_name);
-                TextView resView = entry.findViewById(org.microg.tools.ui.R.id.self_check_resolution);
-                ImageView resultIcon = entry.findViewById(org.microg.tools.ui.R.id.self_check_result_icon);
-                ChipGroup chipGroup = entry.findViewById(org.microg.tools.ui.R.id.self_check_chip_group);
+                View entry = LayoutInflater.from(getContext()).inflate(R.layout.self_check_entry, viewGroup, false);
+
+                TextView nameView = entry.findViewById(R.id.self_check_name);
+                TextView resView = entry.findViewById(R.id.self_check_resolution);
+                ImageView resultIcon = entry.findViewById(R.id.self_check_result_icon);
+                ChipGroup chipGroup = entry.findViewById(R.id.self_check_chip_group);
 
                 nameView.setText(name);
 
@@ -160,7 +191,7 @@ public abstract class AbstractSelfCheckFragment extends Fragment {
                     chipGroup.setVisibility(VISIBLE);
                     chipGroup.removeAllViews();
                     for (ChipInfo info : chips) {
-                        Chip chip = (Chip) LayoutInflater.from(getContext()).inflate(org.microg.tools.ui.R.layout.self_check_chip, chipGroup, false);
+                        Chip chip = (Chip) LayoutInflater.from(getContext()).inflate(R.layout.self_check_chip, chipGroup, false);
                         chip.setText(info.label);
                         if (info.icon != null) {
                             chip.setChipIcon(info.icon);
@@ -175,6 +206,7 @@ public abstract class AbstractSelfCheckFragment extends Fragment {
 
                 viewGroup.addView(entry);
                 updateSegmentedStyle();
+                updateStatusHeader();
             });
         }
 
