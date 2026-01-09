@@ -23,7 +23,7 @@
     <string name="signin_confirm_title">Zezwalaj na logowanie się w <xliff:g example="YouTube">%1$s</xliff:g></string>
     <string name="signin_subtext_sharing">Aby kontynuować, MicroG udostępni nazwę, adres e-mail i zdjęcie profilowe Twojego konta Google aplikacji <xliff:g example="YouTube">%1$s</xliff:g></string>
     <!--auth: buttons-->
-    <string name="auth_huawei_button">Huawei</string>
+    <string name="auth_huawei_button" translatable="false">Huawei</string>
     <!--auth: messages-->
     <string name="auth_before_connect">"Połącz konto Google z MicroG.
 
