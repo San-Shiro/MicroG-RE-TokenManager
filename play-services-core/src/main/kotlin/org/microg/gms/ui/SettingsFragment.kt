@@ -46,10 +46,10 @@ class SettingsFragment : ResourceSettingsFragment() {
         const val PREF_HIDE_LAUNCHER_ICON = "pref_hide_launcher_icon"
         const val PREF_SELF_CHECK = "pref_self_check"
         const val PREF_GITHUB = "pref_github"
+        const val PREF_IGNORE_BATTERY_OPTIMIZATION = "pref_ignore_battery_optimization"
 
         private const val ACTIVITY_LAUNCHER_CONTROL = "org.microg.gms.ui.SettingsActivityLauncher"
         private const val PREF_GITHUB_URL = "https://github.com/MorpheApp/MicroG-RE"
-        const val PREF_IGNORE_BATTERY_OPTIMIZATION = "pref_ignore_battery_optimization"
     }
 
     private val createdPreferences = mutableListOf<Preference>()
@@ -107,8 +107,8 @@ class SettingsFragment : ResourceSettingsFragment() {
             true
         }
         findPreference<SwitchPreferenceCompat>(PREF_HIDE_LAUNCHER_ICON)?.setOnPreferenceChangeListener { _, newValue ->
-            val hide = newValue as Boolean
-            toggleLauncherIconVisibility(show = !hide)
+            val shouldHide = newValue as Boolean
+            toggleLauncherIconVisibility(hide = shouldHide)
             true
         }
         findPreference<Preference>(PREF_SELF_CHECK)?.setOnPreferenceClickListener {
@@ -187,12 +187,16 @@ class SettingsFragment : ResourceSettingsFragment() {
         }
     }
 
-    private fun toggleLauncherIconVisibility(show: Boolean) {
-        val newState = if (show) PackageManager.COMPONENT_ENABLED_STATE_ENABLED
-        else PackageManager.COMPONENT_ENABLED_STATE_DISABLED
+    private fun toggleLauncherIconVisibility(hide: Boolean) {
+        val newState = if (hide) {
+            PackageManager.COMPONENT_ENABLED_STATE_DISABLED
+        } else {
+            PackageManager.COMPONENT_ENABLED_STATE_ENABLED
+        }
 
         val ctx = context ?: return
         val component = ComponentName(ctx, ACTIVITY_LAUNCHER_CONTROL)
+
         ctx.packageManager.setComponentEnabledSetting(
             component, newState, PackageManager.DONT_KILL_APP
         )
@@ -203,8 +207,9 @@ class SettingsFragment : ResourceSettingsFragment() {
         val component = ComponentName(ctx, ACTIVITY_LAUNCHER_CONTROL)
         val state = ctx.packageManager.getComponentEnabledSetting(component)
 
-        val isEnabled = state == PackageManager.COMPONENT_ENABLED_STATE_ENABLED || state == PackageManager.COMPONENT_ENABLED_STATE_DEFAULT
-        findPreference<SwitchPreferenceCompat>(PREF_HIDE_LAUNCHER_ICON)?.isChecked = !isEnabled
+        val isHidden = state != PackageManager.COMPONENT_ENABLED_STATE_ENABLED
+
+        findPreference<SwitchPreferenceCompat>(PREF_HIDE_LAUNCHER_ICON)?.isChecked = isHidden
     }
 
     private fun updateGcmSummary() {
