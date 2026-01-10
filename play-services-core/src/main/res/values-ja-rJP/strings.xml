@@ -5,6 +5,7 @@
   -->
 <resources>
     <!--App Names-->
+    <string name="gms_settings_name">microG 設定</string>
     <!--Authentication-->
     <!--auth: headers-->
     <string name="auth_add_account">アカウントを追加</string>
@@ -20,8 +21,12 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_confirm_title">%1$sにサインインすることを許可します</string>
     <!-- %1$s is an app name, such as "YouTube" -->
+    <string name="signin_subtext_sharing">続行するには、microG が Google アカウントの名前、メールアドレス、プロフィール画像を %1$s に共有します</string>
     <!--auth: buttons-->
     <!--auth: messages-->
+    <string name="auth_before_connect">"Google アカウントを microG に接続します
+
+Google アカウントに接続するには、<b>サインイン</b> ボタンを使用するか、デバイスがこのメーカーの場合は <b>Huawei</b> ボタンを使用してください。いずれかのボタンを押すと、アカウントにログインするためのページにリダイレクトされます。"</string>
     <string name="auth_connecting">"Google サーバーにサインインするために、デバイスが接続を確立しています。
 
 数秒かかる場合があります"</string>
@@ -175,6 +180,7 @@
     <string name="pref_device_registration_import_custom_profile_summary">JSON ファイルからデバイス プロファイルをインポートします</string>
     <string name="pref_device_registration_serial_title">シリアル</string>
     <string name="pref_device_registration_android_id">Android ID</string>
+    <string name="pref_checkin_enable_summary">このデバイスを Google サービスに登録し、一意のデバイス識別子を作成します。microG は登録データから識別子を除去します。</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">プッシュ通知を許可</string>
     <string name="pref_push_app_allow_register_title">登録を許可します</string>
@@ -190,6 +196,7 @@
     <string name="pref_privacy_title">プライバシー</string>
     <string name="pref_privacy_summary">認証とアプリのプライバシー設定</string>
     <string name="pref_network_google_enabled">Google サーバーに接続します</string>
+    <string name="pref_network_google_enabled_summary">無効にすると、microG が行うすべての Google サーバーへの接続が拒否されます。この設定はサービス固有の設定をオーバーライドします</string>
     <string name="pref_network_google_use_tor">Tor ネットワークを使用して Google に接続します</string>
     <string name="pref_network_google_use_tor_summary">"Orbotのインストールが必要です
 未対応"</string>
@@ -204,6 +211,7 @@
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">ランチャーにアイコンを表示しません</string>
     <!--preferences: about-->
+    <string name="pref_about_title">MicroG について</string>
     <string name="pref_github_summary">ソースコードリポジトリ</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">内部のステータスを聞き取ります</string>
@@ -214,6 +222,7 @@
     <string name="perm_extended_access_label">Google サービスへの拡張アクセス</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">電池の最適化が有効です</string>
+    <string name="cond_gcm_bat_summary">Cloud Messaging を有効にしていますが、MicroG Services に対する電池の最適化が有効になっています。プッシュ通知を受け取るには、電池の最適化を無効にする必要があります</string>
     <string name="cond_gcm_bat_action">無効にします</string>
     <string name="cond_perm_title">権限がありません</string>
 </resources>

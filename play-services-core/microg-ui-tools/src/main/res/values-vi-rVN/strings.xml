@@ -35,6 +35,7 @@
     <!--Settings Preferences-->
     <!--preferences: self-check-->
     <string name="self_check_title">Tự kiểm tra</string>
+    <string name="self_check_desc">Xác minh xem thiết bị đã được cấu hình đúng để sử dụng microG chưa</string>
     <!--UI preview-->
     <string name="about_root_title">demo Giao Diện MicroG</string>
     <string name="about_root_version">Phiên bản v0.1.0</string>

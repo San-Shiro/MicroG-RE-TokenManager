@@ -5,6 +5,7 @@
   -->
 <resources>
     <!--App Names-->
+    <string name="gms_settings_name">Impostazioni microG</string>
     <!--Authentication-->
     <!--auth: headers-->
     <string name="auth_add_account">Aggiungi account</string>
@@ -20,8 +21,12 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_confirm_title">Consenti l\'accesso a %1$s</string>
     <!-- %1$s is an app name, such as "YouTube" -->
+    <string name="signin_subtext_sharing">Per continuare, microG condividerà nome, indirizzo email e immagine del profilo del tuo account Google con %1$s</string>
     <!--auth: buttons-->
     <!--auth: messages-->
+    <string name="auth_before_connect">"Connetti l'account Google a microG.
+
+Connettiti a un account Google utilizzando il pulsante <b>Accedi</b> o il pulsante <b>Huawei</b> se hai un dispositivo di questo produttore. Premi uno dei pulsanti per essere reindirizzato alla pagina di accesso al tuo account."</string>
     <string name="auth_connecting">"Il tuo dispositivo si sta connettendo ai server di Google per accedere. Ci vorrà qualche secondo."</string>
     <string name="auth_no_network_error_desc">"Non hai una connessione di rete.
 
@@ -174,6 +179,7 @@ Vuoi disiscriverla ora in modo che non riceva messaggi push in futuro?"</string>
     <string name="pref_device_registration_import_custom_profile_summary">Importa il profilo del dispositivo dal file</string>
     <string name="pref_device_registration_serial_title">Seriale</string>
     <string name="pref_device_registration_android_id">ID Android</string>
+    <string name="pref_checkin_enable_summary">Registra il tuo dispositivo sui servizi Google e crea un identificatore di dispositivo univoco. microG rimuove i bit identificativi, tranne il nome dell\'account Google, dai dati di registrazione</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">Consenti alle app di utilizzare le notifiche push</string>
     <string name="pref_push_app_allow_register_title">Consenti la registrazione</string>
@@ -189,6 +195,7 @@ Vuoi disiscriverla ora in modo che non riceva messaggi push in futuro?"</string>
     <string name="pref_privacy_title">Privacy</string>
     <string name="pref_privacy_summary">Impostazioni sulla privacy per l\'autenticazione e le app</string>
     <string name="pref_network_google_enabled">Consenti la connessione ai server di Google</string>
+    <string name="pref_network_google_enabled_summary">Se disabilitato, tutte le connessioni ai server Google generalmente effettuate da microG verranno negate. Questa impostazione sovrascrive le impostazioni specifiche del servizio</string>
     <string name="pref_network_google_use_tor">Connetti a Google via rete Tor</string>
     <string name="pref_network_google_use_tor_summary">"Richiede Orbot installato
 Non ancora supportato"</string>
@@ -203,6 +210,7 @@ Non ancora supportato"</string>
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">Nascondi l\'icona nel launcher</string>
     <!--preferences: about-->
+    <string name="pref_about_title">Informazioni su MicroG RE</string>
     <string name="pref_github_summary">Repository del codice sorgente</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">Ascolta i broadcast interni dello stato</string>
@@ -213,6 +221,7 @@ Non ancora supportato"</string>
     <string name="perm_extended_access_label">Accesso esteso ai servizi Google</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">Ottimizzazioni della batteria attivate</string>
+    <string name="cond_gcm_bat_summary">Hai attivato le notifiche cloud ma hai attive le ottimizzazioni della batteria per i servizi microG. Per ricevere le notifiche push, dovresti ignorare le ottimizzazioni della batteria</string>
     <string name="cond_gcm_bat_action">Ignora le ottimizzazioni</string>
     <string name="cond_perm_title">Mancanza di autorizzazioni</string>
 </resources>

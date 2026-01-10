@@ -5,6 +5,7 @@
   -->
 <resources>
     <!--App Names-->
+    <string name="gms_settings_name">microG Tənzimləmələri</string>
     <!--Authentication-->
     <!--auth: headers-->
     <string name="auth_add_account">Hesab əlavə et</string>
@@ -20,8 +21,12 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_confirm_title">%1$sə daxil olmaq üçün icazə verin</string>
     <!-- %1$s is an app name, such as "YouTube" -->
+    <string name="signin_subtext_sharing">Davam etmək üçün, microG Google hesabınizin adı, elektron poçt ünvanı və profil şəkiliyi %1$s ilə bölüşəcək</string>
     <!--auth: buttons-->
     <!--auth: messages-->
+    <string name="auth_before_connect">"Google hesabini microG ilə əlaqələndir.
+
+Google hesabına əlaqə qurmaq istəyirsiniz, <b>Giriş</b> düyməsini istifadə edin ya da <b>Huawei</b> düyməsini, əgər cihazınız bu istehsalçıya aiddirsə istifadə edin. Bir düyməni basdığınız zaman hesabınıza daxil olmaq üçün sizi yönləndirəcək səhifəyə yönləndirəcəksiniz."</string>
     <string name="auth_connecting">"Sizin cihazınız Google-un serverləri ilə əlaqə qurmaq üçün cəhd edir.
 
 Bu bir neçə sanə çəkə bilər"</string>
@@ -174,6 +179,7 @@ Bazı tətbiqlər yenidən qeydiyyatdan keçməyə imkan vermir"</string>
     <string name="pref_device_registration_import_custom_profile_summary">Cihaz profilini faylından əlavə edin</string>
     <string name="pref_device_registration_serial_title">Serial nömrə</string>
     <string name="pref_device_registration_android_id">Android ID</string>
+    <string name="pref_checkin_enable_summary">Cihazınızı Google xidmətlərinə qeydiyyatdan keçirir və fərdi cihaz identifikatoru yaradır. microG qeydiyyat məlumatlarından Google hesabı adını başqa müəyyənləşdirici hissələri silir</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">Push xəbərləri istifadə edən proqramlar</string>
     <string name="pref_push_app_allow_register_title">Qeydiyyatdan keçməsinə icazə verin</string>
@@ -189,6 +195,7 @@ Bazı tətbiqlər yenidən qeydiyyatdan keçməyə imkan vermir"</string>
     <string name="pref_privacy_title">Təhlükəsizlik</string>
     <string name="pref_privacy_summary">Təhlükəsizlik parametrləri üçün kimlik doğrulaması və tətbiqlər</string>
     <string name="pref_network_google_enabled">Google serverlərə qoşulma</string>
+    <string name="pref_network_google_enabled_summary">İmtina olunduqda, microG tərəfindən həyata keçirilən bütün Google serverlərə əlaqələr imtina edilir. Bu, xidmət xüsusi tənzimləmələri üzərində üstünlük verir</string>
     <string name="pref_network_google_use_tor">Tor şəbəkəsi vasitəsilə Googleə qoşulma</string>
     <string name="pref_network_google_use_tor_summary">"Orbotun quraşdırılması tələb olunur
 Hələ də dəstəklənmir"</string>
@@ -203,6 +210,7 @@ Hələ də dəstəklənmir"</string>
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">Louncher simvolunu gizlət</string>
     <!--preferences: about-->
+    <string name="pref_about_title">MicroG RE Haqqında</string>
     <string name="pref_github_summary">Mənbə kodu deposu</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">Daxili status yayımına qulaq asın</string>
@@ -213,6 +221,7 @@ Hələ də dəstəklənmir"</string>
     <string name="perm_extended_access_label">Google xidmətlərinə geniş müraciət</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">Batareya optimizasiyası aktivdir</string>
+    <string name="cond_gcm_bat_summary">Siz bulud xidmətini aktivləşdirdiniz, lakin microG Xidmətlərinə enerji optimizasiyası aktivdir. Push xəbərlərlərin gəlməsi üçün enerji optimizasiyasını gözləməmiş olmalısınız</string>
     <string name="cond_gcm_bat_action">Optimizasiyanı unut</string>
     <string name="cond_perm_title">İcazə yoxdur</string>
 </resources>

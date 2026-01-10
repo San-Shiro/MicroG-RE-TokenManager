@@ -35,7 +35,9 @@
     <!--Settings Preferences-->
     <!--preferences: self-check-->
     <string name="self_check_title">Pemeriksaan Sendiri</string>
+    <string name="self_check_desc">Pastikan perangkat Anda telah dikonfigurasi dengan benar untuk menggunakan microG</string>
     <!--UI preview-->
+    <string name="about_root_title">Demonstrasi UI microG</string>
     <string name="about_root_version">Versi v0.1.0</string>
     <string name="about_root_libraries">Pustaka yang disertakan</string>
 </resources>

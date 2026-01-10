@@ -5,6 +5,7 @@
   -->
 <resources>
     <!--App Names-->
+    <string name="gms_settings_name">הגדרות microG</string>
     <!--Authentication-->
     <!--auth: headers-->
     <string name="auth_add_account">הוסף חשבון</string>
@@ -20,8 +21,12 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_confirm_title">אפשר להתחבר ל- %1$s</string>
     <!-- %1$s is an app name, such as "YouTube" -->
+    <string name="signin_subtext_sharing">להמשך, microG ישתף את שם, כתובת אימייל וצילום הפרופיל של חשבון Google שלך עם %1$s</string>
     <!--auth: buttons-->
     <!--auth: messages-->
+    <string name="auth_before_connect">"התחברות לחשבון Google עם microG.
+
+אנחנו מתחברים לחשבון Google, השתמש בלחצן <b>התחברות</b> או בלחצן <b>Huawei</b> אם יש לך מכשיר של יצרן זה. על ידי לחיצה על אחד הלחצנים תועבר לעמוד התחברות לחשבונך."</string>
     <string name="auth_connecting">"החיבור לחשבון גוגל שלך ייקח כמה שניות.
 
 זה יכול להימשך כמה שניות"</string>
@@ -174,6 +179,7 @@
     <string name="pref_device_registration_import_custom_profile_summary">סיד</string>
     <string name="pref_device_registration_serial_title">איד אנדרואיד</string>
     <string name="pref_device_registration_android_id">רישום מכשיר שלך לגוגל ויצירת מזהה של מכשיר אישי. MicroG מחסיר את הביטים הזהים של זיהוי מהמquipe של הרישום, מלבד את שם החשבון גוגל שלך</string>
+    <string name="pref_checkin_enable_summary">רשום את המכשיר שלך לשירותי Google ויצר איתור המכשיר ייחודי. microG מסיר את הביטים מזהה מלבד שם החשבון שלך מנתוני הרישום</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">אישור רישום</string>
     <string name="pref_push_app_allow_register_title">הפעיל את האפליקציה כדי לרשום לרישום חיצוניות</string>
@@ -189,6 +195,7 @@
     <string name="pref_privacy_title">פרטיות</string>
     <string name="pref_privacy_summary">הגדרות אימות עבור אימות ואפליקציות</string>
     <string name="pref_network_google_enabled">אפשר חיבור לשרת גוגל</string>
+    <string name="pref_network_google_enabled_summary">אם מושבת, כל התחברויות לשרתים של Google בדרך כלל מבוצעות על ידי microG יאוכלו. זה מעליב את הגדרות של שירות ספציפי</string>
     <string name="pref_network_google_use_tor">השתמש ב- Tor</string>
     <string name="pref_network_google_use_tor_summary">"דורש את Orbot להתקין
 עדיין לא נתמך"</string>
@@ -203,6 +210,7 @@
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">הסתר סמל בלהצ\'ר</string>
     <!--preferences: about-->
+    <string name="pref_about_title">אודות MicroG RE</string>
     <string name="pref_github_summary">ארכיון קוד מקור</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">שמע את הפעילויות הפנימיות</string>
@@ -213,6 +221,7 @@
     <string name="perm_extended_access_label">גישה מורחבת לשירותי Google</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">הפעלת אופטימיזציות סוללה מופעלת</string>
+    <string name="cond_gcm_bat_summary">אפשרת את Cloud Messaging אבל יש לך אופטימיזציות של סוללה פעילות למיקרוג שירותים. כדי שפשוטים להגיע, עליך לignore אופטימיזציות של סוללה</string>
     <string name="cond_gcm_bat_action">התעלם מאופטימיזציות</string>
     <string name="cond_perm_title">חסרה הרשאה</string>
 </resources>

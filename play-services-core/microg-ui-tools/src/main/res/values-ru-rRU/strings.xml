@@ -35,7 +35,9 @@
     <!--Settings Preferences-->
     <!--preferences: self-check-->
     <string name="self_check_title">Самотестирование</string>
+    <string name="self_check_desc">Убедитесь, что устройство правильно настроено для использования microG</string>
     <!--UI preview-->
+    <string name="about_root_title">Демонстрация интерфейса microG</string>
     <string name="about_root_version">Версия v0.1.0</string>
     <string name="about_root_libraries">Включенные библиотеки</string>
 </resources>

@@ -5,6 +5,7 @@
   -->
 <resources>
     <!--App Names-->
+    <string name="gms_settings_name">Configurações do microG</string>
     <!--Authentication-->
     <!--auth: headers-->
     <string name="auth_add_account">Adicionar conta</string>
@@ -20,8 +21,12 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_confirm_title">Permitir entrada com %1$s</string>
     <!-- %1$s is an app name, such as "YouTube" -->
+    <string name="signin_subtext_sharing">Para continuar, o microG vai compartilhar o nome, endereço de e-mail e foto de perfil da sua conta Google com %1$s</string>
     <!--auth: buttons-->
     <!--auth: messages-->
+    <string name="auth_before_connect">"Conectar conta Google com microG.
+
+Vamos conectar a uma conta Google, use o botão <b>Entrar</b> ou use o botão <b>Huawei</b> se você tiver um dispositivo desta marca. Ao pressionar um dos botões, você será redirecionado para a página de login da sua conta."</string>
     <string name="auth_connecting">"Seu dispositivo está estabelecendo uma conexão com os servidores do Google. Isso pode levar alguns segundos."</string>
     <string name="auth_no_network_error_desc">"Não há conexão de rede.
 
@@ -174,6 +179,7 @@ Deseja desregistrá-lo agora para que ele não receba mais notificações por pu
     <string name="pref_device_registration_import_custom_profile_summary">Importar perfil de dispositivo a partir de um arquivo</string>
     <string name="pref_device_registration_serial_title">Serial</string>
     <string name="pref_device_registration_android_id">ID do Android</string>
+    <string name="pref_checkin_enable_summary">Registra seu dispositivo nos serviços Google e cria um identificador de dispositivo único. O microG remove os bits de identificação, exceto o nome da sua conta Google, dos dados de registro</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">Aplicativos usando notificações push</string>
     <string name="pref_push_app_allow_register_title">Permitir registro</string>
@@ -189,6 +195,7 @@ Deseja desregistrá-lo agora para que ele não receba mais notificações por pu
     <string name="pref_privacy_title">Privacidade</string>
     <string name="pref_privacy_summary">Configurações de privacidade para autenticação e aplicativos</string>
     <string name="pref_network_google_enabled">Permitir conectar-se aos servidores do Google</string>
+    <string name="pref_network_google_enabled_summary">Se desativado, todas as conexões com os servidores Google geralmente feitas pelo microG serão negadas. Isso substitui as configurações específicas do serviço</string>
     <string name="pref_network_google_use_tor">Conectar ao Google via rede Tor</string>
     <string name="pref_network_google_use_tor_summary">"Requer Orbot instalado
 Não suportado ainda"</string>
@@ -203,6 +210,7 @@ Não suportado ainda"</string>
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">Ocultar ícone na área de trabalho</string>
     <!--preferences: about-->
+    <string name="pref_about_title">Sobre o MicroG RE</string>
     <string name="pref_github_summary">Repositório do código-fonte</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">ouvir a transmissão de status interna</string>
@@ -213,6 +221,7 @@ Não suportado ainda"</string>
     <string name="perm_extended_access_label">Acesso estendido aos serviços do Google</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">Otimizações de bateria ativadas</string>
+    <string name="cond_gcm_bat_summary">Você ativou as mensagens de nuvem, mas tem otimizações de bateria ativas para os Serviços do microG. Para receber notificações por push, você deve ignorar as otimizações de bateria</string>
     <string name="cond_gcm_bat_action">Ignorar as otimizações</string>
     <string name="cond_perm_title">Permissão ausente</string>
 </resources>

@@ -21,8 +21,12 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_confirm_title">Izinkan untuk masuk ke %1$s</string>
     <!-- %1$s is an app name, such as "YouTube" -->
+    <string name="signin_subtext_sharing">Untuk melanjutkan, microG akan membagikan nama, alamat email, dan foto profil akun Google Anda dengan %1$s</string>
     <!--auth: buttons-->
     <!--auth: messages-->
+    <string name="auth_before_connect">"Sambungkan akun Google dengan microG.
+
+Mari kita sambungkan ke akun Google, gunakan tombol <b>Masuk</b> atau tombol <b>Huawei</b> jika Anda memiliki perangkat dengan merek ini. Dengan menekan salah satu tombol, Anda akan dialihkan ke halaman untuk masuk ke akun Anda."</string>
     <string name="auth_connecting">"Perangkat Anda sedang terhubung ke server Google untuk masuk.
 
 Hal ini dapat memerlukan waktu beberapa saat"</string>
@@ -177,6 +181,7 @@ Apakah Anda ingin membatalkan pendaftarannya sekarang sehingga tidak menerima no
     <string name="pref_device_registration_import_custom_profile_summary">Impor profil perangkat dari berkas</string>
     <string name="pref_device_registration_serial_title">Serial</string>
     <string name="pref_device_registration_android_id">ID Android</string>
+    <string name="pref_checkin_enable_summary">Daftarkan perangkat Anda ke layanan Google dan membuat identitas perangkat unik. MicroG menghapus bagian-bagian yang mengidentifikasi selain nama akun Google Anda dari data pendaftaran</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">Aplikasi menggunakan notifikasi dorong</string>
     <string name="pref_push_app_allow_register_title">Izinkan pendaftaran</string>
@@ -192,6 +197,7 @@ Apakah Anda ingin membatalkan pendaftarannya sekarang sehingga tidak menerima no
     <string name="pref_privacy_title">Privasi</string>
     <string name="pref_privacy_summary">Pengaturan privasi untuk autentikasi dan aplikasi</string>
     <string name="pref_network_google_enabled">Izinkan sambungan ke server Google</string>
+    <string name="pref_network_google_enabled_summary">Jika dinonaktifkan, semua sambungan ke server Google biasanya dilakukan oleh MicroG akan ditolak. Ini menggantikan pengaturan layanan tertentu</string>
     <string name="pref_network_google_use_tor">Sambungkan ke Google melalui jaringan Tor</string>
     <string name="pref_network_google_use_tor_summary">"Memerlukan Orbot untuk dipasang
 Belum didukung"</string>
@@ -206,6 +212,7 @@ Belum didukung"</string>
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">Sembunyikan ikon di peluncur</string>
     <!--preferences: about-->
+    <string name="pref_about_title">Tentang MicroG RE</string>
     <string name="pref_github_summary">Repositori sumber kode</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">mendengarkan status internal yang disiarkan</string>
@@ -216,6 +223,7 @@ Belum didukung"</string>
     <string name="perm_extended_access_label">Akses lanjutan ke layanan Google</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">Optimasi baterai diaktifkan</string>
+    <string name="cond_gcm_bat_summary">Anda mengaktifkan layanan cloud tetapi memiliki optimasi baterai aktif untuk Layanan MicroG. Untuk menerima notifikasi dorong, Anda harus mengabaikan optimasi baterai</string>
     <string name="cond_gcm_bat_action">Abaikan optimasi</string>
     <string name="cond_perm_title">Perizinan hilang</string>
 </resources>

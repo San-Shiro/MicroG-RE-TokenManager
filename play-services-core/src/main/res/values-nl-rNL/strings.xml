@@ -5,6 +5,7 @@
   -->
 <resources>
     <!--App Names-->
+    <string name="gms_settings_name">microG-instellingen</string>
     <!--Authentication-->
     <!--auth: headers-->
     <string name="auth_add_account">Account toevoegen</string>
@@ -20,8 +21,12 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_confirm_title">Toestemming geven voor in te loggen op %1$s</string>
     <!-- %1$s is an app name, such as "YouTube" -->
+    <string name="signin_subtext_sharing">Om door te gaan, zal microG de naam, e-mailadres en profielbeeld van je Google-account delen met %1$s</string>
     <!--auth: buttons-->
     <!--auth: messages-->
+    <string name="auth_before_connect">"Verbind Google-account met microG.
+
+Laten we een Google-account verbinden, gebruik het <b>Inloggen</b>-knopje of gebruik het <b>Huawei</b>-knopje als je een apparaat van deze fabrikant hebt. Door op een van de knoppen te drukken, wordt je doorgestuurd naar de pagina om in te loggen op je account."</string>
     <string name="auth_connecting">"Er is een probleem opgetreden bij de communicatie met Google-servers.
 
 Probeer het later nog eens"</string>
@@ -165,6 +170,7 @@ Not yet supported</string>
     <string name="pref_device_registration_import_custom_profile_summary">Authenticeer met device-registratie</string>
     <string name="pref_device_registration_serial_title">Als u dit uitschakelt, worden authenticatie-aanvragen niet gekoppeld aan de device-registratie, wat toestaat niet-autoriseerde apparaten om zich aan te melden, maar kan onverwachte gevolgen hebben</string>
     <string name="pref_device_registration_android_id">Schakel device-naam uit voor authenticatie</string>
+    <string name="pref_checkin_enable_summary">Registreert je apparaat bij Google-services en maakt een unieke apparaat-identifier. microG verwijdert identificeerbare gedeeltes behalve je Google-accountnaam uit de registratiedata</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">Verberg icoon in launcher</string>
     <string name="pref_push_app_allow_register_title">Over MicroG</string>
@@ -180,6 +186,7 @@ Not yet supported</string>
     <string name="pref_privacy_title">Privacy-instellingen voor authenticatie en apps</string>
     <string name="pref_privacy_summary">Toestaan</string>
     <string name="pref_network_google_enabled">Verbinding met Google-servers</string>
+    <string name="pref_network_google_enabled_summary">Als u dit uitschakelt, worden alle verbindingen naar Google-servers die normaal gesproken door microG worden gedaan, geweigerd. Dit overschrijft instellingen op service-niveau</string>
     <string name="pref_network_google_use_tor">Verbinding met Google via Tor-netwerk</string>
     <string name="pref_network_google_use_tor_summary">"Als u dit inschakelt, kunnen alle apps op dit apparaat de e-mailadres van uw Google-accounts zien zonder voorafgaande autorisatie"</string>
     <string name="pref_auth_trust_google_title">Als u dit uitschakelt, wordt de gebruiker gevraagd voordat een apps autorisatie-aanvraag wordt gestuurd naar Google. Sommige apps kunnen niet gebruik maken van de Google-account als dit is uitgeschakeld</string>
@@ -193,6 +200,7 @@ Not yet supported</string>
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">Verberg icoon in launcher</string>
     <!--preferences: about-->
+    <string name="pref_about_title">Over MicroG RE</string>
     <string name="pref_github_summary">Luister naar interne statusbroadcasts</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">Lees Google-serviceconfiguratie</string>
@@ -203,6 +211,7 @@ Not yet supported</string>
     <string name="perm_extended_access_label">Privacy-instellingen voor authenticatie en apps</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">Toestaan</string>
+    <string name="cond_gcm_bat_summary">Je hebt Cloud-berichten ingeschakeld, maar je hebt batterijoptimalisaties actief voor microG Services. Voor pushmeldingen om te ontvangen, moet je batterijoptimalisaties negeren</string>
     <string name="cond_gcm_bat_action">Als u dit uitschakelt, worden alle verbindingen met Google-servers die normaal door MicroG worden uitgevoerd, geweigerd. Dit overschrijdt service-specifieke instellingen</string>
     <string name="cond_perm_title">Verbinding met Google via Tor-netwerk</string>
 </resources>

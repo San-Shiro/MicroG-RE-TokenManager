@@ -5,6 +5,7 @@
   -->
 <resources>
     <!--App Names-->
+    <string name="gms_settings_name">microG beállítások</string>
     <!--Authentication-->
     <!--auth: headers-->
     <string name="auth_add_account">Fiók hozzáadása</string>
@@ -20,8 +21,12 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_confirm_title">Engedélyezze, hogy bejelentkezzen %1$s-re</string>
     <!-- %1$s is an app name, such as "YouTube" -->
+    <string name="signin_subtext_sharing">A folytatáshoz microG megosztja a Google fiókodból a neved, email címedet és profilképet %1$s számára</string>
     <!--auth: buttons-->
     <!--auth: messages-->
+    <string name="auth_before_connect">"Csatlakoztas Google fiókhoz microG-vel.
+
+Csatlakozzunk egy Google fiókhöz, használj a <b>Bejelentkezés</b> gombot vagy a <b>Huawei</b> gombot, ha eszköded ezt a gyártót használja. Kattints egy gombra, hogy átirányítsd a bejelentkezési oldalon"</string>
     <string name="auth_connecting">"A készülék Google kiszolgálókhoz csatlakozik.
 
 Ez néhány másodpercig tart."</string>
@@ -178,6 +183,7 @@ Akarja most leregisztrálni, hogy ne kapjon felhőüzeneteket a jövőben?
     <string name="pref_device_registration_import_custom_profile_summary">Egyéni profil importálása fájlból</string>
     <string name="pref_device_registration_serial_title">Sorozat</string>
     <string name="pref_device_registration_android_id">Android ID</string>
+    <string name="pref_checkin_enable_summary">Regisztrálja eszködet a Google szolgáltatásokhoz és létrehozza a egyedi eszközazonosítót. microG lecseréli a regisztrációs adatokból az azonosítókat, kivéve a Google fiókneved</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">Engedélyezze a(z) %1$s kiszolgálásának a(z) %1$s-nak a bejelentkezéséhez</string>
     <string name="pref_push_app_allow_register_title">Engedélyezze a(z) %1$s regisztrációját</string>
@@ -193,6 +199,7 @@ Akarja most leregisztrálni, hogy ne kapjon felhőüzeneteket a jövőben?
     <string name="pref_privacy_title">Adatvédelmi beállítások a bejelentkezéshez és alkalmazásokhoz</string>
     <string name="pref_privacy_summary">Engedélyezze a(z) %1$s kiszolgálásának a(z) %1$s-nak a bejelentkezéséhez</string>
     <string name="pref_network_google_enabled">Engedélyezze, hogy a(z) %1$s kiszolgálásának a(z) %1$s-nak a bejelentkezéséhez</string>
+    <string name="pref_network_google_enabled_summary">Ha letiltva, microG általában minden kapcsolódást tilt a Google szerverre. Ez a beállítás felülírja a szolgáltatás specifikus beállításokat</string>
     <string name="pref_network_google_use_tor">Engedélyezze, hogy a(z) %1$s kiszolgálásának a(z) %1$s-nak a bejelentkezéséhez</string>
     <string name="pref_network_google_use_tor_summary">"Tartozás Orbot telepítéséhez
 Még nem támogatott"</string>
@@ -207,6 +214,7 @@ Még nem támogatott"</string>
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">Rejtje meg az ikont a indítóban</string>
     <!--preferences: about-->
+    <string name="pref_about_title">Rólunk MicroG RE</string>
     <string name="pref_github_summary">Forráskód tárolóhely</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">Hallgasson az állapotközvetítések</string>
@@ -217,6 +225,7 @@ Még nem támogatott"</string>
     <string name="perm_extended_access_label">Bővített hozzáférés a Google szolgáltatásokhoz</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">A csomagoptimizálások bekapcsolva</string>
+    <string name="cond_gcm_bat_summary">Engedélyezte a felhőüzeneteket, de aktívak a csökkentett akkumulátoroptimizálások microG Szolgáltatások számára. A push üzenetek érkezzenek, hogy figyelmen kívül hagyja a csökkentett akkumulátoroptimizálásokat</string>
     <string name="cond_gcm_bat_action">Ne optimizálj</string>
     <string name="cond_perm_title">Hiba a engedélyezésben</string>
 </resources>

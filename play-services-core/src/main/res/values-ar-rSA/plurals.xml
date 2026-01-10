@@ -25,6 +25,14 @@
         <item quantity="other">%1$d تطبيقات مسجلة</item>
     </plurals>
     <!--Conditions-->
+    <plurals name="cond_perm_summary">
+        <item quantity="zero">لم يتم منح الإذن المطلوب للسماح بعمليّة عمل MicroG بشكل صحيح.</item>
+        <item quantity="one">لم يتم منح الإذن المطلوب للسماح بعمليّة عمل MicroG بشكل صحيح.</item>
+        <item quantity="two">لم يتم منح الإذن المطلوب للسماح لعمليّتَي MicroG بالعمل بشكل صحيح.</item>
+        <item quantity="few">لم يتم منح الإذن المطلوب للسماح بعمليّات عمل MicroG بشكل صحيح.</item>
+        <item quantity="many">لم يتم منح الإذن المطلوب للسماح بعمليّات عمل MicroG بشكل صحيح.</item>
+        <item quantity="other">لم يتم منح الإذن المطلوب للسماح بعمليّات عمل MicroG بشكل صحيح.</item>
+    </plurals>
     <plurals name="cond_perm_action">
         <item quantity="zero">مطلوب إذن مفقود</item>
         <item quantity="one">مطلوب إذن مفقود</item>

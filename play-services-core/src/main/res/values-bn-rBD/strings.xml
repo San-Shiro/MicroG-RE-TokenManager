@@ -5,6 +5,7 @@
   -->
 <resources>
     <!--App Names-->
+    <string name="gms_settings_name">মাইক্রোজি সেটিংস</string>
     <!--Authentication-->
     <!--auth: headers-->
     <string name="auth_add_account">অ্যাকাউন্ট যোগ করুন</string>
@@ -20,8 +21,12 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_confirm_title">%1$S-এ আপনাকে সাইন ইন করতে দিন</string>
     <!-- %1$s is an app name, such as "YouTube" -->
+    <string name="signin_subtext_sharing">চালিয়ে যেতে, মাইক্রোজি আপনার গুগল অ্যাকাউন্টের নাম, ইমেল ঠিকানা এবং প্রোফাইল ছবি %1$S সাথে শেয়ার করবে</string>
     <!--auth: buttons-->
     <!--auth: messages-->
+    <string name="auth_before_connect">"গুগল অ্যাকাউন্ট মাইক্রোজি সাথে সংযুক্ত করুন।
+
+গুগল অ্যাকাউন্টের সাথে সংযুক্ত হোন, <b>সাইন ইন</b> বাটন ব্যবহার করুন বা হুয়াওয়েই বাটন ব্যবহার করুন যদি আপনার ডিভাইসে এই প্রোডাক্টর থাকে। একটি বাটন চাপা দিলে আপনি আপনার অ্যাকাউন্ট লগইন করার পেজে রেডিয়ার হবে।"</string>
     <string name="auth_connecting">"আপনার ডিভাইস গুগলের সার্ভারগুলির সাথে সংযোগ স্থাপন করছে...
 
 এই প্রক্রিয়াটি কয়েক সেকেন্ড সময় নিতে পারে"</string>
@@ -176,6 +181,7 @@
     <string name="pref_device_registration_import_custom_profile_summary">ফাইল থেকে কাস্টম ডিভাইস প্রোফাইল আমদানি করুন</string>
     <string name="pref_device_registration_serial_title">সিরিয়াল</string>
     <string name="pref_device_registration_android_id">এন্ড্রয়েড আইডি</string>
+    <string name="pref_checkin_enable_summary">আপনার ডিভাইসকে গুগল সার্ভিসের সাথে রেজিস্টার করে এবং একটি অনন্য ডিভাইস আইডেন্টিফায়ার তৈরি করে। মাইক্রোজি রেজিস্টার ডাটা থেকে চিহ্নিতকারী বিটস বাদ দেয়, শুধুমাত্র আপনার গুগল অ্যাকাউন্ট নাম ছাড়া</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">ডিভাইস রেজিস্ট্রেশন চালু করুন</string>
     <string name="pref_push_app_allow_register_title">অ্যাপের রেজিস্ট্রেশন অনুমতি দিন</string>
@@ -191,6 +197,7 @@
     <string name="pref_privacy_title">প্রাইভেসি</string>
     <string name="pref_privacy_summary">প্রাইভেসি সেটিংসগুলি অ্যাকাউন্ট এবং অ্যাপগুলির জন্য</string>
     <string name="pref_network_google_enabled">গুগল সার্ভারগুলির সাথে সংযোগ স্থাপন করতে অনুমতি দিন</string>
+    <string name="pref_network_google_enabled_summary">যদি ডিস্যাবল করা থাকে, মাইক্রোজি দ্বারা সাধারণত করা গুগল সার্ভার সংযোগ সবাইকে প্রত্যাখ্যাত হবে। এটি সেবা-বিশেষিক সেটিংসকে ওভাররাইড করে</string>
     <string name="pref_network_google_use_tor">গুগল সার্ভারগুলির সাথে টর নেটওয়ার্ক ব্যবহার করুন</string>
     <string name="pref_network_google_use_tor_summary">"ওরবোট ইনস্টল করা আবশ্যক
 এখনো সমর্থিত নয়"</string>
@@ -205,6 +212,7 @@
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">স্ক্রিনে আইকন দেখান</string>
     <!--preferences: about-->
+    <string name="pref_about_title">মাইক্রোজি রি সম্পর্কে</string>
     <string name="pref_github_summary">সোর্স কোড রেপোজিটরি</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">ইন্টার্নাল স্ট্যাটাস ব্রডকাস্টগুলি শুনুন</string>
@@ -215,6 +223,7 @@
     <string name="perm_extended_access_label">গুগল সার্ভিসের জন্য প্রসিক্ট এক্সেস</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">ব্যাটারি অপ্টিমাইজেশনগুলি চালু করুন</string>
+    <string name="cond_gcm_bat_summary">আপনি ক্লাউড বার্তা পাঠানোর জন্য মেসেজিংকে সক্ষম করেছেন কিন্তু মাইক্রোজি সার্ভিসের জন্য ব্যাটারি অপ্টিমাইজেশন সক্রিয় আছে। পুশ নোটিফিকেশন পাওয়ার জন্য আপনি ব্যাটারি অপ্টিমাইজেশনকে উপেক্ষা করবেন</string>
     <string name="cond_gcm_bat_action">অক্ষরিক করুন</string>
     <string name="cond_perm_title">অনুমতি চাহিদ</string>
 </resources>

@@ -35,7 +35,9 @@
     <!--Settings Preferences-->
     <!--preferences: self-check-->
     <string name="self_check_title">自己チェック</string>
+    <string name="self_check_desc">デバイスが正しくmicroGを使用するように設定されていることを確認してください</string>
     <!--UI preview-->
+    <string name="about_root_title">microG UIデモ</string>
     <string name="about_root_version">バージョン v0.1.0</string>
     <string name="about_root_libraries">含まれるライブラリ</string>
 </resources>

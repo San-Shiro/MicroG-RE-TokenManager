@@ -181,7 +181,7 @@
     <string name="pref_device_registration_import_custom_profile_summary">استيراد ملف تعريف الجهاز من ملف</string>
     <string name="pref_device_registration_serial_title">الرقم التسلسلي</string>
     <string name="pref_device_registration_android_id">Android ID</string>
-    <string name="pref_checkin_enable_summary">يقوم بتسجيل جهازك في خدمات Google وإنشاء مُعرّف فريد للجهاز. يقوم ميكرو جي (microG) بإزالة البيانات التعريفية الأخرى غير اسم حساب Google الخاص بك من بيانات التسجيل.</string>
+    <string name="pref_checkin_enable_summary">يقوم بتسجيل جهازك في خدمات Google وإنشاء مُعرّف فريد للجهاز. يقوم MicroG بإزالة البيانات التعريفية الأخرى غير اسم حساب Google الخاص بك من بيانات التسجيل</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">التطبيقات التي تستخدم جلب الإشعارات</string>
     <string name="pref_push_app_allow_register_title">السماح بالتسجيل</string>
@@ -197,7 +197,7 @@
     <string name="pref_privacy_title">الخصوصية</string>
     <string name="pref_privacy_summary">إعدادات الخصوصية للمصادقة والتطبيقات</string>
     <string name="pref_network_google_enabled">سماح بالاتصال إلى خوادم Google</string>
-    <string name="pref_network_google_enabled_summary">في حال تعطيل هذه الخاصية، سيتم رفض جميع الاتصالات بخوادم Google التي تتم عادةً بواسطة ميكرو جي (microG). وهذا يلغي الإعدادات الخاصة بالخدمة.</string>
+    <string name="pref_network_google_enabled_summary">في حال تعطيل هذه الخاصية، سيتم رفض جميع الاتصالات بخوادم Google التي تتم عادةً بواسطة MicroG. وهذا يلغي الإعدادات الخاصة بالخدمة.</string>
     <string name="pref_network_google_use_tor">اتصل بـ Google عبر شبكة Tor</string>
     <string name="pref_network_google_use_tor_summary">"يتطلب تثبيت Orbot
 غير مدعوم حاليًا"</string>
@@ -212,7 +212,7 @@
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">إخفاء الأيقونة من الصفحة الرئيسية</string>
     <!--preferences: about-->
-    <string name="pref_about_title">حول ميكرو جي (microG)</string>
+    <string name="pref_about_title">حول MicroG RE</string>
     <string name="pref_github_summary">مستودع الشفرة المصدرية</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">الاستماع إلى البث الداخلي للحالة</string>
@@ -223,7 +223,7 @@
     <string name="perm_extended_access_label">مزيد من الوصول إلى خدمات Google</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">تم تمكين تحسينات البطارية</string>
-    <string name="cond_gcm_bat_summary">لقد تمكين خدمة تسليم الرسائل، ولكنّ تحسينات البطارية مُفعّلة لخدمات ميكرو جي (microG). لكي تصلك الإشعارات الفورية، يجب عليك تجاهل تحسينات البطارية.</string>
+    <string name="cond_gcm_bat_summary">لقد تمكين خدمة تسليم الرسائل، ولكنّ تحسينات البطارية مُفعّلة لخدمات MicroG. لكي تصلك الإشعارات الفورية، يجب عليك تجاهل تحسينات البطارية.</string>
     <string name="cond_gcm_bat_action">تجاهل التحسينات</string>
     <string name="cond_perm_title">الإذن مفقود</string>
 </resources>

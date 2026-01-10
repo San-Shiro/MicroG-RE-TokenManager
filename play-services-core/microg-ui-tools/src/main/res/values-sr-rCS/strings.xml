@@ -35,7 +35,9 @@
     <!--Settings Preferences-->
     <!--preferences: self-check-->
     <string name="self_check_title">Samoprovjera</string>
+    <string name="self_check_desc">Potvrdite da je uređaj ispravno konfigurisan da bi koristio microG</string>
     <!--UI preview-->
+    <string name="about_root_title">microG UI Demo</string>
     <string name="about_root_version">Verzija v0.1.0</string>
     <string name="about_root_libraries">Uključene biblioteke</string>
 </resources>

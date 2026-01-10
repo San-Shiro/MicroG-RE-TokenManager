@@ -21,8 +21,12 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_confirm_title">Pozwól na zalogowanie się do %1$s</string>
     <!-- %1$s is an app name, such as "YouTube" -->
+    <string name="signin_subtext_sharing">Aby kontynuować, microG podzieli się nazwą, adresem email i zdjęciem profilowym Twojego konta Google z %1$s</string>
     <!--auth: buttons-->
     <!--auth: messages-->
+    <string name="auth_before_connect">"Połącz konto Google z microG.
+
+Użyj przycisku <b>Zaloguj się</b> lub przycisku <b>Huawei</b>, jeśli masz urządzenie tego producenta. Po naciśnięciu jednego z przycisków zostaniesz przekierowany na stronę logowania do konta."</string>
     <string name="auth_connecting">"Twoje urządzenie nawiązuje połączenie z serwerami Google, aby się zalogować.
 
 To może potrwać kilka sekund"</string>
@@ -177,6 +181,7 @@ Niektóre aplikacje mogą nie być w stanie zarejestrować ponownie po tej opera
     <string name="pref_device_registration_import_custom_profile_summary">Importuj profil urządzenia z pliku</string>
     <string name="pref_device_registration_serial_title">Numer seryjny</string>
     <string name="pref_device_registration_android_id">ID Android</string>
+    <string name="pref_checkin_enable_summary">Rejestruje Twoje urządzenie do usług Google i tworzy unikalny identyfikator urządzenia. microG usuwa identyfikacyjne bity poza Twoją nazwą konta Google z danych rejestracyjnych</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">Aplikacje używające powiadomień Push</string>
     <string name="pref_push_app_allow_register_title">Zezwól na rejestrację</string>
@@ -192,6 +197,7 @@ Niektóre aplikacje mogą nie być w stanie zarejestrować ponownie po tej opera
     <string name="pref_privacy_title">Prywatność</string>
     <string name="pref_privacy_summary">Ustawienia prywatności dla uwierzytelniania i aplikacji</string>
     <string name="pref_network_google_enabled">Zezwól na połączenie z serwerami Google</string>
+    <string name="pref_network_google_enabled_summary">Jeśli wyłączone, wszystkie połączenia z serwerami Google zazwyczaj robione przez microG zostaną odrzucone. To nadpisuje ustawienia specyficzne dla usług</string>
     <string name="pref_network_google_use_tor">Połącz się z Google przez sieć Tor</string>
     <string name="pref_network_google_use_tor_summary">"Wymagane Orbot do zainstalowania
 Obecnie nie obsługiwane"</string>
@@ -206,6 +212,7 @@ Obecnie nie obsługiwane"</string>
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">Ukryj ikonę w launcherze</string>
     <!--preferences: about-->
+    <string name="pref_about_title">O microG RE</string>
     <string name="pref_github_summary">Repozytorium kodu źródłowego</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">słuchaj wewnętrznych komunikatów statusu</string>
@@ -216,6 +223,7 @@ Obecnie nie obsługiwane"</string>
     <string name="perm_extended_access_label">Rozszerz dostęp do usług Google</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">Optymalizacje baterii włączone</string>
+    <string name="cond_gcm_bat_summary">Włączono Cloud messaging, ale masz aktywne optymalizacje baterii dla microG Services. Aby otrzymać powiadomienia Push, powinieneś zignorować optymalizacje baterii</string>
     <string name="cond_gcm_bat_action">Zignoruj optymalizacje</string>
     <string name="cond_perm_title">Brak uprawnień</string>
 </resources>

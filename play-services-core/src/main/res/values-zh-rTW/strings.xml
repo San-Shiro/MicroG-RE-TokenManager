@@ -5,6 +5,7 @@
   -->
 <resources>
     <!--App Names-->
+    <string name="gms_settings_name">microG 設定</string>
     <!--Authentication-->
     <!--auth: headers-->
     <string name="auth_add_account">新增帳號</string>
@@ -20,8 +21,12 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_confirm_title">允許登錄到 %1$s</string>
     <!-- %1$s is an app name, such as "YouTube" -->
+    <string name="signin_subtext_sharing">繼續前，microG 將會分享您的 Google 帳號名稱、電子郵件地址和個人資訊頭像給 %1$s</string>
     <!--auth: buttons-->
     <!--auth: messages-->
+    <string name="auth_before_connect">"連接 Google 帳號至 microG。
+
+讓我們連接到 Google 帳號，使用 <b>登錄</b> 按鈕或使用 <b>華為</b> 按鈕（如果您的裝置是由這家製造商製造的）。按下其中一個按鈕將會將您重新導向至登錄頁面。"</string>
     <string name="auth_connecting">"您的裝置正在連接到 Google 伺服器以登入。
 
 這可能需要幾秒鐘"</string>
@@ -178,6 +183,7 @@
     <string name="pref_device_registration_android_id">連接 Google 帳號到 MicroG。
 
 MicroG 會刪除註冊資料中的個人資訊，除了 Google 帳號名稱。</string>
+    <string name="pref_checkin_enable_summary">將您的裝置註冊到 Google 服務，並建立唯一的裝置識別碼。microG 會從註冊資料中刪除除了 Google 帳號名稱之外的所有識別資訊。</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">啟用應用程序註冊</string>
     <string name="pref_push_app_allow_register_title">啟用設定</string>
@@ -197,6 +203,7 @@ MicroG 會刪除註冊資料中的個人資訊，除了 Google 帳號名稱。</
     <string name="pref_privacy_title">允許連接到 Google 伺服器</string>
     <string name="pref_privacy_summary">如果禁用，所有連接到 Google 伺服器通常由 MicroG 執行的將會被拒絕。這個選項會覆寫服務特定設定。</string>
     <string name="pref_network_google_enabled">使用 Tor 網路連接到 Google</string>
+    <string name="pref_network_google_enabled_summary">如果禁用，microG 通常會被拒絕連接到 Google 伺服器。這會覆蓋服務特定的設定。</string>
     <string name="pref_network_google_use_tor">當禁用時，用戶在發送應用程序授權請求到 Google 之前將會被詢問。一些應用程序無法使用 Google 帳號如果禁用這個選項。</string>
     <string name="pref_network_google_use_tor_summary">"需要安裝Orbot
 尚未支援"</string>
@@ -211,6 +218,7 @@ MicroG 會刪除註冊資料中的個人資訊，除了 Google 帳號名稱。</
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">讀取 Google 服務設定</string>
     <!--preferences: about-->
+    <string name="pref_about_title">關於 MicroG RE</string>
     <string name="pref_github_summary">交換訊息和接收 Google 伺服器同步通知</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">擴大 Google 服務存取權限</string>
@@ -231,6 +239,7 @@ MicroG 會刪除註冊資料中的個人資訊，除了 Google 帳號名稱。</
     <string name="cond_gcm_bat_title">您拒絕一個已註冊的應用程序，該應用程序已經註冊。
 
 您要現在取消其註冊嗎？</string>
+    <string name="cond_gcm_bat_summary">您已啟用雲端訊息，但 microG 服務的電池優化設定是活動的。為了接收推播通知，您應該忽略電池優化設定。</string>
     <string name="cond_gcm_bat_action">忽略優化</string>
     <string name="cond_perm_title">權限缺失</string>
 </resources>

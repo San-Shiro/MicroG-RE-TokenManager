@@ -35,7 +35,9 @@
     <!--Settings Preferences-->
     <!--preferences: self-check-->
     <string name="self_check_title">Əsas yoxlama</string>
+    <string name="self_check_desc">Cihazın microG üçün düzgün təyin edilmişliyini yoxlayın</string>
     <!--UI preview-->
+    <string name="about_root_title">microG UI Dəymour</string>
     <string name="about_root_version">Versiya v0.1.0</string>
     <string name="about_root_libraries">İçilənən kitabxanalar</string>
 </resources>

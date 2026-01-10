@@ -35,7 +35,9 @@
     <!--Settings Preferences-->
     <!--preferences: self-check-->
     <string name="self_check_title">স্ব-চেক</string>
+    <string name="self_check_desc">বিশ্লেষণ করুন যে ডিভাইসটি microG ব্যবহার করার জন্য সঠিকভাবে কনফিগার করা হয়েছে</string>
     <!--UI preview-->
+    <string name="about_root_title">microG ইউআই ডেমো</string>
     <string name="about_root_version">বিকরণ v0.1.0</string>
     <string name="about_root_libraries">সহ-লাইব্রেরি</string>
 </resources>

@@ -21,8 +21,12 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_confirm_title">Дозволити увійти під вашою обліковим записом у %1$s</string>
     <!-- %1$s is an app name, such as "YouTube" -->
+    <string name="signin_subtext_sharing">Для продовження, microG буде ділитися ім\'ям, електронною адресою та зображенням профілю вашого облікового запису Google з %1$s</string>
     <!--auth: buttons-->
     <!--auth: messages-->
+    <string name="auth_before_connect">"З'єднати обліковий запис Google з microG.
+
+Давайте з'єднаємось з обліковим записом Google, використовуйте кнопку <b>Увійти</b> або кнопку <b>Huawei</b>, якщо у вас є пристрій цього виробника. Натиснувши одну з кнопок, ви будете перенаправлені на сторінку входу в обліковий запис."</string>
     <string name="auth_connecting">"Ваш пристрій встановлює з'єднання з серверами Google для входу. Це може зайняти кілька секунд."</string>
     <string name="auth_no_network_error_desc">"У вас відсутній доступ до мережі. Це може бути тимчасова проблема або ваш пристрій Android не підключений до послуг даних. Спробуйте знову, коли будете підключені до мережі мобільного оператора або підключіться до мережі Wi-Fi."</string>
     <string name="auth_general_error_desc">"Під час спроби зв'язатися з серверами Google виникла проблема. Спробуйте знову пізніше."</string>
@@ -168,6 +172,7 @@
     <string name="pref_device_registration_import_custom_profile_summary">Серійний номер</string>
     <string name="pref_device_registration_serial_title">Android ID</string>
     <string name="pref_device_registration_android_id">Реєструє ваш пристрій до сервісів Google та створює унікальний ідентифікатор пристрою. MicroG видаляє ідентифікаційні біти, окрім імені облікового запису Google, з даних реєстрації</string>
+    <string name="pref_checkin_enable_summary">Реєструє ваш пристрій на сервісах Google та створює унікальний ідентифікатор пристрою. microG видаляє ідентифікуючі біти, крім імені вашого облікового запису Google, з даними реєстрації</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">Дозволити реєстрацію</string>
     <string name="pref_push_app_allow_register_title">Дозволити додатку отримувати сповіщення</string>
@@ -183,6 +188,7 @@
     <string name="pref_privacy_title">З\'єднання з серверами Google через мережу Tor</string>
     <string name="pref_privacy_summary">Довірити Google щодо дозволу на авторизацію</string>
     <string name="pref_network_google_enabled">Дозволити додаткам знаходити облікові записи</string>
+    <string name="pref_network_google_enabled_summary">Якщо відключено, усі з\'єднання з серверами Google, зазвичай виконані microG, будуть відхилені. Це перевищує налаштування конкретних сервісів</string>
     <string name="pref_network_google_use_tor">Видалити ім\'я пристрою для авторизації</string>
     <string name="pref_network_google_use_tor_summary">"Вимагає інсталяції Orbot
  ще не підтримується"</string>
@@ -208,6 +214,7 @@
     <string name="perm_extended_access_label">Дозвіл на обробку</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">Дозвіл на обробку</string>
+    <string name="cond_gcm_bat_summary">Ви увімкнули Обміну повідомленнями в хмарі, але активовано оптимізації батареї для microG Services. Для отримання push-повідомлень ви повинні ігнорувати оптимізації батареї</string>
     <string name="cond_gcm_bat_action">Дозвіл на обробку</string>
     <string name="cond_perm_title">Дозвіл на обробку</string>
 </resources>

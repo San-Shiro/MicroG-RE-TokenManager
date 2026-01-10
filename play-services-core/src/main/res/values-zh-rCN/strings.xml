@@ -5,6 +5,7 @@
   -->
 <resources>
     <!--App Names-->
+    <string name="gms_settings_name">microG 设置</string>
     <!--Authentication-->
     <!--auth: headers-->
     <string name="auth_add_account">添加账户</string>
@@ -20,8 +21,12 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_confirm_title">允许 %1$s 登录</string>
     <!-- %1$s is an app name, such as "YouTube" -->
+    <string name="signin_subtext_sharing">为了继续，microG 将与 %1$s 分享您的 Google 帐户名称、电子邮件地址和个人资料图片</string>
     <!--auth: buttons-->
     <!--auth: messages-->
+    <string name="auth_before_connect">"连接 Google 帐户至 microG。
+
+让我们连接到 Google 帐户，请使用<b>登录</b>按钮或使用<b>华为</b>按钮（如果您的设备为该制造商）。单击其中一个按钮将会重定向到登录页面"</string>
     <string name="auth_connecting">"您的设备正在连接到 Google 的服务器进行登录。
 
 这可能需要几秒钟"</string>
@@ -176,6 +181,7 @@
     <string name="pref_device_registration_import_custom_profile_summary">从文件导入自定义配置文件</string>
     <string name="pref_device_registration_serial_title">序列号</string>
     <string name="pref_device_registration_android_id">Android ID</string>
+    <string name="pref_checkin_enable_summary">注册您的设备到 Google 服务，并创建唯一设备标识符。microG 会从注册数据中剥离识别位，除了您的 Google 帐户名称</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">启用应用注册</string>
     <string name="pref_push_app_allow_register_title">允许注册</string>
@@ -191,6 +197,7 @@
     <string name="pref_privacy_title">隐私</string>
     <string name="pref_privacy_summary">身份验证和应用的隐私设置</string>
     <string name="pref_network_google_enabled">允许连接到 Google 服务器</string>
+    <string name="pref_network_google_enabled_summary">如果禁用，microG 通常连接到 Google 服务器的所有连接将被拒绝。这会覆盖服务特定设置</string>
     <string name="pref_network_google_use_tor">通过 Tor 网络连接到 Google</string>
     <string name="pref_network_google_use_tor_summary">"需要安装Orbot
 尚未支持"</string>
@@ -205,6 +212,7 @@
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">隐藏启动器图标</string>
     <!--preferences: about-->
+    <string name="pref_about_title">关于 MicroG RE</string>
     <string name="pref_github_summary">源代码仓库</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">监听内部状态广播</string>
@@ -215,6 +223,7 @@
     <string name="perm_extended_access_label">扩展 Google 服务访问</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">电池优化已启用</string>
+    <string name="cond_gcm_bat_summary">您已启用云消息传递，但 microG 服务的电池优化处于活动状态。为了接收推送通知，您应忽略电池优化</string>
     <string name="cond_gcm_bat_action">忽略优化</string>
     <string name="cond_perm_title">权限缺失</string>
 </resources>

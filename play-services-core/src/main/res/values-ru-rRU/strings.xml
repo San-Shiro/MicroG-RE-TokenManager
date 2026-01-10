@@ -5,6 +5,7 @@
   -->
 <resources>
     <!--App Names-->
+    <string name="gms_settings_name">Настройки microG</string>
     <!--Authentication-->
     <!--auth: headers-->
     <string name="auth_add_account">Добавить аккаунт</string>
@@ -20,8 +21,12 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_confirm_title">Разрешить вход в %1$s</string>
     <!-- %1$s is an app name, such as "YouTube" -->
+    <string name="signin_subtext_sharing">Чтобы продолжить, microG поделится именем, адресом электронной почты и фотографией профиля вашей учетной записи Google с %1$s</string>
     <!--auth: buttons-->
     <!--auth: messages-->
+    <string name="auth_before_connect">"Подключить учетную запись Google к microG.
+
+Давайте подключимся к учетной записи Google, используйте кнопку <b>Войти</b> или кнопку <b>Huawei</b>, если у вас есть устройство этого производителя. Нажав на одну из кнопок, вы будете перенаправлены на страницу входа в свою учетную запись."</string>
     <string name="auth_connecting">"Ваше устройство устанавливает соединение с серверами Google для входа в систему.
 
 Это может занять несколько секунд"</string>
@@ -176,6 +181,7 @@
     <string name="pref_device_registration_import_custom_profile_summary">Импортировать профиль устройства из файла</string>
     <string name="pref_device_registration_serial_title">Серийный номер</string>
     <string name="pref_device_registration_android_id">Идентификатор Android</string>
+    <string name="pref_checkin_enable_summary">Регистрирует ваше устройство в сервисах Google и создает уникальный идентификатор устройства. MicroG удаляет из регистрационных данных все идентифицирующие биты, кроме имени вашей учетной записи Google.</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">Приложения, использующие push-уведомления</string>
     <string name="pref_push_app_allow_register_title">Разрешить регистрацию</string>
@@ -191,6 +197,7 @@
     <string name="pref_privacy_title">Конфиденциальность</string>
     <string name="pref_privacy_summary">Настройки конфиденциальности для авторизации и приложений</string>
     <string name="pref_network_google_enabled">Разрешить подключение к серверам Google</string>
+    <string name="pref_network_google_enabled_summary">Если отключено, все соединения с серверами Google, обычно выполняемые microG, будут отклонены. Это переопределяет настройки сервисов.</string>
     <string name="pref_network_google_use_tor">Подключаться к Google через сеть Tor</string>
     <string name="pref_network_google_use_tor_summary">"Требуется установка Orbot
 Пока не поддерживается"</string>
@@ -205,6 +212,7 @@
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">Скрыть значок в проводнике</string>
     <!--preferences: about-->
+    <string name="pref_about_title">О проекте MicroG</string>
     <string name="pref_github_summary">Репозиторий кода</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">Прослушивать внутренние статусы</string>
@@ -215,6 +223,7 @@
     <string name="perm_extended_access_label">Расширенный доступ к сервисам Google</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">Оптимизация батареи включена</string>
+    <string name="cond_gcm_bat_summary">Вы включили облачные сообщения, но у вас активны оптимизации батареи для сервисов microG. Чтобы получать push-уведомления, вам следует игнорировать оптимизации батареи.</string>
     <string name="cond_gcm_bat_action">Игнорировать оптимизацию</string>
     <string name="cond_perm_title">Отсутствует разрешение</string>
 </resources>

@@ -37,7 +37,7 @@
     <string name="self_check_title">Auto-Vérification</string>
     <string name="self_check_desc">Vérifiez que l\'appareil est correctement configuré pour utiliser microG</string>
     <!--UI preview-->
-    <string name="about_root_title">démo d\'interface MicroG</string>
+    <string name="about_root_title">Démo d\'interface microG</string>
     <string name="about_root_version">Version v0.1.0</string>
     <string name="about_root_libraries">Bibliothèques incluses</string>
 </resources>

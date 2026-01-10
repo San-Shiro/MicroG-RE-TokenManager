@@ -35,7 +35,9 @@
     <!--Settings Preferences-->
     <!--preferences: self-check-->
     <string name="self_check_title">自检</string>
+    <string name="self_check_desc">确保设备正确配置以使用microG</string>
     <!--UI preview-->
+    <string name="about_root_title">microG UI演示</string>
     <string name="about_root_version">版本 v0.1.0</string>
     <string name="about_root_libraries">包含库</string>
 </resources>

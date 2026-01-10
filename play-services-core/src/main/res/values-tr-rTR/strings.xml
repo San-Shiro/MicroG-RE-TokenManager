@@ -5,6 +5,7 @@
   -->
 <resources>
     <!--App Names-->
+    <string name="gms_settings_name">microG Ayarları</string>
     <!--Authentication-->
     <!--auth: headers-->
     <string name="auth_add_account">Hesap ekle</string>
@@ -20,8 +21,12 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_confirm_title">%1$s\'e giriş yapmanıza izin verin</string>
     <!-- %1$s is an app name, such as "YouTube" -->
+    <string name="signin_subtext_sharing">Devam etmek için, microG Google hesabınızın adı, e-posta adresi ve profili resmini %1$s ile paylaşlayacaktır.</string>
     <!--auth: buttons-->
     <!--auth: messages-->
+    <string name="auth_before_connect">"Google hesabınızı microG ile bağlıştırın.
+
+Google hesabına bağlanmak iğin, <b>Giriş Yap</b> düğmesi veya <b>Huawei</b> düğmesi kullanarak (cihazınız Huawei markaşı ise) bağlıştırın. Bir düğmeyi tıklayarak, hesabınıza giriş yapmanızı sayfaya yıredileceksiniz."</string>
     <string name="auth_connecting">"Cihaz, Google sunucuları ile bağlantı kurmak için çalışıyor
 
 Bu, birkaç saniye sürebilir"</string>
@@ -176,6 +181,7 @@ Devam et?"</string>
     <string name="pref_device_registration_import_custom_profile_summary">Özel cihaz profiline dosya yükleyin</string>
     <string name="pref_device_registration_serial_title">Seri numarası</string>
     <string name="pref_device_registration_android_id">Android ID</string>
+    <string name="pref_checkin_enable_summary">Cihazınızı Google servislerine kaydıtır ve benzersiz bir cihaz kimliği oluşturur. microG kayştırma verilerinden Google hesabı adınınını haricinde tespit edici bileşenleri ayırır.</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">Uygulamalar için bildirimler etkinleştirildi</string>
     <string name="pref_push_app_allow_register_title">Uygulamaya kaydolma izni verildi</string>
@@ -191,6 +197,7 @@ Devam et?"</string>
     <string name="pref_privacy_title">Google sunucuları ile bağlantı kur</string>
     <string name="pref_privacy_summary">Tüm Google sunucuları ile yapılan bağlantıları engellemek için etkinleştirildi. Bu, MicroG tarafından yapılan tüm bağlantıları engeller</string>
     <string name="pref_network_google_enabled">Google sunucularına Tor aracılığı kullanarak bağlantı kur</string>
+    <string name="pref_network_google_enabled_summary">Eğer devre dışı bırakılırsa, microG tarafından genellikle Google sunucularıyla yapılan tüm bağlantılar engellenir. Bu, hizmet özelleştirme ayarlarını geçersiz kılar.</string>
     <string name="pref_network_google_use_tor">Uygulamaların Google hesabınıza erişmesine izin ver</string>
     <string name="pref_network_google_use_tor_summary">"Orbot'un yüklü olması gerekir
 Henüz desteklenmiyor"</string>
@@ -205,6 +212,7 @@ Henüz desteklenmiyor"</string>
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">Lanşörde simge gizle</string>
     <!--preferences: about-->
+    <string name="pref_about_title">microG RE Hakkından</string>
     <string name="pref_github_summary">Kaynak kod deposu</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">İç durum yayınları dinle</string>
@@ -215,6 +223,7 @@ Henüz desteklenmiyor"</string>
     <string name="perm_extended_access_label">Google hizmetlerine geniş erişim</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">Bateri optimizasyonları etkinleştirildi</string>
+    <string name="cond_gcm_bat_summary">Cloud mesajlaşmaını etkinleştirdiniz, fakat microG Servisleri iğin batarya optimizasyonları etkin. Bildirimler gelmek iğin batarya optimizasyonlarını yoksaylamanızı gerekecektir.</string>
     <string name="cond_gcm_bat_action">Optimizasyonları yoksay</string>
     <string name="cond_perm_title">İzin eksik</string>
 </resources>

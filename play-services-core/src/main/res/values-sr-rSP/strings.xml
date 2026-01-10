@@ -5,6 +5,7 @@
   -->
 <resources>
     <!--App Names-->
+    <string name="gms_settings_name">Подешавања microG</string>
     <!--Authentication-->
     <!--auth: headers-->
     <string name="auth_add_account">Додај налог</string>
@@ -20,8 +21,12 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_confirm_title">Дозволи да се упишеш у %1$s</string>
     <!-- %1$s is an app name, such as "YouTube" -->
+    <string name="signin_subtext_sharing">Да би наставио, microG ће делити име, адресу е-поште и слику профила свог Google налога са %1$s</string>
     <!--auth: buttons-->
     <!--auth: messages-->
+    <string name="auth_before_connect">"Пoveži Google налог са microG.
+
+Покренути повезивање са Google налогом, користи дугме <b>Пријави се</b> или дугме <b>Huawei</b> ако имате уређај овог произвођача. Притиском на једно од дугмија бићете преусмерени на страницу за пријаву на ваш налог."</string>
     <string name="auth_connecting">"Ваш уређај контактира Google да би сачувао информације на ваш налог.
 
 Ово може потрајати неколико минута"</string>
@@ -172,6 +177,7 @@ Da li želite da je sada de-registrujete da ne dobija obaveštenja u budućnosti
     <string name="pref_device_registration_import_custom_profile_summary">Унесите кастом профил са датотека</string>
     <string name="pref_device_registration_serial_title">Серијски број</string>
     <string name="pref_device_registration_android_id">Android ID</string>
+    <string name="pref_checkin_enable_summary">Региструје ваш уређај на Google услуге и ствара јединствени идентификатор уређаја. MicroG уклања идентификујуће битове осим имена вашег Google налога из регистрационих података</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">Апети који користе поруке</string>
     <string name="pref_push_app_allow_register_title">Дозволити регистрацију</string>
@@ -187,6 +193,7 @@ Da li želite da je sada de-registrujete da ne dobija obaveštenja u budućnosti
     <string name="pref_privacy_title">Приватност</string>
     <string name="pref_privacy_summary">Подешавања за приватност аутентификације и апети</string>
     <string name="pref_network_google_enabled">Дозволити везу са Google серверима</string>
+    <string name="pref_network_google_enabled_summary">Ако је онемогућено, све везе са Google серверима које обично врши microG ће бити одбијене. Ово преовлађује над специфичним подешавањама услуге</string>
     <string name="pref_network_google_use_tor">Веза са Google преко мреже Tor</string>
     <string name="pref_network_google_use_tor_summary">"Potrebno je da je Orbot instaliran
 Još uvek nije podržano"</string>
@@ -201,6 +208,7 @@ Još uvek nije podržano"</string>
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">Сакрити икону у ланчеру</string>
     <!--preferences: about-->
+    <string name="pref_about_title">О микроG RE</string>
     <string name="pref_github_summary">Репозиториј изворног кода</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">Слушајте унутрашње обавештења о статусу</string>
@@ -211,6 +219,7 @@ Još uvek nije podržano"</string>
     <string name="perm_extended_access_label">Проши приступ Google услугама</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">Оптимизација батерије укључена</string>
+    <string name="cond_gcm_bat_summary">Омогућили сте Cloud messaging али имате активне оптимизације батерије за микроG Services. За да бисте добили пуш нотификације, требало би да игноришете оптимизације батерије</string>
     <string name="cond_gcm_bat_action">Игнорирати оптимизације</string>
     <string name="cond_perm_title">Праваз је потребна дозвол</string>
 </resources>

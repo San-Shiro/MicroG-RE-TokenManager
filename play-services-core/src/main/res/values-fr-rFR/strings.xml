@@ -5,7 +5,7 @@
   -->
 <resources>
     <!--App Names-->
-    <string name="gms_settings_name">paramètres MicroG</string>
+    <string name="gms_settings_name">Paramètres microG</string>
     <!--Authentication-->
     <!--auth: headers-->
     <string name="auth_add_account">Ajouter un compte</string>
@@ -182,7 +182,7 @@ Voulez-vous la désenregistrer maintenant afin qu’elle ne reçoive plus de mes
     <string name="pref_device_registration_import_custom_profile_summary">Importer le profil de l\'appareil à partir d\'un fichier</string>
     <string name="pref_device_registration_serial_title">Série</string>
     <string name="pref_device_registration_android_id">ID Android</string>
-    <string name="pref_checkin_enable_summary">Enregistre votre appareil auprès des services Google et crée un identifiant unique pour l’appareil. MicroG supprime les éléments d’identification autres que le nom de votre compte Google des données d’enregistrement</string>
+    <string name="pref_checkin_enable_summary">Enregistre votre appareil auprès des services Google et crée un identifiant unique pour l’appareil. microG supprime les éléments d’identification autres que le nom de votre compte Google des données d’enregistrement</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">Applications utilisant les notifications push</string>
     <string name="pref_push_app_allow_register_title">Autoriser l\'enregistrement</string>
@@ -198,7 +198,7 @@ Voulez-vous la désenregistrer maintenant afin qu’elle ne reçoive plus de mes
     <string name="pref_privacy_title">Confidentialité</string>
     <string name="pref_privacy_summary">Paramètres de confidentialité pour l\'authentification et les applications</string>
     <string name="pref_network_google_enabled">Autoriser la connexion aux serveurs Google</string>
-    <string name="pref_network_google_enabled_summary">Si désactivé, toutes les connexions aux serveurs Google normalement effectuées par MicroG seront refusées. Cela surpasse les paramètres spécifiques aux services</string>
+    <string name="pref_network_google_enabled_summary">Si désactivé, toutes les connexions aux serveurs Google normalement effectuées par microG seront refusées. Cela surpasse les paramètres spécifiques aux services.</string>
     <string name="pref_network_google_use_tor">Se connecter à Google via le réseau Tor</string>
     <string name="pref_network_google_use_tor_summary">"Requiert l'installation d'Orbot
 Pas encore pris en charge"</string>
@@ -213,7 +213,7 @@ Pas encore pris en charge"</string>
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">Masquer l\'icône dans le lanceur</string>
     <!--preferences: about-->
-    <string name="pref_about_title">À propos de MicroG</string>
+    <string name="pref_about_title">À propos de MicroG RE</string>
     <string name="pref_github_summary">Dépôt du code source</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">écouter les diffusions internes de statut</string>

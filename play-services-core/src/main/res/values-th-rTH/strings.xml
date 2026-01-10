@@ -5,6 +5,7 @@
   -->
 <resources>
     <!--App Names-->
+    <string name="gms_settings_name">การตั้งค่า microG</string>
     <!--Authentication-->
     <!--auth: headers-->
     <string name="auth_add_account">เพิ่มบัญชี</string>
@@ -20,8 +21,12 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_confirm_title">อนุญาตให้ลงชื่อเข้าใช้ %1$s</string>
     <!-- %1$s is an app name, such as "YouTube" -->
+    <string name="signin_subtext_sharing">เพื่อดำเนินการต่อไป microG จะแชร์ชื่อ, อีเมล และรูปโปรไฟล์ของบัญชี Google ของคุณกับ %1$s</string>
     <!--auth: buttons-->
     <!--auth: messages-->
+    <string name="auth_before_connect">"เชื่อมต่อบัญชี Google กับ microG.
+
+ไปเชื่อมต่อกับบัญชี Google ใช้ปุ่ม <b>ลงชื่อเข้าใช้</b> หรือใช้ปุ่ม <b>ฮัวเว่ย</b> ถ้าคุณมีอุปกรณ์จากบริษัทนี้ โดยกดปุ่มใดปุ่มหนึ่งจะนำคุณไปยังหน้าเข้าสู่ระบบบัญชีของคุณ"</string>
     <string name="auth_connecting">"อุปกรณ์ของคุณกำลังเชื่อมต่อไปยังเซิร์ฟเวอร์ของ Google เพื่อลงชื่อเข้าใช้.
 
 อาจใช้เวลาหนึงสองวินาที"</string>
@@ -176,6 +181,7 @@
     <string name="pref_device_registration_import_custom_profile_summary">นำเข้ารหาโปรไฟล์จากไฟล์</string>
     <string name="pref_device_registration_serial_title">ซีเรียล</string>
     <string name="pref_device_registration_android_id">ID Android</string>
+    <string name="pref_checkin_enable_summary">ลงทะเบียนอุปกรณ์ของคุณกับบริการ Google และสร้างตัวระบุอุปกรณ์ที่เฉพาะเจาะจง microG ตัดส่วนที่ระบุตัวตนอื่นนอกจากชื่อบัญชี Google ออกจากข้อมูลลงทะเบียน</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">แอปพลิเคชันที่ใช้การแจ้งเตือนแบบอัตโนมัติ</string>
     <string name="pref_push_app_allow_register_title">อนุญาตให้ลงทะเบียน</string>
@@ -191,6 +197,7 @@
     <string name="pref_privacy_title">ความเป็นส่วนตัว</string>
     <string name="pref_privacy_summary">การตั้งค่าความเป็นส่วนตัวสำหรับการรับรองตัวตนและแอปพลิเคชัน</string>
     <string name="pref_network_google_enabled">ให้อนุญาตให้เชื่อมต่อกับเซิร์ฟเวอร์ของ Google</string>
+    <string name="pref_network_google_enabled_summary">ถ้าไม่เปิดใช้งาน ทุกการเชื่อมต่อกับเซิร์ฟเวอร์ Google ทำโดย microG จะถูกปฏิเสธ รวมถึงการตั้งค่าเฉพาะบริการ</string>
     <string name="pref_network_google_use_tor">เชื่อมต่อกับ Google ผ่านเครือข่าย Tor</string>
     <string name="pref_network_google_use_tor_summary">"ต้องมี Orbot เป็นการติดตั้ง
 ยังไม่ได้รับการสนับสนุน"</string>
@@ -205,6 +212,7 @@
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">ซ่อนไอคอนในตัวเริ่มต้น</string>
     <!--preferences: about-->
+    <string name="pref_about_title">เกี่ยวกับ MicroG RE</string>
     <string name="pref_github_summary">สำเนาโค้ดต้นฉบับ</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">ฟังสถานะภายในการกระจายเสียง</string>
@@ -215,6 +223,7 @@
     <string name="perm_extended_access_label">การเข้าถึงขยายไปยังบริการของ Google</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">การปรับปรุงแบตเตอรี่ถูกเปิดใช้งาน</string>
+    <string name="cond_gcm_bat_summary">คุณเปิดใช้งาน Cloud messaging แต่มีการปรับปรุงการประหยัดแบตเตอรี่ที่มีอยู่สำหรับบริการ microG Services สำหรับการได้รับการแจ้งเตือน Push คุณควรละเว้นการปรับปรุงการประหยัดแบตเตอรี่</string>
     <string name="cond_gcm_bat_action">ละเว้นการปรับปรุง</string>
     <string name="cond_perm_title">ขาดสิทธิ์</string>
 </resources>
