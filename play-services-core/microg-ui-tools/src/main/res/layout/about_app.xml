@@ -53,14 +53,12 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/app_check_updates"
-        style="@style/Widget.Material3Expressive.Button.IconButton.Tonal"
+        style="@style/Widget.Material3Expressive.Button.IconButton"
         android:layout_width="60dp"
         android:layout_height="wrap_content"
         android:contentDescription="@string/update_checker_button"
-        app:backgroundTint="?attr/colorPrimaryContainer"
         app:icon="@drawable/ic_update"
         app:iconGravity="textStart"
-        app:iconTint="?attr/colorOnPrimaryContainer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
