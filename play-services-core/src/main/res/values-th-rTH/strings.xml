@@ -117,7 +117,7 @@
     <string name="profile_name_real">แบบกำหนดเอง: %s</string>
     <string name="profile_name_user">อัตโนมัติ: %s</string>
     <string name="profile_name_auto">ระบบ: %s</string>
-    <string name="profile_name_system">ระบบ</string>
+    <string name="profile_name_system">ระบบ: %s</string>
     <!--Self Check-->
     <!--self check: categories-->
     <string name="self_check_cat_system">แอปพลิเคชันที่ถูกแก้ไข</string>

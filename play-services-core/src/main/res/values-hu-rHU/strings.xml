@@ -119,7 +119,7 @@ Akarja most leregisztrálni, hogy ne kapjon felhőüzeneteket a jövőben?
     <string name="profile_name_real">Egyéni: %s</string>
     <string name="profile_name_user">Automatikus: %s</string>
     <string name="profile_name_auto">Rendszer: %s</string>
-    <string name="profile_name_system">Rendszer</string>
+    <string name="profile_name_system">Rendszer: %s</string>
     <!--Self Check-->
     <!--self check: categories-->
     <string name="self_check_cat_system">Patched apps</string>

@@ -117,7 +117,7 @@
     <string name="profile_name_real">自定义：%s</string>
     <string name="profile_name_user">自动：%s</string>
     <string name="profile_name_auto">系统：%s</string>
-    <string name="profile_name_system">系统</string>
+    <string name="profile_name_system">系統：%s</string>
     <!--Self Check-->
     <!--self check: categories-->
     <string name="self_check_cat_system">系统</string>

@@ -105,7 +105,7 @@ Dit kan enkele minuten duren"</string>
     <string name="profile_name_real">Aangepaste: %s</string>
     <string name="profile_name_user">Automatisch: %s</string>
     <string name="profile_name_auto">Systeem: %s</string>
-    <string name="profile_name_system">Gepatchte apps</string>
+    <string name="profile_name_system">Systeem: %s</string>
     <!--Self Check-->
     <!--self check: categories-->
     <string name="self_check_cat_system">Systeem</string>

@@ -70,7 +70,7 @@ Cloud Messaging に再登録するにはそのアプリを開く必要があり�
 一部のアプリでは、この操作後に再登録できない場合があります"</string>
     <string name="gcm_unregister_confirm_message">"一部のアプリでは、自動的に再登録されない場合があり、さらに手動で再登録するオプションすらない場合があります。このようなアプリでは、登録解除後に再登録できず、正しく動作しなくなる可能性があります。
 続行しますか？"</string>
-    <string name="gcm_unregister_after_deny_message">"既に登録されているアプリのプッシュ通知登録を拒否しました。今後プッシュ通知を受け取らないよう、今すぐ登録解除しますか？"</string>
+    <string name="gcm_unregister_after_deny_message">"既に登録済みのアプリのプッシュ通知登録を拒否しました。今後プッシュ通知を受け取らないよう、今すぐ登録解除しますか？"</string>
     <!--gcm: register messages infos-->
     <string name="gcm_no_message_yet">まだメッセージを受信していません</string>
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
@@ -96,21 +96,21 @@ Cloud Messaging に再登録するにはそのアプリを開く必要があり�
     <string name="push_notifications_summary_values_minutes">%s 分</string>
     <!--gcm: ask push permission dialog-->
     <!-- %1$s is an app name, such as "YouTube" -->
-    <string name="gcm_allow_app_popup">%1$sにプッシュ通知を登録することを許可しますか？</string>
+    <string name="gcm_allow_app_popup">%1$s のプッシュ通知登録を許可しますか？</string>
     <string name="allow">許可</string>
     <string name="deny">拒否</string>
     <!--gcm: ask permission tos-->
-    <string name="ask_permission_tos">続行すると、このアプリと Google が、お使いの情報を使用することを許可します。この情報は、それぞれの利用規約とプライバシーポリシーに従って使用されます</string>
+    <string name="ask_permission_tos">続行することにより、このアプリと Google が、それぞれの利用規約およびプライバシーポリシーに従ってあなたの情報を使用することに同意したものとみなされます</string>
     <!-- %1$s is an app name, such as "YouTube" -->
-    <string name="ask_scope_permission_title">%1$sは、以下を希望しています：</string>
-    <string name="ask_service_permission_title">%1$sは、以下を使用します：</string>
+    <string name="ask_scope_permission_title">%1$s が以下の権限を求めています:</string>
+    <string name="ask_service_permission_title">%1$s が以下の権限の使用を求めています:</string>
     <!--Device Registration-->
     <string name="service_name_checkin">デバイス登録</string>
-    <string name="checkin_enable_switch">デバイスを登録します</string>
+    <string name="checkin_enable_switch">デバイスを登録</string>
     <!--checkin: registration status-->
     <string name="checkin_not_registered">登録されていません</string>
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
-    <string name="checkin_last_registration">最後の登録: %1$s</string>
+    <string name="checkin_last_registration">最新の登録: %1$s</string>
     <!--checkin: profile names types entry's-->
     <string name="profile_name_native">Native</string>
     <string name="profile_name_real">Real</string>
@@ -129,23 +129,23 @@ Cloud Messaging に再登録するにはそのアプリを開く必要があり�
     <!-- %1$s is an app name, such as "Morphe" -->
     <string name="self_check_patched_app_installed">%1$s を実行中</string>
     <!-- %1$s is an app name, such as "YouTube" -->
-    <string name="self_check_resolution_patched_app_installed">%1$sを使用するアプリが見つかりませんでした。修正してインストールしてください</string>
+    <string name="self_check_resolution_patched_app_installed">%1$s が適用されたアプリは見つかりませんでした。アプリにパッチを適用してインストールしてください</string>
     <string name="self_check_action_download_morphe">Morphe をダウンロード</string>
     <!--self check: permission-->
     <string name="self_check_name_notifications">通知を許可</string>
     <string name="self_check_resolution_notifications">ここをタップして通知設定を開いてください。通知は、電池の最適化が有効になっている場合やその他の条件下で GcmService をバックグラウンドで実行し続けるために使用されます</string>
-    <string name="self_check_name_overlay">他のアプリの上に重ねて表示を許可</string>
-    <string name="self_check_resolution_overlay">ここをタップしてこの権限を許可してください。この権限は、他のアプリの上にポップアップアラートを表示するために必要です</string>
+    <string name="self_check_name_overlay">他のアプリの上に重ねて表示</string>
+    <string name="self_check_resolution_overlay">ここをタップしてこの権限を付与してください。この権限は、他のアプリの上にポップアップ アラートを表示するために必要です</string>
     <!--self check: system-->
     <string name="self_check_name_battery_optimizations">電池の最適化を無効化</string>
-    <string name="self_check_resolution_battery_optimizations">ここをタップして電池の最適化を無効にしてください。有効のままだと、YouTube や他の登録済みアプリからの通知を受け取れない場合があります</string>
+    <string name="self_check_resolution_battery_optimizations">ここをタップして電池の最適化を無効にしてください。無効にしない場合、YouTube やその他の登録済みアプリからの通知を受け取れないなどの問題が発生する可能性があります</string>
     <string name="self_check_name_oem_restriction">バックグラウンド処理の制限</string>
     <string name="self_check_resolution_oem_restriction">システムがバックグラウンド処理を制限している可能性があります。ここをタップしてウェブサイト「Don’t Kill My App!」を開き、この制限を無効にする方法を確認してください</string>
     <!--self check: signature-->
     <string name="self_check_name_system_spoofs">システムによる署名の偽装</string>
     <string name="self_check_resolution_system_spoofs">ドキュメントに、必要な手順が記載されている可能性があります</string>
     <!--self check: package-->
-    <string name="self_check_pkg_gms">Play Services</string>
+    <string name="self_check_pkg_gms">Play 開発者サービス</string>
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="self_check_name_app_installed">%1$s がインストールされています</string>
     <!-- %1$s is an app name, such as "YouTube" -->
@@ -202,17 +202,17 @@ Cloud Messaging に再登録するにはそのアプリを開く必要があり�
 まだサポートされていません"</string>
     <string name="pref_auth_trust_google_title">Google にアプリの権限を委任</string>
     <string name="pref_auth_trust_google_summary">無効にすると、アプリの認証リクエストが Google に送信される前にユーザーに確認が求められるようになります。一部のアプリでは、この設定を無効にすると Google アカウントを使用できなくなります</string>
-    <string name="pref_auth_visible_title">アプリにアカウントを表示します</string>
-    <string name="pref_auth_visible_summary">有効にすると、すべてのアプリが Google アカウントのメールアドレスを見ることができます</string>
-    <string name="pref_auth_include_android_id_title">デバイス登録で認証します</string>
-    <string name="pref_auth_include_android_id_summary">無効にすると、認証リクエストはデバイス登録にリンクされず、不正当なデバイスからのサインインが可能になりますが、想定外の結果をもたらす可能性があります</string>
-    <string name="pref_auth_strip_device_name_title">認証にデバイス名を削除します</string>
-    <string name="pref_auth_strip_device_name_summary">有効にすると、認証リクエストにデバイス名が含まれず、未承認のデバイスがサインインできる可能性がありますが、予期せぬ結果をもたらす可能性があります。</string>
+    <string name="pref_auth_visible_title">アプリによるアカウントの検出を許可</string>
+    <string name="pref_auth_visible_summary">有効にすると、このデバイスのすべてのアプリが、事前の許可なしに Google アカウントのメールアドレスを確認できるようになります</string>
+    <string name="pref_auth_include_android_id_title">デバイス登録による認証</string>
+    <string name="pref_auth_include_android_id_summary">無効にすると、認証リクエストがデバイス登録に関連付けられなくなり、未認証のデバイスからでもログインできるようになりますが、予期せぬ結果をもたらすおそれがあります</string>
+    <string name="pref_auth_strip_device_name_title">認証時にデバイス名を削除</string>
+    <string name="pref_auth_strip_device_name_summary">有効にすると、認証リクエストにデバイス名が含まれず、未承認のデバイスからでもログインできるようになる可能性がありますが、予期せぬ結果をもたらすおそれがあります。</string>
     <!--preferences: hide icon in launcher-->
-    <string name="pref_hide_launcher_icon">ランチャーにアイコンを表示しません</string>
+    <string name="pref_hide_launcher_icon">ランチャーにアイコンを非表示</string>
     <!--preferences: about-->
     <string name="pref_about_title">MicroG RE について</string>
-    <string name="pref_github_summary">ソースコードリポジトリ</string>
+    <string name="pref_github_summary">ソース コード リポジトリ</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">内部のステータスを聞き取ります</string>
     <string name="perm_gsf_read_gservices_label">Google サービスの設定を読み取ります</string>

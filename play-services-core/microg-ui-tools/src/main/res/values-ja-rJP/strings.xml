@@ -16,25 +16,25 @@
   -->
 <resources>
     <!--Updater-->
-    <string name="update_checker_button">アップデートを確認</string>
+    <string name="update_checker_button">更新を確認</string>
     <string name="update_checker_download_button">ダウンロード</string>
     <!--updater: messages-->
-    <string name="update_checker_no_update">アップデートなし</string>
-    <string name="update_checker_update_available">新しいアップデート: %s</string>
+    <string name="update_checker_no_update">利用可能な更新はありません</string>
+    <string name="update_checker_update_available">利用可能な更新: %s</string>
     <string name="update_checker_no_internet">インターネット接続がありません</string>
-    <string name="update_checker_generic_error">何かがうまくいかない… 後で再試行してください</string>
+    <string name="update_checker_generic_error">何か問題が発生しました… 後で再度お試しください</string>
     <!--Settings About-->
-    <string name="about_morphe_description">Morpheは、Androidアプリをパッチを通して修正するために設計されたオープンソースプロジェクトです</string>
+    <string name="about_morphe_description">Morphe は、Android アプリをパッチを通して修正するために設計されたオープンソースプロジェクトです</string>
     <string name="about_version_str">バージョン %1$s</string>
     <string name="about_default_license">全ての権利所有</string>
     <!--Self Check-->
     <!--self-check: permission-->
     <string name="self_check_cat_permissions">権限</string>
     <string name="self_check_name_permission">%1$s の権限:</string>
-    <string name="self_check_resolution_permission">ここにタッチして権限を付与します。権限の付与がされないと、不安定なアプリケーションになります</string>
+    <string name="self_check_resolution_permission">ここをタップして権限を付与してください。この権限を付与しない場合、不安定なアプリケーションになります</string>
     <!--Settings Preferences-->
     <!--preferences: self-check-->
-    <string name="self_check_title">自己チェック</string>
+    <string name="self_check_title">セルフチェック</string>
     <string name="self_check_desc">デバイスが正しく microG を使用するように設定されていることを確認してください</string>
     <!--UI preview-->
     <string name="about_root_title">microG UI デモ</string>
