@@ -7,7 +7,6 @@ package org.microg.gms.ui
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.provider.Settings
 import android.view.View
@@ -24,9 +23,12 @@ import com.google.android.material.color.MaterialColors
 import com.google.android.material.transition.MaterialSharedAxis
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
+import android.widget.Toast
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import org.microg.gms.checkin.LastCheckinInfo
 import org.microg.gms.gcm.*
+import androidx.core.net.toUri
 
 class PushNotificationAdvancedFragment : PreferenceFragmentCompat() {
     private lateinit var confirmNewApps: TwoStatePreference
@@ -133,7 +135,7 @@ class PushNotificationAdvancedFragment : PreferenceFragmentCompat() {
             true
         }
 
-        findPreference<Preference>("pref_push_notification_reset")
+        findPreference<Preference>("pref_remove_all_registers")
             ?.setOnPreferenceClickListener {
                 showRemoveRegistersDialog()
                 true
@@ -188,11 +190,12 @@ class PushNotificationAdvancedFragment : PreferenceFragmentCompat() {
     private fun openOverlayPermissionSettings() {
         val context = requireContext()
         val intent = Intent(
-            Settings.ACTION_MANAGE_OVERLAY_PERMISSION, Uri.parse("package:${context.packageName}")
+            Settings.ACTION_MANAGE_OVERLAY_PERMISSION, "package:${context.packageName}".toUri()
         )
         startActivity(intent)
     }
 
+    @SuppressLint("SetTextI18n")
     private fun showRemoveRegistersDialog() {
         val dialog = AlertDialog.Builder(requireContext()).setIcon(R.drawable.ic_unregister)
             .setTitle(R.string.gcm_remove_registers_dialog_title)
@@ -221,8 +224,10 @@ class PushNotificationAdvancedFragment : PreferenceFragmentCompat() {
                 positiveButton.setOnClickListener {
                     lifecycleScope.launch {
                         withContext(Dispatchers.IO) {
+                            LastCheckinInfo.clear(requireContext())
                             database.resetDatabase()
                         }
+                        Toast.makeText(requireContext(), R.string.gcm_remove_registers_toast_message, Toast.LENGTH_SHORT).show()
                     }
                     dialog.dismiss()
                 }

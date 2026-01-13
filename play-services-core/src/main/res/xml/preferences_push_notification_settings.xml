@@ -32,7 +32,7 @@
             app:iconSpaceReserved="false" />
 
         <Preference
-            android:key="pref_push_notification_reset"
+            android:key="pref_remove_all_registers"
             android:layout="@layout/preference_material_bottom"
             android:summary="@string/pref_gcm_remove_registers_summary"
             android:title="@string/pref_gcm_remove_registers"
