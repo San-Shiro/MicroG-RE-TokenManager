@@ -18,9 +18,19 @@ object AppPatcherDetector {
         "bill.youtube" to R.string.revanced_extended_anddea
     )
 
+    private val BLACKLIST_PACKAGES = listOf(
+        "app.revanced.android.gms",
+        "app.morphe.android.gms", // If it's happening in future
+        "app.morphe.manager",
+        "app.revanced.manager",
+        "app.rvx.manager"
+    )
+
     fun getUsingPackageName(packageName: String?): Int? {
         if (packageName.isNullOrEmpty()) return null
         val pkgLower = packageName.lowercase(Locale.ROOT)
+
+        if (BLACKLIST_PACKAGES.any { pkgLower == it }) return null
         return KNOWN_PACKAGES.firstOrNull { pkgLower.contains(it.first) }?.second
     }
 }

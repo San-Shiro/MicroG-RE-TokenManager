@@ -52,8 +52,7 @@
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.USE_EXACT_ALARM"
-        tools:ignore="ExactAlarm" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" tools:ignore="ExactAlarm" />
 
     <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
@@ -269,7 +268,8 @@
             android:name="org.microg.gms.auth.login.LoginActivity"
             android:configChanges="uiMode|orientation|keyboardHidden|keyboard|screenSize"
             android:exported="true"
-            android:label="@string/pref_accounts_add_account_title"
+            android:label="@string/auth_add_account"
+            android:launchMode="singleTask"
             android:process=":ui"
             android:theme="@style/AppTheme.Login"
             android:windowSoftInputMode="adjustResize">
@@ -366,14 +366,28 @@
         <activity
             android:name="org.microg.gms.ui.MainSettingsActivity"
             android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
-            android:enabled="false"
             android:exported="true"
             android:taskAffinity="org.microg.gms.settings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <!--Hide microG Settings from launcher activity control-->
+        <activity-alias
+            android:name="org.microg.gms.ui.SettingsActivityLauncher"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="org.microg.gms.ui.MainSettingsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity-alias>
 
         <!-- Allow microG Settings from opening by other applications -->
         <activity-alias
@@ -458,7 +472,7 @@
             android:exported="false"
             android:process=":ui"
             android:taskAffinity="org.microg.gms.settings"
-            android:theme="@style/AppTheme">
+            android:theme="@style/AppTheme.Login">
             <intent-filter>
                 <action android:name="com.google.android.gms.accountsettings.MY_ACCOUNT" />
                 <action android:name="com.google.android.gms.accountsettings.ACCOUNT_PREFERENCES_SETTINGS" />
@@ -475,7 +489,8 @@
             android:exported="true"
             android:process=":ui"
             android:targetActivity="org.microg.gms.ui.AccountManagerActivity"
-            android:taskAffinity="org.microg.gms.settings">
+            android:taskAffinity="org.microg.gms.settings"
+            android:theme="@style/AppTheme.Login">
             <intent-filter tools:ignore="AppLinkUrlError">
                 <action android:name="com.google.android.gms.accountsettings.action.VIEW_SETTINGS" />
                 <action android:name="${basePackageName}.android.gms.accountsettings.action.VIEW_SETTINGS" />

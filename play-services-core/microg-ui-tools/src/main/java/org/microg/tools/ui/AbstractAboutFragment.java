@@ -16,26 +16,27 @@
 
 package org.microg.tools.ui;
 
+import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.annotation.RequiresPermission;
 import androidx.fragment.app.Fragment;
 
 import com.google.android.material.color.MaterialColors;
-import com.google.android.material.transition.platform.MaterialSharedAxis;
+import com.google.android.material.listitem.ListItemLayout;
+import com.google.android.material.transition.MaterialSharedAxis;
 
 import org.microg.tools.updater.UpdateChecker;
 
@@ -73,7 +74,7 @@ public abstract class AbstractAboutFragment extends Fragment {
 //            throw new RuntimeException(e);
 //        }
 //    }
-
+//
 //    protected String getAppName() {
 //        return getAppName(requireContext());
 //    }
@@ -92,8 +93,6 @@ public abstract class AbstractAboutFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setEnterTransition(new MaterialSharedAxis(MaterialSharedAxis.X, true));
-        setExitTransition(new MaterialSharedAxis(MaterialSharedAxis.X, true));
-        setReenterTransition(new MaterialSharedAxis(MaterialSharedAxis.X, false));
         setReturnTransition(new MaterialSharedAxis(MaterialSharedAxis.X, false));
     }
 
@@ -103,12 +102,20 @@ public abstract class AbstractAboutFragment extends Fragment {
         view.setBackgroundColor(MaterialColors.getColor(view, android.R.attr.colorBackground));
     }
 
-    public static String getSelfVersion(Context context) {
-        return getLibVersion(BuildConfig.GMS_APPLICATION_NAMESPACE);
+    public static String getAppVersion() {
+        return BuildConfig.APP_VERSION_NAME;
     }
 
-    protected String getSelfVersion() {
-        return getSelfVersion(getContext());
+    public static String getGmsVersion() {
+        return BuildConfig.GMS_VERSION_NAME;
+    }
+
+    public static String getAppVersion(Context context) {
+        return getAppVersion();
+    }
+
+    public static String getGmsVersion(Context context) {
+        return getGmsVersion();
     }
 
     protected String getSummary() {
@@ -117,6 +124,7 @@ public abstract class AbstractAboutFragment extends Fragment {
 
     @Nullable
     @Override
+    @RequiresPermission(Manifest.permission.ACCESS_NETWORK_STATE) // (UpdateChecker) Added in core module manifest, solved when an apk is generated
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View aboutRoot = inflater.inflate(R.layout.about_root, container, false);
 
@@ -125,7 +133,7 @@ public abstract class AbstractAboutFragment extends Fragment {
             View appCard = inflater.inflate(R.layout.about_app, appCardContainer, true);
 //            ((ImageView) appCard.findViewById(R.id.app_icon)).setImageDrawable(getIcon(requireContext()));
 //            ((TextView) appCard.findViewById(R.id.app_title)).setText(getAppName());
-            ((TextView) appCard.findViewById(R.id.app_version)).setText(getSelfVersion());
+            ((TextView) appCard.findViewById(R.id.app_version)).setText(appCard.getContext().getString(R.string.about_version_str, getAppVersion()));
 
             appCard.findViewById(R.id.app_check_updates).setOnClickListener(v -> {
                 new UpdateChecker(requireContext()).checkForUpdates(v, () -> {
@@ -135,7 +143,7 @@ public abstract class AbstractAboutFragment extends Fragment {
             View appInfo = appCard.findViewById(R.id.app_info);
             if (appInfo != null) {
                 appInfo.setOnClickListener(v -> {
-                    Intent intent = new Intent(android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
+                    Intent intent = new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
                     intent.setData(Uri.parse("package:" + requireContext().getPackageName()));
                     try {
                         startActivity(intent);
@@ -171,7 +179,7 @@ public abstract class AbstractAboutFragment extends Fragment {
                 title.setText(getString(R.string.about_name_version_str, library.name, getLibVersion(library.packageName)));
                 subtitle.setText(library.copyright != null ? library.copyright : getString(R.string.about_default_license));
 
-                com.google.android.material.listitem.ListItemLayout listItemLayout = libraryView.findViewById(R.id.list_item_library);
+                ListItemLayout listItemLayout = libraryView.findViewById(R.id.list_item_library);
                 if (listItemLayout != null) {
                     listItemLayout.updateAppearance(i, libraries.size());
                 }

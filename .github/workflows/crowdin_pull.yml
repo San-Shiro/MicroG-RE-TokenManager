@@ -54,6 +54,11 @@ jobs:
           clean: true
 
       # Step 2: Compile Android app to check string resources
+      - name: "Setup Java"
+        uses: actions/setup-java@v5
+        with:
+          distribution: "temurin"
+          java-version: "18"
       - name: Compile Android app to check resources
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
