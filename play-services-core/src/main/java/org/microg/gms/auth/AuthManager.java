@@ -29,7 +29,8 @@ import com.google.android.gms.common.BuildConfig;
 public class AuthManager {
 
     private static final String TAG = "GmsAuthManager";
-    public static final String PERMISSION_TREE_BASE = BuildConfig.BASE_PACKAGE_NAME + ".android.googleapps.permission.GOOGLE_AUTH.";
+    public static final String PERMISSION_TREE_BASE = BuildConfig.BASE_PACKAGE_NAME
+            + ".android.googleapps.permission.GOOGLE_AUTH.";
     public static final String PREF_AUTH_VISIBLE = SettingsContract.Auth.VISIBLE;
     public static final int ONE_HOUR_IN_SECONDS = 60 * 60;
 
@@ -41,7 +42,6 @@ public class AuthManager {
     private Account account;
     private String packageSignature;
     private String accountType;
-
 
     private int delegationType;
     private String delegateeUserId;
@@ -88,9 +88,12 @@ public class AuthManager {
         if (delegationType != 0 && delegateeUserId != null)
             builder.appendQueryParameter("delegation_type", Integer.toString(delegationType))
                     .appendQueryParameter("delegatee_user_id", delegateeUserId);
-        if (tokenRequestOptions != null) builder.appendQueryParameter("token_request_options", tokenRequestOptions);
-        if (includeEmail != null) builder.appendQueryParameter("include_email", includeEmail);
-        if (includeProfile != null) builder.appendQueryParameter("include_profile", includeEmail);
+        if (tokenRequestOptions != null)
+            builder.appendQueryParameter("token_request_options", tokenRequestOptions);
+        if (includeEmail != null)
+            builder.appendQueryParameter("include_email", includeEmail);
+        if (includeProfile != null)
+            builder.appendQueryParameter("include_profile", includeEmail);
         String query = builder.build().getEncodedQuery();
         return packageName + ":" + getPackageSignature() + ":" + service + (query != null ? ("?" + query) : "");
     }
@@ -113,7 +116,8 @@ public class AuthManager {
 
     public boolean isPermitted() {
         if (!service.startsWith("oauth")) {
-            if (context.getPackageManager().checkPermission(PERMISSION_TREE_BASE + service, packageName) == PackageManager.PERMISSION_GRANTED) {
+            if (context.getPackageManager().checkPermission(PERMISSION_TREE_BASE + service,
+                    packageName) == PackageManager.PERMISSION_GRANTED) {
                 return true;
             }
         }
@@ -161,7 +165,8 @@ public class AuthManager {
 
     public boolean accountExists() {
         for (Account refAccount : getAccountManager().getAccountsByType(accountType)) {
-            if (refAccount.name.equalsIgnoreCase(accountName)) return true;
+            if (refAccount.name.equalsIgnoreCase(accountName))
+                return true;
         }
         return false;
     }
@@ -172,7 +177,8 @@ public class AuthManager {
     }
 
     public String getAuthToken() {
-        if (service.startsWith("weblogin:")) return null;
+        if (service.startsWith("weblogin:"))
+            return null;
         if (System.currentTimeMillis() / 1000L >= getExpiry() - 300L) {
             Log.d(TAG, "token present, but expired");
             return null;
@@ -186,7 +192,8 @@ public class AuthManager {
 
     public long getExpiry() {
         String exp = getUserData(buildExpireKey());
-        if (exp == null) return -1;
+        if (exp == null)
+            return -1;
         return Long.parseLong(exp);
     }
 
@@ -213,7 +220,8 @@ public class AuthManager {
     }
 
     public void storeResponse(AuthResponse response) {
-        if (service.startsWith("weblogin:")) return;
+        if (service.startsWith("weblogin:"))
+            return;
         if (response.accountId != null)
             setUserData("GoogleUserId", response.accountId);
         if (response.Sid != null)
@@ -225,7 +233,8 @@ public class AuthManager {
             if (response.expiry > 0) {
                 setExpiry(response.expiry);
             } else {
-                setExpiry(System.currentTimeMillis() / 1000 + ONE_HOUR_IN_SECONDS); // make valid for one hour by default
+                setExpiry(System.currentTimeMillis() / 1000 + ONE_HOUR_IN_SECONDS); // make valid for one hour by
+                                                                                    // default
             }
         }
     }

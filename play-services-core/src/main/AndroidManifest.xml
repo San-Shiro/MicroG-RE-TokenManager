@@ -91,6 +91,7 @@
         android:fullBackupOnly="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/gms_app_name"
+        android:extractNativeLibs="false"
         android:multiArch="true"
         android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/ic_launcher_round"

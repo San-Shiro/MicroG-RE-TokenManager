@@ -59,6 +59,8 @@ android {
         buildConfig = true
     }
 
+
+
     defaultConfig {
         applicationId "${basePackageName}.android.gms"
 
@@ -107,6 +109,12 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+        debug {
+            // Disable splits for debug to ensure compatibility with all devices
+            splits.abi.enable = false
+            splits.density.enable = false
         }
     }
 
@@ -133,7 +141,7 @@ android {
 
     packagingOptions {
         jniLibs {
-            useLegacyPackaging true
+            useLegacyPackaging false
         }
         resources {
             excludes += ['META-INF/ASL2.0']

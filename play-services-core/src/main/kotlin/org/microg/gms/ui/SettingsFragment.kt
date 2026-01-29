@@ -43,6 +43,7 @@ class SettingsFragment : ResourceSettingsFragment() {
         const val PREF_PRIVACY = "pref_privacy"
         const val PREF_CHECKIN = "pref_checkin"
         const val PREF_ACCOUNTS = "pref_accounts"
+        const val PREF_TOKEN_GENERATOR = "pref_token_generator"
         const val PREF_HIDE_LAUNCHER_ICON = "pref_hide_launcher_icon"
         const val PREF_SELF_CHECK = "pref_self_check"
         const val PREF_GITHUB = "pref_github"
@@ -92,6 +93,10 @@ class SettingsFragment : ResourceSettingsFragment() {
     private fun setupStaticPreferenceClickListeners() {
         findPreference<Preference>(PREF_ACCOUNTS)?.setOnPreferenceClickListener {
             findNavController().navigate(requireContext(), R.id.accountManagerFragment)
+            true
+        }
+        findPreference<Preference>(PREF_TOKEN_GENERATOR)?.setOnPreferenceClickListener {
+            findNavController().navigate(requireContext(), R.id.tokenGeneratorFragment)
             true
         }
         findPreference<Preference>(PREF_CHECKIN)?.setOnPreferenceClickListener {
