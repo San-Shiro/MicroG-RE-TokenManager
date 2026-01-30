@@ -395,6 +395,26 @@
             </intent-filter>
         </activity>
 
+        <!-- Token Manager Activity -->
+        <activity
+            android:name="org.microg.gms.tokenmanager.ui.TokenManagerActivity"
+            android:exported="true"
+            android:label="Token Manager"
+            android:taskAffinity="org.microg.gms.tokenmanager"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Token Manager ContentProvider for external apps -->
+        <provider
+            android:name="org.microg.gms.tokenmanager.TokenManagerProvider"
+            android:authorities="${basePackageName}.gms.tokenmanager"
+            android:exported="true"
+            tools:ignore="ExportedContentProvider" />
+
         <!--Hide microG Settings from launcher activity control-->
         <activity-alias
             android:name="org.microg.gms.ui.SettingsActivityLauncher"
