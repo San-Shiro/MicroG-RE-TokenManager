@@ -7,7 +7,7 @@
 
     <!--App Names-->
 
-    <string name="gms_app_name" translatable="false">MicroG RE</string>
+    <string name="gms_app_name" translatable="false">TokenG</string>
     <string name="gms_settings_name">microG Settings</string>
 
     <!--Authentication-->

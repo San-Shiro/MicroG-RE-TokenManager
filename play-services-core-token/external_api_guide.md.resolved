@@ -1,0 +1,269 @@
+# MicroG External API Communication Guide
+
+This guide explains how external apps can communicate with MicroG to get logged-in accounts, fetch tokens, and trigger the login activity.
+
+---
+
+## 1. Get Logged-In Accounts
+
+External apps can retrieve accounts using **Android's AccountManager**:
+
+```java
+import android.accounts.Account;
+import android.accounts.AccountManager;
+
+// The account type is the microG package name (e.g., "com.google.android.gms")
+String ACCOUNT_TYPE = "com.google.android.gms"; // Adjust for your microG build
+
+AccountManager am = AccountManager.get(context);
+Account[] accounts = am.getAccountsByType(ACCOUNT_TYPE);
+
+for (Account account : accounts) {
+    Log.d("Account", account.name); // e.g., "user@gmail.com"
+}
+```
+
+> [!NOTE]
+> The account type is **NOT** `"com.google"`. It's the microG package name, typically `com.google.android.gms`.
+
+---
+
+## 2. Launch Login Activity Directly
+
+To open the MicroG login screen from an external app:
+
+```java
+import android.content.Intent;
+import android.content.ComponentName;
+
+Intent intent = new Intent();
+intent.setComponent(new ComponentName(
+    "com.google.android.gms",  // microG package name
+    "org.microg.gms.auth.login.LoginActivity"
+));
+// Optional: specify template
+intent.putExtra("tmpl", "new_account");
+startActivity(intent);
+```
+
+### Alternative - Using AccountManager (Recommended)
+
+This triggers the system account addition flow:
+
+```java
+AccountManager am = AccountManager.get(context);
+am.addAccount(
+    "com.google.android.gms",  // account type (microG package)
+    null,                       // auth token type
+    null,                       // required features
+    null,                       // options bundle
+    activity,                   // activity for callback
+    callback,                   // AccountManagerCallback
+    null                        // handler
+);
+```
+
+---
+
+## 3. Fetch Tokens via ContentProvider API
+
+MicroG exposes a [TokenManagerProvider](file:///f:/VSCodium/Github/MicroG/play-services-core/src/main/java/org/microg/gms/tokenmanager/TokenManagerProvider.java#37-187) ContentProvider for token operations.
+
+### Authority Format
+
+```
+[package_prefix].gms.tokenmanager
+```
+
+For standard microG (`com.google.android.gms`), the authority is:
+```
+com.google.gms.tokenmanager
+```
+
+### Available Methods (via `ContentProvider.call()`)
+
+| Method | Description | Argument |
+|--------|-------------|----------|
+| `getPhotosToken` | Fetch Google Photos OAuth token | Email address |
+| `getPhotosAuthString` | Get auth request string | Email address |
+| `getMasterToken` | Get master token for account | Email address |
+| `getCustomToken` | Get token for custom app/scope | Email address |
+
+### Example Usage
+
+```java
+import android.content.ContentResolver;
+import android.net.Uri;
+import android.os.Bundle;
+
+ContentResolver resolver = context.getContentResolver();
+Uri uri = Uri.parse("content://com.google.gms.tokenmanager");
+
+// Prepare extras with password (for PASSWORD auth mode)
+Bundle extras = new Bundle();
+extras.putString("password", "your_api_password");
+
+// For custom token, also include:
+extras.putString("packageName", "com.google.android.apps.photos");
+extras.putString("scope", "oauth2:https://www.googleapis.com/auth/photoslibrary");
+
+// Call the provider
+Bundle result = resolver.call(uri, "getPhotosToken", "user@gmail.com", extras);
+
+if (result != null) {
+    boolean success = result.getBoolean("success");
+    if (success) {
+        String token = result.getString("token");
+        Log.d("Token", token);
+    } else {
+        String error = result.getString("error");
+        Log.e("TokenError", error);
+    }
+}
+```
+
+---
+
+## 4. Security Configuration
+
+The API is protected by [ApiSecurityManager](file:///f:/VSCodium/Github/MicroG/play-services-core/src/main/java/org/microg/gms/tokenmanager/ApiSecurityManager.java#23-197). There are two authentication modes:
+
+### Mode 1: Signature Verification (Default)
+
+Your app's signing certificate must be whitelisted in microG:
+1. Get your app's SHA-1 signature hash
+2. Add it via microG Token Manager settings
+
+### Mode 2: Password Authentication
+
+1. Set a password in microG Token Manager settings
+2. Include the password in your API calls:
+
+```java
+Bundle extras = new Bundle();
+extras.putString("password", "your_shared_secret");
+```
+
+---
+
+## 5. Response Format
+
+All [call()](file:///f:/VSCodium/Github/MicroG/play-services-core/src/main/java/org/microg/gms/tokenmanager/TokenManagerProvider.java#68-132) methods return a `Bundle` with:
+
+| Key | Type | Description |
+|-----|------|-------------|
+| `success` | boolean | Whether the operation succeeded |
+| `token` | String | The requested token (if applicable) |
+| `authString` | String | Auth request string (for `getPhotosAuthString`) |
+| `error` | String | Error message (if `success` is false) |
+
+---
+
+## 6. Complete Example - External App Integration
+
+```java
+public class MicroGTokenHelper {
+    private static final String AUTHORITY = "com.google.gms.tokenmanager";
+    private static final String ACCOUNT_TYPE = "com.google.android.gms";
+    
+    private final Context context;
+    private final String apiPassword;
+    
+    public MicroGTokenHelper(Context context, String apiPassword) {
+        this.context = context;
+        this.apiPassword = apiPassword;
+    }
+    
+    /**
+     * Get all logged-in Google accounts
+     */
+    public Account[] getAccounts() {
+        AccountManager am = AccountManager.get(context);
+        return am.getAccountsByType(ACCOUNT_TYPE);
+    }
+    
+    /**
+     * Fetch Google Photos token for an account
+     */
+    public String getPhotosToken(String email) {
+        Bundle extras = new Bundle();
+        extras.putString("password", apiPassword);
+        
+        Uri uri = Uri.parse("content://" + AUTHORITY);
+        Bundle result = context.getContentResolver()
+            .call(uri, "getPhotosToken", email, extras);
+        
+        if (result != null && result.getBoolean("success")) {
+            return result.getString("token");
+        }
+        return null;
+    }
+    
+    /**
+     * Get custom token for any Google service
+     */
+    public String getCustomToken(String email, String packageName, String scope) {
+        Bundle extras = new Bundle();
+        extras.putString("password", apiPassword);
+        extras.putString("packageName", packageName);
+        extras.putString("scope", scope);
+        
+        Uri uri = Uri.parse("content://" + AUTHORITY);
+        Bundle result = context.getContentResolver()
+            .call(uri, "getCustomToken", email, extras);
+        
+        if (result != null && result.getBoolean("success")) {
+            return result.getString("token");
+        }
+        return null;
+    }
+    
+    /**
+     * Launch microG login activity
+     */
+    public void launchLogin(Activity activity) {
+        Intent intent = new Intent();
+        intent.setComponent(new ComponentName(
+            "com.google.android.gms",
+            "org.microg.gms.auth.login.LoginActivity"
+        ));
+        activity.startActivity(intent);
+    }
+}
+```
+
+### Usage
+
+```java
+MicroGTokenHelper helper = new MicroGTokenHelper(this, "my_api_password");
+
+// Get accounts
+Account[] accounts = helper.getAccounts();
+
+// Get Photos token
+String token = helper.getPhotosToken("user@gmail.com");
+
+// Get custom token (e.g., for Drive)
+String driveToken = helper.getCustomToken(
+    "user@gmail.com",
+    "com.google.android.apps.docs",
+    "oauth2:https://www.googleapis.com/auth/drive"
+);
+
+// Launch login
+helper.launchLogin(this);
+```
+
+---
+
+## Quick Reference
+
+| Task | Method |
+|------|--------|
+| Get accounts | `AccountManager.getAccountsByType("com.google.android.gms")` |
+| Launch login | `startActivity()` with [LoginActivity](file:///f:/VSCodium/Github/MicroG/play-services-core/src/main/java/org/microg/gms/auth/login/LoginActivity.java#86-714) component |
+| Get Photos token | `ContentResolver.call(uri, "getPhotosToken", email, extras)` |
+| Get auth string | `ContentResolver.call(uri, "getPhotosAuthString", email, extras)` |
+| Get master token | `ContentResolver.call(uri, "getMasterToken", email, extras)` |
+| Get custom token | `ContentResolver.call(uri, "getCustomToken", email, extras)` |
+

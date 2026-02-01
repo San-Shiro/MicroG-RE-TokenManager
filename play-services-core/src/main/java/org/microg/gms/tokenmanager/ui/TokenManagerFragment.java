@@ -189,6 +189,9 @@ public class TokenManagerFragment extends PreferenceFragmentCompat {
             return;
         }
 
+        // Enable dropdown when accounts exist
+        accountDropdown.setEnabled(true);
+
         String[] names = new String[accounts.length];
         String[] values = new String[accounts.length];
         for (int i = 0; i < accounts.length; i++) {

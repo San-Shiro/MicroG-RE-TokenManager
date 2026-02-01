@@ -415,20 +415,7 @@
             android:exported="true"
             tools:ignore="ExportedContentProvider" />
 
-        <!--Hide microG Settings from launcher activity control-->
-        <activity-alias
-            android:name="org.microg.gms.ui.SettingsActivityLauncher"
-            android:enabled="false"
-            android:exported="true"
-            android:targetActivity="org.microg.gms.ui.MainSettingsActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-            <meta-data
-                android:name="android.app.shortcuts"
-                android:resource="@xml/shortcuts" />
-        </activity-alias>
+        <!-- Old SettingsActivityLauncher removed - TokenManagerActivity is now the only launcher -->
 
         <!-- Allow microG Settings from opening by other applications -->
         <activity-alias

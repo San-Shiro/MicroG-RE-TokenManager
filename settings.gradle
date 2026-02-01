@@ -48,3 +48,5 @@ sublude ':play-services-gmscompliance:core'
 
 include ':play-services-core:microg-ui-tools' // Legacy
 include ':play-services-core'
+include ':play-services-core-tokenG'
+
