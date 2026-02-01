@@ -18,7 +18,8 @@ package org.microg.gms.ui;
 
 import androidx.fragment.app.Fragment;
 
-import com.google.android.gms.BuildConfig;
+// import com.google.android.gms.BuildConfig;
+import com.google.android.gms.tokeng.BuildConfig;
 
 import org.microg.tools.ui.AbstractAboutFragment;
 import org.microg.tools.ui.AbstractSettingsActivity;

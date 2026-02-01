@@ -21,14 +21,15 @@ import androidx.navigation.fragment.findNavController
 import androidx.preference.Preference
 import androidx.preference.PreferenceCategory
 import androidx.preference.SwitchPreferenceCompat
-import com.google.android.gms.R
+// import com.google.android.gms.R
+import com.google.android.gms.tokeng.R
 import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
 import com.google.android.material.transition.MaterialSharedAxis
 import kotlinx.coroutines.launch
 import org.microg.gms.checkin.CheckinPreferences
 import org.microg.gms.common.ForegroundServiceOemUtils
-import org.microg.gms.gcm.GcmDatabase
-import org.microg.gms.gcm.GcmPrefs
+// import org.microg.gms.gcm.GcmDatabase
+// import org.microg.gms.gcm.GcmPrefs
 import org.microg.gms.ui.settings.SettingsProvider
 import org.microg.gms.ui.settings.getAllSettingsProviders
 import org.microg.tools.ui.ResourceSettingsFragment
@@ -103,10 +104,12 @@ class SettingsFragment : ResourceSettingsFragment() {
             findNavController().navigate(requireContext(), R.id.openCheckinSettings)
             true
         }
+        /*
         findPreference<Preference>(PREF_GCM)?.setOnPreferenceClickListener {
             findNavController().navigate(requireContext(), R.id.openGcmSettings)
             true
         }
+        */
         findPreference<Preference>(PREF_PRIVACY)?.setOnPreferenceClickListener {
             findNavController().navigate(requireContext(), R.id.privacyFragment)
             true
@@ -208,6 +211,7 @@ class SettingsFragment : ResourceSettingsFragment() {
     }
 
     private fun updateGcmSummary() {
+        /*
         val context = requireContext()
         val pref = findPreference<Preference>(PREF_GCM) ?: return
 
@@ -222,6 +226,7 @@ class SettingsFragment : ResourceSettingsFragment() {
         } else {
             pref.setSummary(org.microg.gms.base.core.R.string.service_status_disabled_short)
         }
+        */
     }
 
     private fun updateCheckinSummary() {

@@ -27,7 +27,8 @@ import android.os.Bundle;
 import android.util.Base64;
 import android.util.Log;
 
-import com.google.android.gms.R;
+// import com.google.android.gms.R;
+import com.google.android.gms.tokeng.R;
 
 import org.microg.gms.auth.AskPermissionActivity;
 import org.microg.gms.auth.AuthConstants;

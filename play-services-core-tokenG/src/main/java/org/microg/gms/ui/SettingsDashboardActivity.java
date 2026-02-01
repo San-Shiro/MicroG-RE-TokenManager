@@ -18,7 +18,8 @@ package org.microg.gms.ui;
 
 import androidx.fragment.app.Fragment;
 
-import com.google.android.gms.R;
+// import com.google.android.gms.R;
+import com.google.android.gms.tokeng.R;
 
 //import org.microg.nlp.Preferences;
 import org.microg.tools.ui.AbstractDashboardActivity;
@@ -27,7 +28,7 @@ public class SettingsDashboardActivity extends AbstractDashboardActivity {
 
     public SettingsDashboardActivity() {
         preferencesResource = R.xml.preferences_start;
-        addCondition(Conditions.GCM_BATTERY_OPTIMIZATIONS);
+        // addCondition(Conditions.GCM_BATTERY_OPTIMIZATIONS);
         addCondition(Conditions.PERMISSIONS);
     }
 

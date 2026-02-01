@@ -48,7 +48,8 @@ import androidx.webkit.WebSettingsCompat;
 import androidx.webkit.WebViewClientCompat;
 import androidx.webkit.WebViewFeature;
 
-import com.google.android.gms.R;
+// import com.google.android.gms.R;
+import com.google.android.gms.tokeng.R;
 
 import org.json.JSONArray;
 import org.microg.gms.accountsettings.ui.MainActivity;
@@ -60,7 +61,7 @@ import org.microg.gms.checkin.CheckinManager;
 import org.microg.gms.checkin.LastCheckinInfo;
 import org.microg.gms.common.HttpFormClient;
 import org.microg.gms.common.Utils;
-import org.microg.gms.people.PeopleManager;
+// // import org.microg.gms.people.PeopleManager;
 import org.microg.gms.profile.Build;
 import org.microg.gms.profile.ProfileManager;
 
@@ -144,7 +145,7 @@ public class LoginActivity extends AssistantActivity {
 
                 // Begin login.
                 // Only required if client code does not invoke showView() via JSBridge
-                //noinspection DataFlowIssue
+                // noinspection DataFlowIssue
                 if ("identifier".equals(uri.getFragment()) || uri.getPath().endsWith("/identifier"))
                     runOnUiThread(() -> webView.setVisibility(VISIBLE));
 
@@ -161,8 +162,8 @@ public class LoginActivity extends AssistantActivity {
                     closeWeb(true);
             }
         });
-        if(getIntent().hasExtra(AccountManager.KEY_ACCOUNT_AUTHENTICATOR_RESPONSE)){
-            //noinspection DataFlowIssue
+        if (getIntent().hasExtra(AccountManager.KEY_ACCOUNT_AUTHENTICATOR_RESPONSE)) {
+            // noinspection DataFlowIssue
             Object tempObject = getIntent().getExtras().get("accountAuthenticatorResponse");
             if (tempObject instanceof AccountAuthenticatorResponse) {
                 response = (AccountAuthenticatorResponse) tempObject;
@@ -171,10 +172,12 @@ public class LoginActivity extends AssistantActivity {
         if (getIntent().hasExtra(EXTRA_TOKEN)) {
             if (getIntent().hasExtra(EXTRA_EMAIL)) {
                 AccountManager accountManager = AccountManager.get(this);
-                Account account = new Account(Objects.requireNonNull(getIntent().getStringExtra(EXTRA_EMAIL)), accountType);
+                Account account = new Account(Objects.requireNonNull(getIntent().getStringExtra(EXTRA_EMAIL)),
+                        accountType);
                 accountManager.addAccountExplicitly(account, getIntent().getStringExtra(EXTRA_TOKEN), null);
                 if (isAuthVisible(this) && SDK_INT >= 26) {
-                    accountManager.setAccountVisibility(account, PACKAGE_NAME_KEY_LEGACY_NOT_VISIBLE, VISIBILITY_USER_MANAGED_VISIBLE);
+                    accountManager.setAccountVisibility(account, PACKAGE_NAME_KEY_LEGACY_NOT_VISIBLE,
+                            VISIBILITY_USER_MANAGED_VISIBLE);
                 }
                 retrieveGmsToken(account);
             } else {
@@ -206,7 +209,7 @@ public class LoginActivity extends AssistantActivity {
         super.onNextButtonClicked();
         state++;
         if (state == 1) {
-            //noinspection DataFlowIssue
+            // noinspection DataFlowIssue
             if (isSpoofingEnabled(this)) {
                 LastCheckinInfo.clear(this);
                 setSpoofingEnabled(this, false);
@@ -217,13 +220,12 @@ public class LoginActivity extends AssistantActivity {
         }
     }
 
-
     @Override
     protected void onHuaweiButtonClicked() {
         super.onHuaweiButtonClicked();
         state++;
         if (state == 1) {
-            //noinspection DataFlowIssue
+            // noinspection DataFlowIssue
             if (!isSpoofingEnabled(this)) {
                 LastCheckinInfo.clear(this);
                 setSpoofingEnabled(this, true);
@@ -243,7 +245,7 @@ public class LoginActivity extends AssistantActivity {
         finishAndRemoveTask();
     }
 
-    /** @noinspection deprecation*/
+    /** @noinspection deprecation */
     @SuppressLint("GestureBackNavigation")
     @Override
     public void onBackPressed() {
@@ -271,7 +273,8 @@ public class LoginActivity extends AssistantActivity {
     private static WebView createWebView(Context context) {
         WebView webView = new WebView(context);
         webView.setVisibility(View.INVISIBLE);
-        webView.setLayoutParams(new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+        webView.setLayoutParams(new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.MATCH_PARENT));
         webView.setBackgroundColor(Color.TRANSPARENT);
         updateWebViewTheme(context, webView);
         prepareWebViewSettings(context, webView.getSettings());
@@ -284,7 +287,8 @@ public class LoginActivity extends AssistantActivity {
         boolean systemIsDark = isSystemDarkTheme(context);
         if (Build.VERSION.SDK_INT >= 29) {
             if (WebViewFeature.isFeatureSupported(WebViewFeature.FORCE_DARK)) {
-                WebSettingsCompat.setForceDark(webView.getSettings(), systemIsDark ? WebSettingsCompat.FORCE_DARK_ON : WebSettingsCompat.FORCE_DARK_OFF);
+                WebSettingsCompat.setForceDark(webView.getSettings(),
+                        systemIsDark ? WebSettingsCompat.FORCE_DARK_ON : WebSettingsCompat.FORCE_DARK_OFF);
             }
         }
     }
@@ -292,7 +296,8 @@ public class LoginActivity extends AssistantActivity {
     @SuppressLint("SetJavaScriptEnabled")
     private static void prepareWebViewSettings(Context context, WebSettings settings) {
         ProfileManager.ensureInitialized(context);
-        settings.setUserAgentString(Build.INSTANCE.generateWebViewUserAgentString(settings.getUserAgentString()) + MAGIC_USER_AGENT);
+        settings.setUserAgentString(
+                Build.INSTANCE.generateWebViewUserAgentString(settings.getUserAgentString()) + MAGIC_USER_AGENT);
         settings.setJavaScriptEnabled(true);
         settings.setSupportMultipleWindows(false);
         settings.setSaveFormData(false);
@@ -307,7 +312,7 @@ public class LoginActivity extends AssistantActivity {
     private void start() {
         ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = cm.getActiveNetworkInfo();
-        //noinspection deprecation
+        // noinspection deprecation
         if (networkInfo != null && networkInfo.isConnected()) {
             if (LastCheckinInfo.read(this).getAndroidId() == 0) {
                 new Thread(() -> {
@@ -352,7 +357,8 @@ public class LoginActivity extends AssistantActivity {
     private void closeWeb(boolean programmaticAuth) {
         setMessage(R.string.auth_finalize);
         runOnUiThread(() -> webView.setVisibility(INVISIBLE));
-        String cookies = CookieManager.getInstance().getCookie(programmaticAuth ? PROGRAMMATIC_AUTH_URL : EMBEDDED_SETUP_URL);
+        String cookies = CookieManager.getInstance()
+                .getCookie(programmaticAuth ? PROGRAMMATIC_AUTH_URL : EMBEDDED_SETUP_URL);
         String[] temp = cookies.split(";");
         for (String ar1 : temp) {
             if (ar1.trim().startsWith(COOKIE_OAUTH_TOKEN + "=")) {
@@ -410,15 +416,17 @@ public class LoginActivity extends AssistantActivity {
                     }
                 });
     }
-    private void returnSuccessResponse(Account account){
-        if(response != null){
+
+    private void returnSuccessResponse(Account account) {
+        if (response != null) {
             Bundle bd = new Bundle();
-            bd.putString(AccountManager.KEY_ACCOUNT_NAME,account.name);
-            bd.putBoolean("new_account_created",false);
-            bd.putString(AccountManager.KEY_ACCOUNT_TYPE,accountType);
+            bd.putString(AccountManager.KEY_ACCOUNT_NAME, account.name);
+            bd.putBoolean("new_account_created", false);
+            bd.putString(AccountManager.KEY_ACCOUNT_TYPE, accountType);
             response.onResult(bd);
         }
     }
+
     private void retrieveGmsToken(final Account account) {
         final AuthManager authManager = new AuthManager(this, account.name, GOOGLE_GMS_PACKAGE_NAME, "ac2dm");
         authManager.setPermitted(true);
@@ -436,11 +444,13 @@ public class LoginActivity extends AssistantActivity {
                     @Override
                     public void onResponse(AuthResponse response) {
                         authManager.storeResponse(response);
-                        String accountId = PeopleManager.loadUserInfo(LoginActivity.this, account);
-                        if (!TextUtils.isEmpty(accountId))
-                            accountManager.setUserData(account, "GoogleUserId", accountId);
+                        // TokenG: PeopleManager removed, skip loading user info
+                        // String accountId = PeopleManager.loadUserInfo(LoginActivity.this, account);
+                        // if (!TextUtils.isEmpty(accountId))
+                        // accountManager.setUserData(account, "GoogleUserId", accountId);
                         if (isAuthVisible(LoginActivity.this) && SDK_INT >= 26) {
-                            accountManager.setAccountVisibility(account, PACKAGE_NAME_KEY_LEGACY_NOT_VISIBLE, VISIBILITY_USER_MANAGED_VISIBLE);
+                            accountManager.setAccountVisibility(account, PACKAGE_NAME_KEY_LEGACY_NOT_VISIBLE,
+                                    VISIBILITY_USER_MANAGED_VISIBLE);
                         }
                         checkin(true);
                         returnSuccessResponse(account);
@@ -552,7 +562,8 @@ public class LoginActivity extends AssistantActivity {
         public final String getAndroidId() {
             long androidId = LastCheckinInfo.read(LoginActivity.this).getAndroidId();
             Log.d(TAG, "JSBridge: getAndroidId");
-            if (androidId == 0 || androidId == -1) return null;
+            if (androidId == 0 || androidId == -1)
+                return null;
             return Long.toHexString(androidId);
         }
 
@@ -575,7 +586,6 @@ public class LoginActivity extends AssistantActivity {
         public final int getDeviceDataVersionInfo() {
             return 1;
         }
-
 
         @JavascriptInterface
         public final String getFactoryResetChallenges() {
@@ -661,7 +671,6 @@ public class LoginActivity extends AssistantActivity {
                 visibility |= STATUS_BAR_DISABLE_BACK;
             getWindow().getDecorView().setSystemUiVisibility(visibility);
         }
-
 
         @JavascriptInterface
         public final void setNewAccountCreated() {

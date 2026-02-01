@@ -16,7 +16,7 @@ import com.google.android.gms.common.api.Scope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.microg.gms.auth.AuthManager
-import org.microg.gms.people.DatabaseHelper
+// import org.microg.gms.people.DatabaseHelper
 import org.microg.gms.utils.toHexString
 import java.security.MessageDigest
 import kotlin.math.min
@@ -88,23 +88,11 @@ suspend fun performSignIn(context: Context, packageName: String, options: Google
     val expirationTime = min(authResponse.expiry.orMaxIfNegative(), idTokenResponse?.expiry.orMaxIfNegative())
     val obfuscatedIdentifier: String = MessageDigest.getInstance("MD5").digest("$googleUserId:$packageName".encodeToByteArray()).toHexString().uppercase()
     val grantedScopes = authResponse.grantedScopes?.split(" ").orEmpty().map { Scope(it) }.toSet()
-    val (givenName, familyName, displayName, photoUrl) = if (includeProfile) {
-        val databaseHelper = DatabaseHelper(context)
-        val cursor = databaseHelper.getOwner(account.name)
-        try {
-            if (cursor.moveToNext()) {
-                listOf(
-                    cursor.getColumnIndex("given_name").takeIf { it >= 0 }?.let { cursor.getString(it) },
-                    cursor.getColumnIndex("family_name").takeIf { it >= 0 }?.let { cursor.getString(it) },
-                    cursor.getColumnIndex("display_name").takeIf { it >= 0 }?.let { cursor.getString(it) },
-                    cursor.getColumnIndex("avatar").takeIf { it >= 0 }?.let { cursor.getString(it) },
-                )
-            } else listOf(null, null, null, null)
-        } finally {
-            cursor.close()
-            databaseHelper.close()
-        }
-    } else listOf(null, null, null, null)
+    // TokenG: People/DatabaseHelper removed, return nulls for profile data
+    val givenName: String? = null
+    val familyName: String? = null
+    val displayName: String? = null
+    val photoUrl: String? = null
     SignInConfigurationService.setDefaultSignInInfo(context, packageName, account, options?.toJson())
     return GoogleSignInAccount(
         id,

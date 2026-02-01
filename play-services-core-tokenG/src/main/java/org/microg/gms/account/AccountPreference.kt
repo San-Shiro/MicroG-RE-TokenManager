@@ -5,7 +5,8 @@ import android.graphics.drawable.Drawable
 import android.widget.TextView
 import androidx.preference.Preference
 import androidx.preference.PreferenceViewHolder
-import com.google.android.gms.R
+// import com.google.android.gms.R
+import com.google.android.gms.tokeng.R
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.imageview.ShapeableImageView
 import com.google.android.material.listitem.ListItemCardView

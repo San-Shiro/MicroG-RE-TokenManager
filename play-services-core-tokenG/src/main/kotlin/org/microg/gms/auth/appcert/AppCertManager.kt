@@ -15,7 +15,8 @@ import com.android.volley.Request
 import com.android.volley.Response
 import com.android.volley.VolleyError
 import com.android.volley.toolbox.Volley
-import com.google.android.gms.BuildConfig
+// import com.google.android.gms.BuildConfig
+import com.google.android.gms.tokeng.BuildConfig
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
@@ -25,9 +26,9 @@ import org.microg.gms.common.Constants
 import org.microg.gms.common.PackageUtils
 //import org.microg.gms.droidguard.core.DroidGuardResultCreator
 import org.microg.gms.gcm.GcmConstants
-import org.microg.gms.gcm.GcmDatabase
-import org.microg.gms.gcm.RegisterRequest
-import org.microg.gms.gcm.completeRegisterRequest
+// import org.microg.gms.gcm.GcmDatabase
+// import org.microg.gms.gcm.RegisterRequest
+// import org.microg.gms.gcm.completeRegisterRequest
 import org.microg.gms.profile.Build
 import org.microg.gms.profile.ProfileManager
 import org.microg.gms.settings.SettingsContract.CheckIn
@@ -77,6 +78,7 @@ class AppCertManager(private val context: Context) {
 //                } catch (e: Exception) {
 //                    null
 //                }
+                /*
                 val token = completeRegisterRequest(context, GcmDatabase(context), RegisterRequest().build(context)
                         .checkin(lastCheckinInfo)
                         .app("com.google.android.gms", Constants.GMS_PACKAGE_SIGNATURE_SHA1, BuildConfig.VERSION_CODE)
@@ -87,6 +89,8 @@ class AppCertManager(private val context: Context) {
                         .extraParam("X-subtype", REGISTER_SUBTYPE)
                         .extraParam("scope", REGISTER_SCOPE))
                         .getString(GcmConstants.EXTRA_REGISTRATION_ID)
+                */
+                val token = "dummy_token" // TokenG does not support AppCert fully yet
                 val request = DeviceKeyRequest(
 //                        droidGuardResult = droidGuardResult,
                         androidId = lastCheckinInfo.androidId,

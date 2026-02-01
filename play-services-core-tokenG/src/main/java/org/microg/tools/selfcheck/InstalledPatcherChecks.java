@@ -10,7 +10,8 @@ import android.view.View;
 
 import androidx.core.content.ContextCompat;
 
-import com.google.android.gms.R;
+// import com.google.android.gms.R;
+import com.google.android.gms.tokeng.R;
 
 import org.microg.gms.utils.AppPatcherDetector;
 import org.microg.tools.ui.AbstractSelfCheckFragment.ChipInfo;

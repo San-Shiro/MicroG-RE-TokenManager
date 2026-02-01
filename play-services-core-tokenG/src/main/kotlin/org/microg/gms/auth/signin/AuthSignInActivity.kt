@@ -19,22 +19,25 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.getSystemService
 import androidx.lifecycle.lifecycleScope
-import com.google.android.gms.R
+// import com.google.android.gms.R
+import com.google.android.gms.tokeng.R
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.SignInAccount
 import com.google.android.gms.auth.api.signin.internal.SignInConfiguration
 import com.google.android.gms.common.Scopes
 import com.google.android.gms.common.api.CommonStatusCodes
 import com.google.android.gms.common.api.Status
-import com.google.android.gms.databinding.SigninConfirmBinding
-import com.google.android.gms.databinding.SigninPickerBinding
+// import com.google.android.gms.databinding.SigninConfirmBinding
+// import com.google.android.gms.databinding.SigninPickerBinding
+import com.google.android.gms.tokeng.databinding.SigninConfirmBinding
+import com.google.android.gms.tokeng.databinding.SigninPickerBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.microg.gms.auth.AuthConstants.DEFAULT_ACCOUNT
 import org.microg.gms.auth.AuthConstants.DEFAULT_ACCOUNT_TYPE
 import org.microg.gms.auth.login.LoginActivity
-import org.microg.gms.people.DatabaseHelper
-import org.microg.gms.people.PeopleManager
+// import org.microg.gms.people.DatabaseHelper
+// import org.microg.gms.people.PeopleManager
 import org.microg.gms.utils.getApplicationLabel
 
 private const val TAG = "AuthSignInActivity"
@@ -90,16 +93,8 @@ class AuthSignInActivity : AppCompatActivity() {
     }
 
     private fun getDisplayName(account: Account): String? {
-        val databaseHelper = DatabaseHelper(this)
-        val cursor = databaseHelper.getOwner(account.name)
-        return try {
-            if (cursor.moveToNext()) {
-                cursor.getColumnIndex("display_name").takeIf { it >= 0 }?.let { cursor.getString(it) }.takeIf { !it.isNullOrBlank() }
-            } else null
-        } finally {
-            cursor.close()
-            databaseHelper.close()
-        }
+        // val databaseHelper = DatabaseHelper(this)
+        return null
     }
 
     private fun bindAccountRow(root: View, account: Account, updateAction: (ImageView, Bitmap) -> Unit) {
@@ -107,7 +102,8 @@ class AuthSignInActivity : AppCompatActivity() {
         val displayNameView = root.findViewById<TextView>(R.id.account_display_name)
         val emailView = root.findViewById<TextView>(R.id.account_email)
         if (account.name != DEFAULT_ACCOUNT) {
-            val photo = PeopleManager.getOwnerAvatarBitmap(this@AuthSignInActivity, account.name, false)
+            val photo: Bitmap? = null // PeopleManager.getOwnerAvatarBitmap(this@AuthSignInActivity, account.name, false)
+            /*
             if (photo == null) {
                 lifecycleScope.launchWhenStarted {
                     val bitmap = withContext(Dispatchers.IO) {
@@ -116,8 +112,10 @@ class AuthSignInActivity : AppCompatActivity() {
                     updateAction(photoView, bitmap)
                 }
             }
+            */
             val displayName = getDisplayName(account)
-            photoView.setImageBitmap(photo)
+            // photoView.setImageBitmap(photo)
+            photoView.setImageResource(R.drawable.ic_account_avatar) // Default avatar
             if (displayName != null) {
                 displayNameView.text = displayName
                 emailView.text = account.name

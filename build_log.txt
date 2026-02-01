@@ -1,0 +1,1541 @@
+Reusing configuration cache.
+> Task :play-services-core-proto:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :play-services-api:preBuild UP-TO-DATE
+> Task :play-services-core-tokenG:preBuild UP-TO-DATE
+> Task :play-services-base:preBuild UP-TO-DATE
+> Task :play-services-basement:preBuild UP-TO-DATE
+> Task :play-services-api:preDebugBuild UP-TO-DATE
+> Task :play-services-tasks:preBuild UP-TO-DATE
+> Task :play-services-tasks:preDebugBuild UP-TO-DATE
+> Task :play-services-core-tokenG:preDefaultDebugBuild UP-TO-DATE
+> Task :play-services-base:preDebugBuild UP-TO-DATE
+> Task :play-services-core-proto:processResources NO-SOURCE
+> Task :play-services-basement:preDebugBuild UP-TO-DATE
+> Task :safe-parcel-processor:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :play-services-core-tokenG:mergeDefaultDebugNativeDebugMetadata NO-SOURCE
+> Task :play-services-api:processDebugNavigationResources UP-TO-DATE
+> Task :safe-parcel-processor:processResources UP-TO-DATE
+> Task :play-services-api:generateDebugResValues UP-TO-DATE
+> Task :play-services-base:generateDebugBuildConfig UP-TO-DATE
+> Task :play-services-base:processDebugNavigationResources UP-TO-DATE
+> Task :play-services-core-proto:generateMainProtos UP-TO-DATE
+> Task :play-services-basement:generateDebugResValues UP-TO-DATE
+> Task :play-services-tasks:javaPreCompileDebug UP-TO-DATE
+> Task :play-services-basement:generateDebugBuildConfig UP-TO-DATE
+> Task :play-services-basement:processDebugNavigationResources UP-TO-DATE
+> Task :play-services-tasks:generateDebugResValues UP-TO-DATE
+> Task :play-services-api:javaPreCompileDebug UP-TO-DATE
+> Task :play-services-tasks:processDebugNavigationResources UP-TO-DATE
+> Task :play-services-base:generateDebugResValues UP-TO-DATE
+> Task :safe-parcel-processor:compileKotlin UP-TO-DATE
+> Task :play-services-base-core:preBuild UP-TO-DATE
+> Task :play-services-base-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :play-services-base:generateDebugResources UP-TO-DATE
+> Task :play-services-tasks:generateDebugResources UP-TO-DATE
+> Task :play-services-base-core:preDebugBuild UP-TO-DATE
+> Task :play-services-basement-ktx:preBuild UP-TO-DATE
+> Task :play-services-api:generateDebugResources UP-TO-DATE
+> Task :play-services-basement:generateDebugResources UP-TO-DATE
+> Task :play-services-basement-ktx:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :play-services-auth-base:preBuild UP-TO-DATE
+> Task :play-services-auth:preBuild UP-TO-DATE
+> Task :play-services-cast:preBuild UP-TO-DATE
+> Task :play-services-auth-base:preDebugBuild UP-TO-DATE
+> Task :play-services-basement:compileDebugAidl UP-TO-DATE
+> Task :safe-parcel-processor:compileJava NO-SOURCE
+> Task :play-services-auth:preDebugBuild UP-TO-DATE
+> Task :play-services-base-core:generateDebugBuildConfig UP-TO-DATE
+> Task :play-services-base-core:processDebugNavigationResources UP-TO-DATE
+> Task :play-services-auth-base:generateDebugResValues UP-TO-DATE
+> Task :play-services-auth:generateDebugResValues UP-TO-DATE
+> Task :play-services-auth:processDebugNavigationResources UP-TO-DATE
+> Task :safe-parcel-processor:classes UP-TO-DATE
+> Task :play-services-auth:javaPreCompileDebug UP-TO-DATE
+> Task :play-services-auth-base:javaPreCompileDebug UP-TO-DATE
+> Task :play-services-base:packageDebugResources UP-TO-DATE
+> Task :play-services-basement-ktx:preDebugBuild UP-TO-DATE
+> Task :play-services-auth:generateDebugResources UP-TO-DATE
+> Task :play-services-base-core:generateDebugResValues UP-TO-DATE
+> Task :play-services-basement-ktx:generateDebugResValues UP-TO-DATE
+> Task :play-services-base-core:dataBindingTriggerDebug UP-TO-DATE
+> Task :play-services-auth-base:processDebugNavigationResources UP-TO-DATE
+> Task :play-services-cast:preDebugBuild UP-TO-DATE
+> Task :play-services-basement-ktx:javaPreCompileDebug UP-TO-DATE
+> Task :play-services-basement-ktx:processDebugNavigationResources UP-TO-DATE
+> Task :play-services-base-core:generateDebugResources UP-TO-DATE
+> Task :play-services-auth-base:generateDebugResources UP-TO-DATE
+> Task :play-services-base:parseDebugLocalResources UP-TO-DATE
+> Task :play-services-base-core:javaPreCompileDebug UP-TO-DATE
+> Task :play-services-cast:generateDebugResValues UP-TO-DATE
+> Task :play-services-basement-ktx:generateDebugResources UP-TO-DATE
+> Task :play-services-tasks:packageDebugResources UP-TO-DATE
+> Task :play-services-api:packageDebugResources UP-TO-DATE
+> Task :play-services-auth:packageDebugResources UP-TO-DATE
+> Task :play-services-cast-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :play-services-cast-core:preBuild UP-TO-DATE
+> Task :play-services-cast:processDebugNavigationResources UP-TO-DATE
+> Task :play-services-basement:packageDebugResources UP-TO-DATE
+> Task :play-services-cast-core:preDebugBuild UP-TO-DATE
+> Task :safe-parcel-processor:jar UP-TO-DATE
+> Task :play-services-cast:generateDebugResources UP-TO-DATE
+> Task :play-services-core-proto:compileKotlin UP-TO-DATE
+> Task :play-services-auth-base:packageDebugResources UP-TO-DATE
+> Task :play-services-base:javaPreCompileDebug UP-TO-DATE
+> Task :play-services-tasks:parseDebugLocalResources UP-TO-DATE
+> Task :play-services-basement-ktx:packageDebugResources UP-TO-DATE
+> Task :play-services-cast-framework:preBuild UP-TO-DATE
+> Task :play-services-base-core:packageDebugResources UP-TO-DATE
+> Task :play-services-core-proto:compileJava NO-SOURCE
+> Task :play-services-api:parseDebugLocalResources UP-TO-DATE
+> Task :play-services-core-proto:classes UP-TO-DATE
+> Task :play-services-cast:javaPreCompileDebug UP-TO-DATE
+> Task :play-services-basement:parseDebugLocalResources UP-TO-DATE
+> Task :play-services-cast-core:generateDebugResValues UP-TO-DATE
+> Task :play-services-auth:parseDebugLocalResources UP-TO-DATE
+> Task :play-services-cast-core:dataBindingTriggerDebug UP-TO-DATE
+> Task :play-services-basement:javaPreCompileDebug UP-TO-DATE
+> Task :play-services-cast-framework:preDebugBuild UP-TO-DATE
+> Task :play-services-basement-ktx:parseDebugLocalResources UP-TO-DATE
+> Task :play-services-base:compileDebugAidl UP-TO-DATE
+> Task :play-services-cast-core:generateDebugResources UP-TO-DATE
+> Task :play-services-cast:packageDebugResources UP-TO-DATE
+> Task :play-services-core-proto:jar UP-TO-DATE
+> Task :play-services-auth-base:parseDebugLocalResources UP-TO-DATE
+> Task :play-services-cast-framework:generateDebugResValues UP-TO-DATE
+> Task :play-services-cast-core:processDebugNavigationResources UP-TO-DATE
+> Task :play-services-cast-core:javaPreCompileDebug UP-TO-DATE
+> Task :play-services-cast-framework:processDebugNavigationResources UP-TO-DATE
+> Task :play-services-cast-framework-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :play-services-cast-framework-core:preBuild UP-TO-DATE
+> Task :play-services-cast-framework:javaPreCompileDebug UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:preBuild UP-TO-DATE
+> Task :play-services-base-core:parseDebugLocalResources UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:preDebugBuild UP-TO-DATE
+> Task :play-services-cast-framework:generateDebugResources UP-TO-DATE
+> Task :play-services-core-tokenG:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :play-services-conscrypt-provider-core:generateDebugResValues UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:javaPreCompileDebug UP-TO-DATE
+> Task :play-services-core-tokenG:generateDefaultDebugResValues UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:processDebugNavigationResources UP-TO-DATE
+> Task :play-services-tasks-ktx:preBuild UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:generateDebugResources UP-TO-DATE
+> Task :play-services-cast:parseDebugLocalResources UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:preBuild UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:preDebugBuild UP-TO-DATE
+> Task :play-services-cast-framework-core:preDebugBuild UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:generateDebugResValues UP-TO-DATE
+> Task :play-services-tasks-ktx:preDebugBuild UP-TO-DATE
+> Task :play-services-cast-core:packageDebugResources UP-TO-DATE
+> Task :play-services-core-tokenG:dataBindingTriggerDefaultDebug UP-TO-DATE
+> Task :play-services-cast-framework:packageDebugResources UP-TO-DATE
+> Task :play-services-cast-framework-core:processDebugNavigationResources UP-TO-DATE
+> Task :play-services-core-tokenG:generateDefaultDebugResources UP-TO-DATE
+> Task :play-services-tasks-ktx:generateDebugResValues UP-TO-DATE
+> Task :play-services-cast-framework-core:dataBindingTriggerDebug UP-TO-DATE
+> Task :play-services-cast-framework-core:generateDebugResValues UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:generateDebugResources UP-TO-DATE
+> Task :play-services-basement:generateDebugRFile UP-TO-DATE
+> Task :play-services-cast:compileDebugAidl UP-TO-DATE
+> Task :play-services-auth-base:compileDebugAidl UP-TO-DATE
+> Task :play-services-core-tokenG:generateDefaultDebugBuildConfig UP-TO-DATE
+> Task :play-services-cast-core:parseDebugLocalResources UP-TO-DATE
+> Task :play-services-tasks-ktx:generateDebugResources UP-TO-DATE
+> Task :play-services-cast-framework:parseDebugLocalResources UP-TO-DATE
+> Task :play-services-cast-framework-core:javaPreCompileDebug UP-TO-DATE
+> Task :play-services-cast-framework-core:generateDebugResources UP-TO-DATE
+> Task :play-services-api:compileDebugAidl UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:packageDebugResources UP-TO-DATE
+> Task :play-services-auth-base:compileDebugLibraryResources UP-TO-DATE
+> Task :play-services-api:compileDebugLibraryResources UP-TO-DATE
+> Task :play-services-auth:compileDebugLibraryResources UP-TO-DATE
+> Task :play-services-base-core:compileDebugLibraryResources UP-TO-DATE
+> Task :play-services-basement:compileDebugLibraryResources UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:packageDebugResources UP-TO-DATE
+> Task :play-services-cast:compileDebugLibraryResources UP-TO-DATE
+> Task :play-services-cast-framework-core:packageDebugResources UP-TO-DATE
+> Task :play-services-tasks-ktx:packageDebugResources UP-TO-DATE
+> Task :play-services-base:compileDebugLibraryResources UP-TO-DATE
+> Task :play-services-cast-core:compileDebugLibraryResources UP-TO-DATE
+> Task :play-services-basement-ktx:compileDebugLibraryResources UP-TO-DATE
+> Task :play-services-api:writeDebugAarMetadata UP-TO-DATE
+> Task :play-services-cast-framework:compileDebugLibraryResources UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:parseDebugLocalResources UP-TO-DATE
+> Task :play-services-auth:writeDebugAarMetadata UP-TO-DATE
+> Task :play-services-basement:writeDebugAarMetadata UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:compileDebugLibraryResources UP-TO-DATE
+> Task :play-services-auth-base:writeDebugAarMetadata UP-TO-DATE
+> Task :play-services-base-core:writeDebugAarMetadata UP-TO-DATE
+> Task :play-services-basement-ktx:writeDebugAarMetadata UP-TO-DATE
+> Task :play-services-auth:compileDebugAidl UP-TO-DATE
+> Task :play-services-cast-framework-core:compileDebugLibraryResources UP-TO-DATE
+> Task :play-services-base:writeDebugAarMetadata UP-TO-DATE
+> Task :play-services-cast:writeDebugAarMetadata UP-TO-DATE
+> Task :play-services-cast-framework:writeDebugAarMetadata UP-TO-DATE
+> Task :play-services-basement-ktx:generateDebugRFile UP-TO-DATE
+> Task :play-services-cast-framework-core:writeDebugAarMetadata UP-TO-DATE
+> Task :play-services-cast-core:writeDebugAarMetadata UP-TO-DATE
+> Task :play-services-cast-framework-core:parseDebugLocalResources UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:writeDebugAarMetadata UP-TO-DATE
+> Task :play-services-tasks-ktx:writeDebugAarMetadata UP-TO-DATE
+> Task :play-services-base-core:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:writeDebugAarMetadata UP-TO-DATE
+> Task :play-services-tasks:generateDebugRFile UP-TO-DATE
+> Task :play-services-basement:compileDebugJavaWithJavac UP-TO-DATE
+> Task :play-services-tasks:writeDebugAarMetadata UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:processDebugNavigationResources UP-TO-DATE
+> Task :play-services-core-tokenG:createDefaultDebugCompatibleScreenManifests UP-TO-DATE
+> Task :play-services-cast-framework:compileDebugAidl UP-TO-DATE
+> Task :play-services-auth:extractDeepLinksDebug UP-TO-DATE
+> Task :play-services-api:processDebugManifest UP-TO-DATE
+> Task :play-services-basement:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :play-services-api:extractDeepLinksDebug UP-TO-DATE
+> Task :play-services-auth-base:processDebugManifest UP-TO-DATE
+> Task :play-services-auth-base:extractDeepLinksDebug UP-TO-DATE
+> Task :play-services-tasks-ktx:processDebugNavigationResources UP-TO-DATE
+> Task :play-services-base-core:extractDeepLinksDebug UP-TO-DATE
+> Task :play-services-auth:processDebugManifest UP-TO-DATE
+> Task :play-services-basement:extractDeepLinksDebug UP-TO-DATE
+> Task :play-services-base:processDebugManifest UP-TO-DATE
+> Task :play-services-basement-ktx:extractDeepLinksDebug UP-TO-DATE
+> Task :play-services-base:extractDeepLinksDebug UP-TO-DATE
+> Task :play-services-basement:processDebugManifest UP-TO-DATE
+> Task :play-services-basement-ktx:processDebugManifest UP-TO-DATE
+> Task :play-services-cast-core:extractDeepLinksDebug UP-TO-DATE
+> Task :play-services-base-core:processDebugManifest UP-TO-DATE
+> Task :play-services-cast:extractDeepLinksDebug UP-TO-DATE
+> Task :play-services-cast:processDebugManifest UP-TO-DATE
+> Task :play-services-cast-framework-core:extractDeepLinksDebug UP-TO-DATE
+> Task :play-services-cast-framework:extractDeepLinksDebug UP-TO-DATE
+> Task :play-services-cast-core:processDebugManifest UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:extractDeepLinksDebug UP-TO-DATE
+> Task :play-services-tasks:extractDeepLinksDebug UP-TO-DATE
+> Task :play-services-core-tokenG:extractDeepLinksDefaultDebug UP-TO-DATE
+> Task :play-services-cast-framework:processDebugManifest UP-TO-DATE
+> Task :play-services-tasks-ktx:extractDeepLinksDebug UP-TO-DATE
+> Task :play-services-cast-framework-core:processDebugManifest UP-TO-DATE
+> Task :play-services-base:generateDebugRFile UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:extractDeepLinksDebug UP-TO-DATE
+> Task :play-services-tasks-ktx:processDebugManifest UP-TO-DATE
+> Task :play-services-tasks:compileDebugJavaWithJavac UP-TO-DATE
+> Task :play-services-tasks:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:processDebugManifest UP-TO-DATE
+> Task :play-services-base-core:generateDebugRFile UP-TO-DATE
+> Task :play-services-base-core:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :play-services-tasks-ktx:compileDebugLibraryResources UP-TO-DATE
+> Task :play-services-tasks:compileDebugLibraryResources UP-TO-DATE
+> Task :play-services-core-tokenG:mapDefaultDebugSourceSetPaths UP-TO-DATE
+> Task :play-services-core-tokenG:mergeDefaultDebugResources UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:compileDebugLibraryResources UP-TO-DATE
+> Task :play-services-tasks-ktx:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :play-services-core:microg-ui-tools:parseDebugLocalResources UP-TO-DATE
+> Task :play-services-core-tokenG:javaPreCompileDefaultDebug UP-TO-DATE
+> Task :play-services-tasks-ktx:javaPreCompileDebug UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:generateDebugBuildConfig UP-TO-DATE
+> Task :play-services-api:mergeDebugShaders UP-TO-DATE
+> Task :play-services-tasks-ktx:parseDebugLocalResources UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:javaPreCompileDebug UP-TO-DATE
+> Task :play-services-api:compileDebugShaders NO-SOURCE
+> Task :play-services-api:generateDebugAssets UP-TO-DATE
+> Task :play-services-api:mergeDebugAssets UP-TO-DATE
+> Task :play-services-tasks:processDebugManifest UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:processDebugManifest UP-TO-DATE
+> Task :play-services-base:mergeDebugShaders UP-TO-DATE
+> Task :play-services-auth-base:mergeDebugShaders UP-TO-DATE
+> Task :play-services-basement:mergeDebugShaders UP-TO-DATE
+> Task :play-services-auth:mergeDebugShaders UP-TO-DATE
+> Task :play-services-base-core:mergeDebugShaders UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:generateDebugRFile UP-TO-DATE
+> Task :play-services-base:compileDebugShaders NO-SOURCE
+> Task :play-services-auth-base:generateDebugRFile UP-TO-DATE
+> Task :play-services-api:generateDebugRFile UP-TO-DATE
+> Task :play-services-base:generateDebugAssets UP-TO-DATE
+> Task :play-services-basement-ktx:compileDebugKotlin UP-TO-DATE
+> Task :play-services-cast:generateDebugRFile UP-TO-DATE
+> Task :play-services-base-core:compileDebugShaders NO-SOURCE
+> Task :play-services-auth-base:compileDebugShaders NO-SOURCE
+> Task :play-services-auth-base:generateDebugAssets UP-TO-DATE
+> Task :play-services-basement-ktx:mergeDebugShaders UP-TO-DATE
+> Task :play-services-base-core:generateDebugAssets UP-TO-DATE
+> Task :play-services-basement:compileDebugShaders NO-SOURCE
+> Task :play-services-auth-base:mergeDebugAssets UP-TO-DATE
+> Task :play-services-basement-ktx:compileDebugJavaWithJavac NO-SOURCE
+> Task :play-services-base:compileDebugJavaWithJavac UP-TO-DATE
+> Task :play-services-basement-ktx:compileDebugShaders NO-SOURCE
+> Task :play-services-basement-ktx:generateDebugAssets UP-TO-DATE
+> Task :play-services-base:mergeDebugAssets UP-TO-DATE
+> Task :play-services-auth:compileDebugShaders NO-SOURCE
+> Task :play-services-base-core:mergeDebugAssets UP-TO-DATE
+> Task :play-services-basement:generateDebugAssets UP-TO-DATE
+> Task :play-services-base:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :play-services-basement-ktx:mergeDebugAssets UP-TO-DATE
+> Task :play-services-basement-ktx:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :play-services-core-tokenG:processDefaultDebugNavigationResources UP-TO-DATE
+> Task :play-services-cast:mergeDebugShaders UP-TO-DATE
+> Task :play-services-basement:mergeDebugAssets UP-TO-DATE
+> Task :play-services-auth:generateDebugAssets UP-TO-DATE
+> Task :play-services-auth:mergeDebugAssets UP-TO-DATE
+> Task :play-services-core-tokenG:compileDefaultDebugNavigationResources UP-TO-DATE
+> Task :play-services-cast-core:mergeDebugShaders UP-TO-DATE
+> Task :play-services-cast-framework:mergeDebugShaders UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:mergeDebugShaders UP-TO-DATE
+> Task :play-services-cast-core:compileDebugShaders NO-SOURCE
+> Task :play-services-cast-core:generateDebugAssets UP-TO-DATE
+> Task :play-services-auth:generateDebugRFile UP-TO-DATE
+> Task :play-services-cast:compileDebugShaders NO-SOURCE
+> Task :play-services-cast-framework-core:mergeDebugShaders UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:compileDebugShaders NO-SOURCE
+> Task :play-services-cast:generateDebugAssets UP-TO-DATE
+> Task :play-services-cast-framework:compileDebugShaders NO-SOURCE
+> Task :play-services-auth-base:compileDebugJavaWithJavac UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:generateDebugAssets UP-TO-DATE
+> Task :play-services-cast-core:mergeDebugAssets UP-TO-DATE
+> Task :play-services-cast-framework:generateDebugAssets UP-TO-DATE
+> Task :play-services-core-tokenG:mergeDefaultDebugShaders UP-TO-DATE
+> Task :play-services-cast-framework-core:compileDebugShaders NO-SOURCE
+> Task :play-services-cast-framework-core:generateDebugAssets UP-TO-DATE
+> Task :play-services-cast:mergeDebugAssets UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:mergeDebugAssets UP-TO-DATE
+> Task :play-services-auth-base:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :play-services-cast:compileDebugJavaWithJavac UP-TO-DATE
+> Task :play-services-tasks-ktx:generateDebugRFile UP-TO-DATE
+> Task :play-services-cast-framework:generateDebugRFile UP-TO-DATE
+> Task :play-services-tasks:mergeDebugShaders UP-TO-DATE
+> Task :play-services-core-tokenG:compileDefaultDebugShaders NO-SOURCE
+> Task :play-services-core-tokenG:generateDefaultDebugAssets UP-TO-DATE
+> Task :play-services-cast-framework-core:mergeDebugAssets UP-TO-DATE
+> Task :play-services-tasks:compileDebugShaders NO-SOURCE
+> Task :play-services-tasks:generateDebugAssets UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:generateDebugRFile UP-TO-DATE
+> Task :play-services-cast:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :play-services-tasks:mergeDebugAssets UP-TO-DATE
+> Task :play-services-core-tokenG:checkDefaultDebugAarMetadata UP-TO-DATE
+> Task :play-services-cast-core:generateDebugRFile UP-TO-DATE
+> Task :play-services-cast-framework:mergeDebugAssets UP-TO-DATE
+> Task :play-services-tasks-ktx:mergeDebugShaders UP-TO-DATE
+> Task :play-services-basement-ktx:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :play-services-auth-base:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:mergeDebugShaders UP-TO-DATE
+> Task :play-services-api:compileDebugJavaWithJavac UP-TO-DATE
+> Task :play-services-auth:compileDebugJavaWithJavac UP-TO-DATE
+> Task :play-services-base:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:compileDebugShaders NO-SOURCE
+> Task :play-services-auth:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :play-services-cast:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:generateDebugAssets UP-TO-DATE
+> Task :play-services-api:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :play-services-api:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :play-services-tasks-ktx:compileDebugShaders NO-SOURCE
+> Task :play-services-tasks-ktx:generateDebugAssets UP-TO-DATE
+> Task :play-services-tasks:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :play-services-tasks-ktx:mergeDebugAssets UP-TO-DATE
+> Task :play-services-auth:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:mergeDebugAssets UP-TO-DATE
+> Task :play-services-basement:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :play-services-api:processDebugJavaRes NO-SOURCE
+> Task :play-services-auth:processDebugJavaRes NO-SOURCE
+> Task :play-services-cast-framework:compileDebugJavaWithJavac UP-TO-DATE
+> Task :play-services-auth-base:processDebugJavaRes NO-SOURCE
+> Task :play-services-cast-framework:processDebugJavaRes NO-SOURCE
+> Task :play-services-cast-framework:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :play-services-cast-framework-core:generateDebugRFile UP-TO-DATE
+> Task :play-services-base-core:compileDebugKotlin UP-TO-DATE
+> Task :play-services-tasks-ktx:compileDebugKotlin UP-TO-DATE
+> Task :play-services-core-tokenG:processDefaultDebugMainManifest UP-TO-DATE
+> Task :play-services-cast-framework:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:processDebugJavaRes NO-SOURCE
+> Task :play-services-tasks:processDebugJavaRes NO-SOURCE
+> Task :play-services-core:microg-ui-tools:compileDebugJavaWithJavac UP-TO-DATE
+> Task :play-services-core-tokenG:desugarDefaultDebugFileDependencies UP-TO-DATE
+> Task :play-services-basement-ktx:processDebugJavaRes UP-TO-DATE
+> Task :play-services-basement:processDebugJavaRes UP-TO-DATE
+> Task :play-services-base:processDebugJavaRes UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:processDebugJavaRes NO-SOURCE
+> Task :play-services-cast:processDebugJavaRes UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :play-services-core-tokenG:mergeDefaultDebugAssets UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :play-services-core-tokenG:processDefaultDebugManifest UP-TO-DATE
+> Task :play-services-core-tokenG:compressDefaultDebugAssets UP-TO-DATE
+> Task :play-services-core-tokenG:processDefaultDebugManifestForPackage UP-TO-DATE
+> Task :play-services-auth-base:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :play-services-tasks-ktx:compileDebugJavaWithJavac NO-SOURCE
+> Task :play-services-base:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :play-services-basement-ktx:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :play-services-tasks-ktx:processDebugJavaRes UP-TO-DATE
+> Task :play-services-base-core:compileDebugJavaWithJavac UP-TO-DATE
+> Task :play-services-api:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :play-services-tasks:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :play-services-basement:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :play-services-tasks-ktx:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :play-services-tasks-ktx:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :play-services-tasks-ktx:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :play-services-core-tokenG:checkDefaultDebugDuplicateClasses UP-TO-DATE
+> Task :play-services-base-core:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :play-services-auth:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :play-services-base-core:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :play-services-base-core:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :play-services-cast-framework:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :play-services-cast:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :play-services-base-core:processDebugJavaRes UP-TO-DATE
+> Task :play-services-api:mergeDebugJniLibFolders UP-TO-DATE
+> Task :play-services-auth:mergeDebugJniLibFolders UP-TO-DATE
+> Task :play-services-api:mergeDebugNativeLibs NO-SOURCE
+> Task :play-services-basement-ktx:mergeDebugJniLibFolders UP-TO-DATE
+> Task :play-services-base-core:mergeDebugJniLibFolders UP-TO-DATE
+> Task :play-services-auth:mergeDebugNativeLibs NO-SOURCE
+> Task :play-services-basement:mergeDebugJniLibFolders UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:compileDebugJavaWithJavac UP-TO-DATE
+> Task :play-services-basement-ktx:mergeDebugNativeLibs NO-SOURCE
+> Task :play-services-api:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :play-services-basement:mergeDebugNativeLibs NO-SOURCE
+> Task :play-services-base:mergeDebugJniLibFolders UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :play-services-cast:mergeDebugJniLibFolders UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :play-services-basement:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :play-services-basement-ktx:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :play-services-base:mergeDebugNativeLibs NO-SOURCE
+> Task :play-services-cast:mergeDebugNativeLibs NO-SOURCE
+> Task :play-services-cast-core:mergeDebugJniLibFolders UP-TO-DATE
+> Task :play-services-base:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :play-services-auth-base:mergeDebugJniLibFolders UP-TO-DATE
+> Task :play-services-cast:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :play-services-cast-framework-core:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :play-services-cast-framework:mergeDebugJniLibFolders UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:mergeDebugJniLibFolders UP-TO-DATE
+> Task :play-services-base-core:mergeDebugNativeLibs NO-SOURCE
+> Task :play-services-auth-base:mergeDebugNativeLibs NO-SOURCE
+> Task :play-services-conscrypt-provider-core:mergeDebugNativeLibs NO-SOURCE
+> Task :play-services-tasks:mergeDebugJniLibFolders UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:mergeDebugJniLibFolders UP-TO-DATE
+> Task :play-services-cast-framework:mergeDebugNativeLibs NO-SOURCE
+> Task :play-services-auth:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :play-services-base-core:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :play-services-conscrypt-provider-core:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :play-services-cast-framework-core:mergeDebugJniLibFolders UP-TO-DATE
+> Task :play-services-core-tokenG:mergeDefaultDebugJniLibFolders UP-TO-DATE
+> Task :play-services-tasks-ktx:mergeDebugJniLibFolders UP-TO-DATE
+> Task :play-services-tasks-ktx:mergeDebugNativeLibs NO-SOURCE
+> Task :play-services-tasks-ktx:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :play-services-cast-framework-core:mergeDebugNativeLibs NO-SOURCE
+> Task :play-services-cast-core:mergeDebugNativeLibs NO-SOURCE
+> Task :play-services-auth-base:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :play-services-core-tokenG:validateSigningDefaultDebug UP-TO-DATE
+> Task :play-services-cast-core:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :play-services-core-tokenG:preHuaweiDebugBuild UP-TO-DATE
+> Task :play-services-core-tokenG:writeDefaultDebugAppMetadata UP-TO-DATE
+> Task :play-services-core-tokenG:mergeHuaweiDebugNativeDebugMetadata NO-SOURCE
+> Task :play-services-cast-framework-core:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :play-services-cast-core:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :play-services-core-tokenG:dataBindingTriggerHuaweiDebug UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:mergeDebugNativeLibs NO-SOURCE
+> Task :play-services-tasks:mergeDebugNativeLibs NO-SOURCE
+> Task :play-services-cast-framework:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :play-services-tasks:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :play-services-core-tokenG:generateHuaweiDebugBuildConfig UP-TO-DATE
+> Task :play-services-core-tokenG:generateHuaweiDebugResValues UP-TO-DATE
+> Task :play-services-core-tokenG:javaPreCompileHuaweiDebug UP-TO-DATE
+> Task :play-services-cast-framework-core:compileDebugKotlin NO-SOURCE
+> Task :play-services-cast-framework-core:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :play-services-core-tokenG:writeDefaultDebugSigningConfigVersions UP-TO-DATE
+> Task :play-services-core-tokenG:mapHuaweiDebugSourceSetPaths UP-TO-DATE
+> Task :play-services-core-tokenG:desugarHuaweiDebugFileDependencies UP-TO-DATE
+> Task :play-services-core:microg-ui-tools:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :play-services-core-tokenG:createHuaweiDebugCompatibleScreenManifests UP-TO-DATE
+> Task :play-services-core-tokenG:mergeHuaweiDebugJniLibFolders UP-TO-DATE
+> Task :play-services-core-tokenG:mergeHuaweiDebugShaders UP-TO-DATE
+> Task :play-services-core-tokenG:validateSigningHuaweiDebug UP-TO-DATE
+> Task :play-services-core-tokenG:generateHuaweiDebugResources UP-TO-DATE
+> Task :play-services-core-tokenG:extractDeepLinksHuaweiDebug UP-TO-DATE
+> Task :play-services-core-tokenG:checkHuaweiDebugAarMetadata UP-TO-DATE
+> Task :play-services-core-tokenG:writeHuaweiDebugSigningConfigVersions UP-TO-DATE
+> Task :play-services-core-tokenG:compileHuaweiDebugShaders NO-SOURCE
+> Task :play-services-cast-core:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :play-services-cast-framework-core:compileDebugJavaWithJavac UP-TO-DATE
+> Task :play-services-core-tokenG:generateHuaweiDebugAssets UP-TO-DATE
+> Task :play-services-core-tokenG:checkHuaweiDebugDuplicateClasses UP-TO-DATE
+> Task :play-services-cast-framework-core:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :play-services-cast-core:compileDebugKotlin NO-SOURCE
+> Task :play-services-cast-framework-core:processDebugJavaRes UP-TO-DATE
+> Task :play-services-core-tokenG:processHuaweiDebugMainManifest UP-TO-DATE
+> Task :play-services-core-tokenG:mergeHuaweiDebugResources UP-TO-DATE
+> Task :play-services-cast-framework-core:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :play-services-core-tokenG:writeHuaweiDebugAppMetadata UP-TO-DATE
+> Task :play-services-core-tokenG:processHuaweiDebugNavigationResources UP-TO-DATE
+> Task :play-services-core-tokenG:mergeHuaweiDebugAssets UP-TO-DATE
+> Task :play-services-core-tokenG:mergeHuaweiDebugNativeLibs UP-TO-DATE
+> Task :play-services-core-tokenG:processHuaweiDebugManifest UP-TO-DATE
+> Task :play-services-core-tokenG:compressHuaweiDebugAssets UP-TO-DATE
+> Task :play-services-core-tokenG:compileHuaweiDebugNavigationResources UP-TO-DATE
+> Task :play-services-cast-framework-core:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :play-services-core-tokenG:processHuaweiDebugManifestForPackage UP-TO-DATE
+> Task :play-services-core-tokenG:mergeDefaultDebugNativeLibs UP-TO-DATE
+> Task :play-services-core-tokenG:stripHuaweiDebugDebugSymbols UP-TO-DATE
+> Task :play-services-core-tokenG:mergeExtDexHuaweiDebug UP-TO-DATE
+> Task :play-services-core-tokenG:processDefaultDebugResources UP-TO-DATE
+> Task :play-services-core-tokenG:processHuaweiDebugResources UP-TO-DATE
+> Task :play-services-cast-core:compileDebugJavaWithJavac UP-TO-DATE
+> Task :play-services-core-tokenG:mergeExtDexDefaultDebug UP-TO-DATE
+> Task :play-services-core-tokenG:stripDefaultDebugDebugSymbols UP-TO-DATE
+> Task :play-services-cast-core:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :play-services-cast-core:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :play-services-cast-core:processDebugJavaRes UP-TO-DATE
+> Task :play-services-cast-core:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :play-services-core-tokenG:mergeLibDexDefaultDebug UP-TO-DATE
+> Task :play-services-core-tokenG:mergeLibDexHuaweiDebug UP-TO-DATE
+> Task :play-services-core-tokenG:dataBindingMergeDependencyArtifactsHuaweiDebug UP-TO-DATE
+> Task :play-services-core-tokenG:dataBindingMergeDependencyArtifactsDefaultDebug UP-TO-DATE
+> Task :play-services-core-tokenG:dataBindingGenBaseClassesDefaultDebug UP-TO-DATE
+> Task :play-services-core-tokenG:dataBindingGenBaseClassesHuaweiDebug UP-TO-DATE
+
+> Task :play-services-core-tokenG:compileHuaweiDebugKotlin FAILED
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/account/AccountPreference.kt:8:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/account/AccountPreference.kt:27:26 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/account/AccountPreference.kt:35:40 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/account/AccountPreference.kt:36:46 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/account/AccountPreference.kt:37:44 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/account/AccountPreference.kt:38:45 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/account/AccountPreference.kt:39:48 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:26:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:41:23 Unresolved reference 'people'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:42:23 Unresolved reference 'people'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:50:36 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:92:47 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:121:25 Unresolved reference 'PeopleManager'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:137:35 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:138:25 Unresolved reference 'PeopleManager'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:141:70 Argument type mismatch: actual type is 'Any', but 'Bitmap?' was expected.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:149:72 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:153:20 Unresolved reference 'findViewById'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:153:51 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:154:20 Unresolved reference 'findViewById'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:154:51 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:156:20 Unresolved reference 'findViewById'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:156:51 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:156:87 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:157:20 Unresolved reference 'findViewById'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:157:51 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:157:96 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:158:20 Unresolved reference 'findViewById'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:158:49 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:158:93 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:159:20 Unresolved reference 'findViewById'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:159:49 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:159:93 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:161:39 Unresolved reference 'findViewById'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:161:68 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:162:39 Unresolved reference 'findViewById'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:162:68 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:165:23 Unresolved reference 'PeopleManager'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:167:28 Unresolved reference 'findViewById'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:167:61 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:172:87 Unresolved reference 'create'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:188:23 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:190:21 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:192:15 Unresolved reference 'addCallback'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:203:15 Unresolved reference 'show'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:207:24 Unresolved reference 'DatabaseHelper'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:209:13 Argument type mismatch: actual type is 'R (of fun <T : Closeable?, R> T.use)', but 'K (of fun <K> TRY_CALL)' was expected.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:209:45 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:209:51 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:210:28 Unresolved reference 'moveToNext'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:211:38 Unresolved reference 'getColumnIndex'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:212:21 Argument type mismatch: actual type is 'K (of fun <K> WHEN_CALL)', but 'K (of fun <K> WHEN_CALL)' was expected.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:212:35 Argument type mismatch: actual type is 'T? (of fun <T> T.takeIf)', but 'K (of fun <K> WHEN_CALL)' was expected.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:212:42 Unresolved reference 'getString'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:212:58 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:212:65 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:212:90 Null cannot be a value of a non-null type 'uninferred K (of fun <K> WHEN_CALL)'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:213:24 Null cannot be a value of a non-null type 'uninferred K (of fun <K> WHEN_CALL)'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:216:13 Null cannot be a value of a non-null type 'uninferred K (of fun <K> TRY_CALL)'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:225:63 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:229:46 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:230:30 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:231:29 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/PrivacyFragment.kt:25:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/PrivacyFragment.kt:45:36 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/appcert/AppCertManager.kt:18:31 Unresolved reference 'BuildConfig'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/appcert/AppCertManager.kt:28:27 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/appcert/AppCertManager.kt:29:27 Unresolved reference 'RegisterRequest'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/appcert/AppCertManager.kt:30:27 Unresolved reference 'completeRegisterRequest'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/appcert/AppCertManager.kt:80:29 Unresolved reference 'completeRegisterRequest'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/appcert/AppCertManager.kt:80:62 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/appcert/AppCertManager.kt:80:84 Unresolved reference 'RegisterRequest'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/appcert/AppCertManager.kt:82:94 Unresolved reference 'BuildConfig'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/appcert/AppCertManager.kt:94:91 Unresolved reference 'BuildConfig'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:22:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:29:31 Unresolved reference 'databinding'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:30:31 Unresolved reference 'databinding'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:36:23 Unresolved reference 'people'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:37:23 Unresolved reference 'people'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:93:30 Unresolved reference 'DatabaseHelper'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:97:55 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:97:62 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:97:67 'operator' modifier is required on 'FirNamedFunctionSymbol kotlin/compareTo' in 'compareTo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:97:75 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:97:75 Not enough information to infer type argument for 'T'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:97:75 Not enough information to infer type argument for 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:97:79 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:106:54 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:107:59 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:108:53 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:110:25 Unresolved reference 'PeopleManager'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:113:34 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:114:25 Unresolved reference 'PeopleManager'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:130:40 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:131:37 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:137:23 Unresolved reference 'SigninPickerBinding'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:143:63 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:148:53 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:148:61 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:148:67 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:148:77 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:163:9 None of the following candidates is applicable:
+fun setContentView(p0: Int): Unit
+fun setContentView(p0: View!): Unit
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:167:23 Unresolved reference 'SigninConfirmBinding'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:170:24 Argument type mismatch: actual type is 'File', but 'View' was expected.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:186:9 None of the following candidates is applicable:
+fun setContentView(p0: Int): Unit
+fun setContentView(p0: View!): Unit
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:19:23 Unresolved reference 'people'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:92:30 Unresolved reference 'DatabaseHelper'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:97:57 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:97:64 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:97:69 'operator' modifier is required on 'FirNamedFunctionSymbol kotlin/compareTo' in 'compareTo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:97:77 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:97:77 Not enough information to infer type argument for 'T'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:97:81 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:98:58 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:98:65 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:98:70 'operator' modifier is required on 'FirNamedFunctionSymbol kotlin/compareTo' in 'compareTo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:98:78 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:98:78 Not enough information to infer type argument for 'T'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:98:82 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:99:59 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:99:66 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:99:71 'operator' modifier is required on 'FirNamedFunctionSymbol kotlin/compareTo' in 'compareTo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:99:79 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:99:79 Not enough information to infer type argument for 'T'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:99:83 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:100:53 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:100:60 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:100:65 'operator' modifier is required on 'FirNamedFunctionSymbol kotlin/compareTo' in 'compareTo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:100:73 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:100:73 Not enough information to infer type argument for 'T'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:100:77 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:22:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:75:36 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:114:41 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:115:39 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:120:52 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:120:108 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:120:149 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:123:40 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:127:40 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:129:25 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:129:38 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:129:38 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+val <T> KClass<T>.java: Class<T>
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:170:21 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:176:44 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:21:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:39:36 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:42:36 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:47:20 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:54:18 Unresolved reference 'close'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:70:58 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:71:57 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:72:55 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:73:58 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:74:56 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:88:21 Unresolved reference 'setGcmServiceConfiguration'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:90:25 Unresolved reference 'getGcmServiceInfo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:100:55 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:101:21 Unresolved reference 'setGcmServiceConfiguration'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:101:60 Unresolved reference 'getGcmServiceInfo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:110:55 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:111:21 Unresolved reference 'setGcmServiceConfiguration'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:111:60 Unresolved reference 'getGcmServiceInfo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:120:55 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:121:21 Unresolved reference 'setGcmServiceConfiguration'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:121:60 Unresolved reference 'getGcmServiceInfo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:130:55 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:131:21 Unresolved reference 'setGcmServiceConfiguration'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:131:60 Unresolved reference 'getGcmServiceInfo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:147:27 Unresolved reference 'getGcmServiceInfo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:162:13 Unresolved reference 'setGcmServiceConfiguration'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:170:25 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:171:24 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:172:27 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:177:23 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:178:26 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:183:39 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:183:47 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:183:77 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:183:108 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:183:136 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:200:68 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:201:14 Unresolved reference 'setTitle'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:201:23 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:202:25 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:226:25 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:228:38 Unresolved reference 'resetDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:230:58 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:230:123 Unresolved reference 'show'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:17:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:22:27 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:26:36 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:37:20 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:52:18 Unresolved reference 'close'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:56:36 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:70:24 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:71:36 Unresolved reference 'appList'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:71:50 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:73:44 Unresolved reference 'packageName'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:74:44 Unresolved reference 'lastMessageTimestamp'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:76:29 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:77:69 Unresolved reference 'lastMessageTimestamp'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:83:29 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:84:55 Unresolved reference 'packageName'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:88:55 Unresolved reference 'packageName'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:89:26 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:89:38 Unresolved reference 'getRegistrationsByApp'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:89:64 Unresolved reference 'packageName'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:91:21 Unresolved reference 'it'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:91:30 Unresolved reference 'title'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:92:32 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:92:37 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:93:26 Function invocation 'first()' expected.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:93:32 Unresolved reference 'order'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:96:26 Unresolved reference 'close'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:109:43 Function 'component1()' is ambiguous for this expression: 
+fun <T> Array<out T>.component1(): T
+fun ByteArray.component1(): Byte
+fun ShortArray.component1(): Short
+fun IntArray.component1(): Int
+fun LongArray.component1(): Long
+fun FloatArray.component1(): Float
+fun DoubleArray.component1(): Double
+fun BooleanArray.component1(): Boolean
+fun CharArray.component1(): Char
+fun <T> List<T>.component1(): T
+fun <K, V> Map.Entry<K, V>.component1(): K
+fun UIntArray.component1(): UInt
+fun ULongArray.component1(): ULong
+fun UByteArray.component1(): UByte
+fun UShortArray.component1(): UShort.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:109:43 Function 'component2()' is ambiguous for this expression: 
+fun <T> Array<out T>.component2(): T
+fun ByteArray.component2(): Byte
+fun ShortArray.component2(): Short
+fun IntArray.component2(): Int
+fun LongArray.component2(): Long
+fun FloatArray.component2(): Float
+fun DoubleArray.component2(): Double
+fun BooleanArray.component2(): Boolean
+fun CharArray.component2(): Char
+fun <T> List<T>.component2(): T
+fun <K, V> Map.Entry<K, V>.component2(): V
+fun UIntArray.component2(): UInt
+fun ULongArray.component2(): ULong
+fun UByteArray.component2(): UByte
+fun UShortArray.component2(): UShort.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:109:43 Method 'iterator()' is ambiguous for this expression. Applicable candidates:
+fun <T> Enumeration<T>.iterator(): Iterator<T>
+fun <T> Iterator<T>.iterator(): Iterator<T>
+fun <K, V> Map<out K, V>.iterator(): Iterator<Map.Entry<K, V>>
+fun <K, V> MutableMap<K, V>.iterator(): MutableIterator<MutableMap.MutableEntry<K, V>>
+fun CharSequence.iterator(): CharIterator
+fun BufferedInputStream.iterator(): ByteIterator
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:140:27 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:142:17 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:144:17 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:148:22 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:149:30 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:150:25 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:18:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:23:27 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:24:27 Unresolved reference 'PushRegisterManager'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:35:36 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:40:36 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:47:20 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:64:22 Unresolved reference 'setAppWakeForDelivery'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:65:22 Unresolved reference 'close'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:71:37 Not enough information to infer type argument for 'K'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:71:50 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:71:50 Not enough information to infer type argument for 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:71:65 Unresolved reference 'getRegistrationsByApp'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:71:96 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:71:96 Not enough information to infer type argument for 'T'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:73:43 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:76:22 Unresolved reference 'setAppAllowRegister'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:77:22 Unresolved reference 'close'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:81:35 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:91:26 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:92:18 Unresolved reference 'setTitle'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:92:37 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:95:59 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:95:62 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:96:63 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:96:66 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:102:47 Method 'iterator()' is ambiguous for this expression. Applicable candidates:
+fun <T> Enumeration<T>.iterator(): Iterator<T>
+fun <T> Iterator<T>.iterator(): Iterator<T>
+fun <K, V> Map<out K, V>.iterator(): Iterator<Map.Entry<K, V>>
+fun <K, V> MutableMap<K, V>.iterator(): MutableIterator<MutableMap.MutableEntry<K, V>>
+fun CharSequence.iterator(): CharIterator
+fun BufferedInputStream.iterator(): ByteIterator
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:102:47 Unresolved reference 'getRegistrationsByApp'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:103:21 Unresolved reference 'PushRegisterManager'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:118:36 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:118:51 Unresolved reference 'getApp'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:119:46 Unresolved reference 'wakeForDelivery'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:120:44 Unresolved reference 'allowRegister'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:121:33 Not enough information to infer type argument for 'K'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:121:46 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:121:46 Not enough information to infer type argument for 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:121:61 Unresolved reference 'getRegistrationsByApp'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:121:92 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:121:92 Not enough information to infer type argument for 'T'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:125:23 Unresolved reference 'totalMessageCount'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:126:37 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:128:37 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:128:73 Unresolved reference 'totalMessageCount'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:128:97 Unresolved reference 'totalMessageBytes'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:129:26 Unresolved reference 'lastMessageTimestamp'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:130:54 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:130:134 Unresolved reference 'lastMessageTimestamp'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:133:34 Method 'iterator()' is ambiguous for this expression. Applicable candidates:
+fun <T> Enumeration<T>.iterator(): Iterator<T>
+fun <T> Iterator<T>.iterator(): Iterator<T>
+fun <K, V> Map<out K, V>.iterator(): Iterator<Map.Entry<K, V>>
+fun <K, V> MutableMap<K, V>.iterator(): MutableIterator<MutableMap.MutableEntry<K, V>>
+fun CharSequence.iterator(): CharIterator
+fun BufferedInputStream.iterator(): ByteIterator
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:136:41 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:138:41 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:143:22 Unresolved reference 'close'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:149:18 Unresolved reference 'close'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:22:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:28:27 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:29:27 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:30:27 Unresolved reference 'getGcmServiceInfo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:40:36 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:50:20 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:59:36 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:71:60 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:76:13 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:84:41 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:84:50 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:84:72 Unresolved reference 'isEnabled'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:92:18 Unresolved reference 'close'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:100:30 Unresolved reference 'getGcmServiceInfo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:104:38 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:106:38 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:114:35 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:114:35 Function 'component1()' is ambiguous for this expression: 
+fun <T> Array<out T>.component1(): T
+fun ByteArray.component1(): Byte
+fun ShortArray.component1(): Short
+fun IntArray.component1(): Int
+fun LongArray.component1(): Long
+fun FloatArray.component1(): Float
+fun DoubleArray.component1(): Double
+fun BooleanArray.component1(): Boolean
+fun CharArray.component1(): Char
+fun <T> List<T>.component1(): T
+fun <K, V> Map.Entry<K, V>.component1(): K
+fun UIntArray.component1(): UInt
+fun ULongArray.component1(): ULong
+fun UByteArray.component1(): UByte
+fun UShortArray.component1(): UShort.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:114:35 Function 'component2()' is ambiguous for this expression: 
+fun <T> Array<out T>.component2(): T
+fun ByteArray.component2(): Byte
+fun ShortArray.component2(): Short
+fun IntArray.component2(): Int
+fun LongArray.component2(): Long
+fun FloatArray.component2(): Float
+fun DoubleArray.component2(): Double
+fun BooleanArray.component2(): Boolean
+fun CharArray.component2(): Char
+fun <T> List<T>.component2(): T
+fun <K, V> Map.Entry<K, V>.component2(): V
+fun UIntArray.component2(): UInt
+fun ULongArray.component2(): ULong
+fun UByteArray.component2(): UByte
+fun UShortArray.component2(): UShort.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:115:37 Unresolved reference 'appList'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:115:66 Unresolved reference 'it'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:116:38 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:117:25 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:117:25 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun <A, B> A.to(that: B): Pair<A, B>
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:117:82 Unresolved reference 'packageName'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:118:32 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:118:32 Function 'component1()' is ambiguous for this expression: 
+fun <T> Array<out T>.component1(): T
+fun ByteArray.component1(): Byte
+fun ShortArray.component1(): Short
+fun IntArray.component1(): Int
+fun LongArray.component1(): Long
+fun FloatArray.component1(): Float
+fun DoubleArray.component1(): Double
+fun BooleanArray.component1(): Boolean
+fun CharArray.component1(): Char
+fun <T> List<T>.component1(): T
+fun <K, V> Map.Entry<K, V>.component1(): K
+fun UIntArray.component1(): UInt
+fun ULongArray.component1(): ULong
+fun UByteArray.component1(): UByte
+fun UShortArray.component1(): UShort.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:118:32 Function 'component2()' is ambiguous for this expression: 
+fun <T> Array<out T>.component2(): T
+fun ByteArray.component2(): Byte
+fun ShortArray.component2(): Short
+fun IntArray.component2(): Int
+fun LongArray.component2(): Long
+fun FloatArray.component2(): Float
+fun DoubleArray.component2(): Double
+fun BooleanArray.component2(): Boolean
+fun CharArray.component2(): Char
+fun <T> List<T>.component2(): T
+fun <K, V> Map.Entry<K, V>.component2(): V
+fun UIntArray.component2(): UInt
+fun ULongArray.component2(): ULong
+fun UByteArray.component2(): UByte
+fun UShortArray.component2(): UShort.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:119:39 Null cannot be a value of a non-null type 'uninferred K (of fun <K> WHEN_CALL)'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:119:49 Argument type mismatch: actual type is 'Pair<uninferred A (of fun <A, B> A.to), uninferred B (of fun <A, B> A.to)>', but 'K (of fun <K> WHEN_CALL)' was expected.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:119:53 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:119:53 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun <A, B> A.to(that: B): Pair<A, B>
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:120:40 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:120:45 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:120:45 Function 'component1()' is ambiguous for this expression: 
+fun <T> Array<out T>.component1(): T
+fun ByteArray.component1(): Byte
+fun ShortArray.component1(): Short
+fun IntArray.component1(): Int
+fun LongArray.component1(): Long
+fun FloatArray.component1(): Float
+fun DoubleArray.component1(): Double
+fun BooleanArray.component1(): Boolean
+fun CharArray.component1(): Char
+fun <T> List<T>.component1(): T
+fun <K, V> Map.Entry<K, V>.component1(): K
+fun UIntArray.component1(): UInt
+fun ULongArray.component1(): ULong
+fun UByteArray.component1(): UByte
+fun UShortArray.component1(): UShort.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:120:45 Function 'component2()' is ambiguous for this expression: 
+fun <T> Array<out T>.component2(): T
+fun ByteArray.component2(): Byte
+fun ShortArray.component2(): Short
+fun IntArray.component2(): Int
+fun LongArray.component2(): Long
+fun FloatArray.component2(): Float
+fun DoubleArray.component2(): Double
+fun BooleanArray.component2(): Boolean
+fun CharArray.component2(): Char
+fun <T> List<T>.component2(): T
+fun <K, V> Map.Entry<K, V>.component2(): V
+fun UIntArray.component2(): UInt
+fun ULongArray.component2(): ULong
+fun UByteArray.component2(): UByte
+fun UShortArray.component2(): UShort.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:126:47 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:127:50 Unresolved reference 'packageName'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:132:55 Unresolved reference 'packageName'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:134:19 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:134:19 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun <T, R> T.let(block: (T) -> R): R
+    [R|Contract description]
+     <
+        CallsInPlace(block, EXACTLY_ONCE)
+    >
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:134:23 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:134:28 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:134:28 Not enough information to infer type argument for 'A'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:134:35 Unresolved reference 'size'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:134:47 Unresolved reference 'size'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:135:26 Unresolved reference 'close'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:143:33 Unresolved reference 'size'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:144:30 Unresolved reference 'size'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:147:35 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:147:42 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:148:22 Unresolved reference 'layoutResource'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:149:22 Unresolved reference 'isIconSpaceReserved'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:158:75 Unresolved reference 'size'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:168:27 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:169:43 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:169:91 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:171:22 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:172:30 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:173:25 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:184:26 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:191:13 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:192:46 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:24:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:30:27 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:31:27 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:64:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:84:62 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:95:60 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:99:60 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:103:60 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:107:60 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:111:60 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:120:60 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:128:60 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:135:13 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:214:13 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:214:22 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:214:35 Unresolved reference 'isEnabled'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:215:28 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:220:21 Unresolved reference 'R'.
+
+> Task :play-services-core-tokenG:compileDefaultDebugKotlin FAILED
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/account/AccountPreference.kt:8:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/account/AccountPreference.kt:27:26 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/account/AccountPreference.kt:35:40 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/account/AccountPreference.kt:36:46 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/account/AccountPreference.kt:37:44 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/account/AccountPreference.kt:38:45 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/account/AccountPreference.kt:39:48 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:26:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:41:23 Unresolved reference 'people'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:42:23 Unresolved reference 'people'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:50:36 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:92:47 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:121:25 Unresolved reference 'PeopleManager'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:137:35 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:138:25 Unresolved reference 'PeopleManager'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:141:70 Argument type mismatch: actual type is 'Any', but 'Bitmap?' was expected.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:149:72 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:153:20 Unresolved reference 'findViewById'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:153:51 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:154:20 Unresolved reference 'findViewById'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:154:51 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:156:20 Unresolved reference 'findViewById'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:156:51 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:156:87 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:157:20 Unresolved reference 'findViewById'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:157:51 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:157:96 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:158:20 Unresolved reference 'findViewById'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:158:49 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:158:93 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:159:20 Unresolved reference 'findViewById'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:159:49 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:159:93 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:161:39 Unresolved reference 'findViewById'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:161:68 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:162:39 Unresolved reference 'findViewById'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:162:68 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:165:23 Unresolved reference 'PeopleManager'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:167:28 Unresolved reference 'findViewById'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:167:61 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:172:87 Unresolved reference 'create'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:188:23 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:190:21 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:192:15 Unresolved reference 'addCallback'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:203:15 Unresolved reference 'show'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:207:24 Unresolved reference 'DatabaseHelper'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:209:13 Argument type mismatch: actual type is 'R (of fun <T : Closeable?, R> T.use)', but 'K (of fun <K> TRY_CALL)' was expected.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:209:45 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:209:51 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:210:28 Unresolved reference 'moveToNext'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:211:38 Unresolved reference 'getColumnIndex'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:212:21 Argument type mismatch: actual type is 'K (of fun <K> WHEN_CALL)', but 'K (of fun <K> WHEN_CALL)' was expected.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:212:35 Argument type mismatch: actual type is 'T? (of fun <T> T.takeIf)', but 'K (of fun <K> WHEN_CALL)' was expected.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:212:42 Unresolved reference 'getString'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:212:58 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:212:65 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:212:90 Null cannot be a value of a non-null type 'uninferred K (of fun <K> WHEN_CALL)'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:213:24 Null cannot be a value of a non-null type 'uninferred K (of fun <K> WHEN_CALL)'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:216:13 Null cannot be a value of a non-null type 'uninferred K (of fun <K> TRY_CALL)'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:225:63 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:229:46 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:230:30 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/AccountsFragment.kt:231:29 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/PrivacyFragment.kt:25:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/java/org/microg/gms/ui/PrivacyFragment.kt:45:36 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/appcert/AppCertManager.kt:18:31 Unresolved reference 'BuildConfig'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/appcert/AppCertManager.kt:28:27 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/appcert/AppCertManager.kt:29:27 Unresolved reference 'RegisterRequest'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/appcert/AppCertManager.kt:30:27 Unresolved reference 'completeRegisterRequest'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/appcert/AppCertManager.kt:80:29 Unresolved reference 'completeRegisterRequest'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/appcert/AppCertManager.kt:80:62 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/appcert/AppCertManager.kt:80:84 Unresolved reference 'RegisterRequest'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/appcert/AppCertManager.kt:82:94 Unresolved reference 'BuildConfig'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/appcert/AppCertManager.kt:94:91 Unresolved reference 'BuildConfig'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:22:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:29:31 Unresolved reference 'databinding'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:30:31 Unresolved reference 'databinding'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:36:23 Unresolved reference 'people'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:37:23 Unresolved reference 'people'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:93:30 Unresolved reference 'DatabaseHelper'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:97:55 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:97:62 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:97:67 'operator' modifier is required on 'FirNamedFunctionSymbol kotlin/compareTo' in 'compareTo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:97:75 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:97:75 Not enough information to infer type argument for 'T'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:97:75 Not enough information to infer type argument for 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:97:79 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:106:54 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:107:59 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:108:53 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:110:25 Unresolved reference 'PeopleManager'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:113:34 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:114:25 Unresolved reference 'PeopleManager'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:130:40 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:131:37 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:137:23 Unresolved reference 'SigninPickerBinding'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:143:63 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:148:53 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:148:61 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:148:67 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:148:77 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:163:9 None of the following candidates is applicable:
+fun setContentView(p0: Int): Unit
+fun setContentView(p0: View!): Unit
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:167:23 Unresolved reference 'SigninConfirmBinding'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:170:24 Argument type mismatch: actual type is 'File', but 'View' was expected.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/AuthSignInActivity.kt:186:9 None of the following candidates is applicable:
+fun setContentView(p0: Int): Unit
+fun setContentView(p0: View!): Unit
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:19:23 Unresolved reference 'people'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:92:30 Unresolved reference 'DatabaseHelper'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:97:57 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:97:64 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:97:69 'operator' modifier is required on 'FirNamedFunctionSymbol kotlin/compareTo' in 'compareTo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:97:77 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:97:77 Not enough information to infer type argument for 'T'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:97:81 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:98:58 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:98:65 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:98:70 'operator' modifier is required on 'FirNamedFunctionSymbol kotlin/compareTo' in 'compareTo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:98:78 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:98:78 Not enough information to infer type argument for 'T'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:98:82 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:99:59 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:99:66 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:99:71 'operator' modifier is required on 'FirNamedFunctionSymbol kotlin/compareTo' in 'compareTo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:99:79 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:99:79 Not enough information to infer type argument for 'T'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:99:83 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:100:53 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:100:60 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:100:65 'operator' modifier is required on 'FirNamedFunctionSymbol kotlin/compareTo' in 'compareTo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:100:73 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:100:73 Not enough information to infer type argument for 'T'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/auth/signin/extensions.kt:100:77 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:22:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:75:36 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:114:41 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:115:39 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:120:52 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:120:108 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:120:149 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:123:40 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:127:40 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:129:25 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:129:38 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:129:38 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+val <T> KClass<T>.java: Class<T>
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:170:21 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/DeviceRegistrationFragment.kt:176:44 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:21:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:39:36 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:42:36 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:47:20 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:54:18 Unresolved reference 'close'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:70:58 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:71:57 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:72:55 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:73:58 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:74:56 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:88:21 Unresolved reference 'setGcmServiceConfiguration'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:90:25 Unresolved reference 'getGcmServiceInfo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:100:55 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:101:21 Unresolved reference 'setGcmServiceConfiguration'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:101:60 Unresolved reference 'getGcmServiceInfo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:110:55 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:111:21 Unresolved reference 'setGcmServiceConfiguration'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:111:60 Unresolved reference 'getGcmServiceInfo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:120:55 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:121:21 Unresolved reference 'setGcmServiceConfiguration'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:121:60 Unresolved reference 'getGcmServiceInfo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:130:55 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:131:21 Unresolved reference 'setGcmServiceConfiguration'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:131:60 Unresolved reference 'getGcmServiceInfo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:147:27 Unresolved reference 'getGcmServiceInfo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:162:13 Unresolved reference 'setGcmServiceConfiguration'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:170:25 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:171:24 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:172:27 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:177:23 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:178:26 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:183:39 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:183:47 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:183:77 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:183:108 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:183:136 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:200:68 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:201:14 Unresolved reference 'setTitle'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:201:23 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:202:25 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:226:25 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:228:38 Unresolved reference 'resetDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:230:58 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAdvancedFragment.kt:230:123 Unresolved reference 'show'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:17:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:22:27 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:26:36 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:37:20 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:52:18 Unresolved reference 'close'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:56:36 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:70:24 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:71:36 Unresolved reference 'appList'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:71:50 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:73:44 Unresolved reference 'packageName'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:74:44 Unresolved reference 'lastMessageTimestamp'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:76:29 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:77:69 Unresolved reference 'lastMessageTimestamp'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:83:29 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:84:55 Unresolved reference 'packageName'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:88:55 Unresolved reference 'packageName'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:89:26 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:89:38 Unresolved reference 'getRegistrationsByApp'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:89:64 Unresolved reference 'packageName'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:91:21 Unresolved reference 'it'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:91:30 Unresolved reference 'title'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:92:32 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:92:37 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:93:26 Function invocation 'first()' expected.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:93:32 Unresolved reference 'order'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:96:26 Unresolved reference 'close'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:109:43 Function 'component1()' is ambiguous for this expression: 
+fun <T> Array<out T>.component1(): T
+fun ByteArray.component1(): Byte
+fun ShortArray.component1(): Short
+fun IntArray.component1(): Int
+fun LongArray.component1(): Long
+fun FloatArray.component1(): Float
+fun DoubleArray.component1(): Double
+fun BooleanArray.component1(): Boolean
+fun CharArray.component1(): Char
+fun <T> List<T>.component1(): T
+fun <K, V> Map.Entry<K, V>.component1(): K
+fun UIntArray.component1(): UInt
+fun ULongArray.component1(): ULong
+fun UByteArray.component1(): UByte
+fun UShortArray.component1(): UShort.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:109:43 Function 'component2()' is ambiguous for this expression: 
+fun <T> Array<out T>.component2(): T
+fun ByteArray.component2(): Byte
+fun ShortArray.component2(): Short
+fun IntArray.component2(): Int
+fun LongArray.component2(): Long
+fun FloatArray.component2(): Float
+fun DoubleArray.component2(): Double
+fun BooleanArray.component2(): Boolean
+fun CharArray.component2(): Char
+fun <T> List<T>.component2(): T
+fun <K, V> Map.Entry<K, V>.component2(): V
+fun UIntArray.component2(): UInt
+fun ULongArray.component2(): ULong
+fun UByteArray.component2(): UByte
+fun UShortArray.component2(): UShort.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:109:43 Method 'iterator()' is ambiguous for this expression. Applicable candidates:
+fun <T> Enumeration<T>.iterator(): Iterator<T>
+fun <T> Iterator<T>.iterator(): Iterator<T>
+fun <K, V> Map<out K, V>.iterator(): Iterator<Map.Entry<K, V>>
+fun <K, V> MutableMap<K, V>.iterator(): MutableIterator<MutableMap.MutableEntry<K, V>>
+fun CharSequence.iterator(): CharIterator
+fun BufferedInputStream.iterator(): ByteIterator
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:140:27 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:142:17 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:144:17 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:148:22 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:149:30 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAllAppsFragment.kt:150:25 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:18:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:23:27 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:24:27 Unresolved reference 'PushRegisterManager'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:35:36 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:40:36 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:47:20 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:64:22 Unresolved reference 'setAppWakeForDelivery'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:65:22 Unresolved reference 'close'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:71:37 Not enough information to infer type argument for 'K'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:71:50 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:71:50 Not enough information to infer type argument for 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:71:65 Unresolved reference 'getRegistrationsByApp'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:71:96 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:71:96 Not enough information to infer type argument for 'T'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:73:43 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:76:22 Unresolved reference 'setAppAllowRegister'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:77:22 Unresolved reference 'close'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:81:35 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:91:26 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:92:18 Unresolved reference 'setTitle'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:92:37 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:95:59 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:95:62 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:96:63 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:96:66 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:102:47 Method 'iterator()' is ambiguous for this expression. Applicable candidates:
+fun <T> Enumeration<T>.iterator(): Iterator<T>
+fun <T> Iterator<T>.iterator(): Iterator<T>
+fun <K, V> Map<out K, V>.iterator(): Iterator<Map.Entry<K, V>>
+fun <K, V> MutableMap<K, V>.iterator(): MutableIterator<MutableMap.MutableEntry<K, V>>
+fun CharSequence.iterator(): CharIterator
+fun BufferedInputStream.iterator(): ByteIterator
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:102:47 Unresolved reference 'getRegistrationsByApp'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:103:21 Unresolved reference 'PushRegisterManager'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:118:36 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:118:51 Unresolved reference 'getApp'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:119:46 Unresolved reference 'wakeForDelivery'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:120:44 Unresolved reference 'allowRegister'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:121:33 Not enough information to infer type argument for 'K'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:121:46 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:121:46 Not enough information to infer type argument for 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:121:61 Unresolved reference 'getRegistrationsByApp'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:121:92 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:121:92 Not enough information to infer type argument for 'T'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:125:23 Unresolved reference 'totalMessageCount'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:126:37 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:128:37 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:128:73 Unresolved reference 'totalMessageCount'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:128:97 Unresolved reference 'totalMessageBytes'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:129:26 Unresolved reference 'lastMessageTimestamp'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:130:54 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:130:134 Unresolved reference 'lastMessageTimestamp'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:133:34 Method 'iterator()' is ambiguous for this expression. Applicable candidates:
+fun <T> Enumeration<T>.iterator(): Iterator<T>
+fun <T> Iterator<T>.iterator(): Iterator<T>
+fun <K, V> Map<out K, V>.iterator(): Iterator<Map.Entry<K, V>>
+fun <K, V> MutableMap<K, V>.iterator(): MutableIterator<MutableMap.MutableEntry<K, V>>
+fun CharSequence.iterator(): CharIterator
+fun BufferedInputStream.iterator(): ByteIterator
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:136:41 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:138:41 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:143:22 Unresolved reference 'close'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationAppFragment.kt:149:18 Unresolved reference 'close'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:22:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:28:27 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:29:27 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:30:27 Unresolved reference 'getGcmServiceInfo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:40:36 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:50:20 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:59:36 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:71:60 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:76:13 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:84:41 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:84:50 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:84:72 Unresolved reference 'isEnabled'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:92:18 Unresolved reference 'close'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:100:30 Unresolved reference 'getGcmServiceInfo'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:104:38 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:106:38 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:114:35 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:114:35 Function 'component1()' is ambiguous for this expression: 
+fun <T> Array<out T>.component1(): T
+fun ByteArray.component1(): Byte
+fun ShortArray.component1(): Short
+fun IntArray.component1(): Int
+fun LongArray.component1(): Long
+fun FloatArray.component1(): Float
+fun DoubleArray.component1(): Double
+fun BooleanArray.component1(): Boolean
+fun CharArray.component1(): Char
+fun <T> List<T>.component1(): T
+fun <K, V> Map.Entry<K, V>.component1(): K
+fun UIntArray.component1(): UInt
+fun ULongArray.component1(): ULong
+fun UByteArray.component1(): UByte
+fun UShortArray.component1(): UShort.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:114:35 Function 'component2()' is ambiguous for this expression: 
+fun <T> Array<out T>.component2(): T
+fun ByteArray.component2(): Byte
+fun ShortArray.component2(): Short
+fun IntArray.component2(): Int
+fun LongArray.component2(): Long
+fun FloatArray.component2(): Float
+fun DoubleArray.component2(): Double
+fun BooleanArray.component2(): Boolean
+fun CharArray.component2(): Char
+fun <T> List<T>.component2(): T
+fun <K, V> Map.Entry<K, V>.component2(): V
+fun UIntArray.component2(): UInt
+fun ULongArray.component2(): ULong
+fun UByteArray.component2(): UByte
+fun UShortArray.component2(): UShort.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:115:37 Unresolved reference 'appList'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:115:66 Unresolved reference 'it'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:116:38 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:117:25 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:117:25 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun <A, B> A.to(that: B): Pair<A, B>
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:117:82 Unresolved reference 'packageName'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:118:32 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:118:32 Function 'component1()' is ambiguous for this expression: 
+fun <T> Array<out T>.component1(): T
+fun ByteArray.component1(): Byte
+fun ShortArray.component1(): Short
+fun IntArray.component1(): Int
+fun LongArray.component1(): Long
+fun FloatArray.component1(): Float
+fun DoubleArray.component1(): Double
+fun BooleanArray.component1(): Boolean
+fun CharArray.component1(): Char
+fun <T> List<T>.component1(): T
+fun <K, V> Map.Entry<K, V>.component1(): K
+fun UIntArray.component1(): UInt
+fun ULongArray.component1(): ULong
+fun UByteArray.component1(): UByte
+fun UShortArray.component1(): UShort.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:118:32 Function 'component2()' is ambiguous for this expression: 
+fun <T> Array<out T>.component2(): T
+fun ByteArray.component2(): Byte
+fun ShortArray.component2(): Short
+fun IntArray.component2(): Int
+fun LongArray.component2(): Long
+fun FloatArray.component2(): Float
+fun DoubleArray.component2(): Double
+fun BooleanArray.component2(): Boolean
+fun CharArray.component2(): Char
+fun <T> List<T>.component2(): T
+fun <K, V> Map.Entry<K, V>.component2(): V
+fun UIntArray.component2(): UInt
+fun ULongArray.component2(): ULong
+fun UByteArray.component2(): UByte
+fun UShortArray.component2(): UShort.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:119:39 Null cannot be a value of a non-null type 'uninferred K (of fun <K> WHEN_CALL)'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:119:49 Argument type mismatch: actual type is 'Pair<uninferred A (of fun <A, B> A.to), uninferred B (of fun <A, B> A.to)>', but 'K (of fun <K> WHEN_CALL)' was expected.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:119:53 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:119:53 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun <A, B> A.to(that: B): Pair<A, B>
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:120:40 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:120:45 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:120:45 Function 'component1()' is ambiguous for this expression: 
+fun <T> Array<out T>.component1(): T
+fun ByteArray.component1(): Byte
+fun ShortArray.component1(): Short
+fun IntArray.component1(): Int
+fun LongArray.component1(): Long
+fun FloatArray.component1(): Float
+fun DoubleArray.component1(): Double
+fun BooleanArray.component1(): Boolean
+fun CharArray.component1(): Char
+fun <T> List<T>.component1(): T
+fun <K, V> Map.Entry<K, V>.component1(): K
+fun UIntArray.component1(): UInt
+fun ULongArray.component1(): ULong
+fun UByteArray.component1(): UByte
+fun UShortArray.component1(): UShort.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:120:45 Function 'component2()' is ambiguous for this expression: 
+fun <T> Array<out T>.component2(): T
+fun ByteArray.component2(): Byte
+fun ShortArray.component2(): Short
+fun IntArray.component2(): Int
+fun LongArray.component2(): Long
+fun FloatArray.component2(): Float
+fun DoubleArray.component2(): Double
+fun BooleanArray.component2(): Boolean
+fun CharArray.component2(): Char
+fun <T> List<T>.component2(): T
+fun <K, V> Map.Entry<K, V>.component2(): V
+fun UIntArray.component2(): UInt
+fun ULongArray.component2(): ULong
+fun UByteArray.component2(): UByte
+fun UShortArray.component2(): UShort.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:126:47 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:127:50 Unresolved reference 'packageName'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:132:55 Unresolved reference 'packageName'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:134:19 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:134:19 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun <T, R> T.let(block: (T) -> R): R
+    [R|Contract description]
+     <
+        CallsInPlace(block, EXACTLY_ONCE)
+    >
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:134:23 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:134:28 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:134:28 Not enough information to infer type argument for 'A'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:134:35 Unresolved reference 'size'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:134:47 Unresolved reference 'size'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:135:26 Unresolved reference 'close'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:143:33 Unresolved reference 'size'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:144:30 Unresolved reference 'size'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:147:35 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:147:42 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:148:22 Unresolved reference 'layoutResource'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:149:22 Unresolved reference 'isIconSpaceReserved'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:158:75 Unresolved reference 'size'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:168:27 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:169:43 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:169:91 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:171:22 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:172:30 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:173:25 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:184:26 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:191:13 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/PushNotificationFragment.kt:192:46 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:24:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:30:27 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:31:27 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:64:31 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:84:62 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:95:60 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:99:60 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:103:60 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:107:60 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:111:60 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:120:60 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:128:60 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:135:13 Unresolved reference 'R'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:214:13 Unresolved reference 'GcmPrefs'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:214:22 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:214:35 Unresolved reference 'isEnabled'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:215:28 Unresolved reference 'GcmDatabase'.
+e: file:///F:/VSCodium/Github/MicroG/play-services-core-tokenG/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt:220:21 Unresolved reference 'R'.
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':play-services-core-tokenG:compileHuaweiDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':play-services-core-tokenG:compileDefaultDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+BUILD FAILED in 5s
+384 actionable tasks: 2 executed, 382 up-to-date
+Configuration cache entry reused.

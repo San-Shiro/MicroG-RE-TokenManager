@@ -29,12 +29,6 @@
         android:title="@string/service_name_checkin" />
 
     <Preference
-        android:icon="@drawable/ic_cloud_messaging"
-        android:key="pref_gcm"
-        android:layout="@layout/preference_material_middle"
-        android:title="@string/service_name_mcs" />
-
-    <Preference
         android:icon="@drawable/ic_privacy"
         android:key="pref_privacy"
         android:layout="@layout/preference_material_middle"

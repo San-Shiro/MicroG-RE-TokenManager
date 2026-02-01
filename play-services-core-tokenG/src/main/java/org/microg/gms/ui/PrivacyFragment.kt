@@ -22,7 +22,8 @@ import android.os.Bundle
 import android.view.View
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
-import com.google.android.gms.R
+// import com.google.android.gms.R
+import com.google.android.gms.tokeng.R
 import com.google.android.material.color.MaterialColors
 import com.google.android.material.transition.MaterialSharedAxis
 import org.microg.gms.auth.AuthConstants

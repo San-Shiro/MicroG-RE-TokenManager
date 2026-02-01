@@ -9,7 +9,8 @@ import android.provider.Settings;
 import androidx.core.app.NotificationManagerCompat;
 import androidx.fragment.app.Fragment;
 
-import com.google.android.gms.R;
+// import com.google.android.gms.R;
+import com.google.android.gms.tokeng.R;
 
 import org.microg.tools.ui.AbstractSelfCheckFragment;
 

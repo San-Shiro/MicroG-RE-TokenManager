@@ -23,14 +23,14 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.gms.R;
+import com.google.android.gms.tokeng.R;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.imageview.ShapeableImageView;
 import com.google.android.material.progressindicator.LinearProgressIndicator;
 
 import org.microg.gms.common.PackageUtils;
-import org.microg.gms.people.PeopleManager;
+// import org.microg.gms.people.PeopleManager;
 
 import java.io.IOException;
 import java.util.Objects;
@@ -44,7 +44,7 @@ import static android.accounts.AccountManager.KEY_CALLER_UID;
 import static android.view.View.GONE;
 import static android.view.View.VISIBLE;
 
-/** @noinspection deprecation*/
+/** @noinspection deprecation */
 public class AskPermissionActivity extends AccountAuthenticatorActivity {
     public static final String EXTRA_FROM_ACCOUNT_MANAGER = "from_account_manager";
     public static final String EXTRA_CONSENT_DATA = "consent_data";
@@ -77,7 +77,8 @@ public class AskPermissionActivity extends AccountAuthenticatorActivity {
                 fromAccountManager = intent.hasExtra(EXTRA_FROM_ACCOUNT_MANAGER);
                 if (intent.hasExtra(EXTRA_CONSENT_DATA)) {
                     try {
-                        consentData = ConsentData.ADAPTER.decode(Objects.requireNonNull(intent.getByteArrayExtra(EXTRA_CONSENT_DATA)));
+                        consentData = ConsentData.ADAPTER
+                                .decode(Objects.requireNonNull(intent.getByteArrayExtra(EXTRA_CONSENT_DATA)));
                     } catch (Exception e) {
                         // Ignore
                     }
@@ -89,9 +90,12 @@ public class AskPermissionActivity extends AccountAuthenticatorActivity {
         }
 
         private void verify(Context context) throws Exception {
-            if (accountName == null || accountType == null || account == null) throw new IllegalArgumentException("Required account information missing");
-            if (packageName == null || service == null) throw new IllegalArgumentException("Required request information missing");
-            if (callerUid == 0) throw new IllegalArgumentException("Required caller information missing");
+            if (accountName == null || accountType == null || account == null)
+                throw new IllegalArgumentException("Required account information missing");
+            if (packageName == null || service == null)
+                throw new IllegalArgumentException("Required request information missing");
+            if (callerUid == 0)
+                throw new IllegalArgumentException("Required caller information missing");
             PackageUtils.getAndCheckPackage(context, packageName, callerUid, callerPid);
 
             PackageManager packageManager = context.getPackageManager();
@@ -134,8 +138,8 @@ public class AskPermissionActivity extends AccountAuthenticatorActivity {
         MaterialButton denyButton = dialogView.findViewById(R.id.button_deny);
 
         appIcon.setImageDrawable(data.appIcon);
-        title.setText(isOAuth() ? getString(R.string.ask_scope_permission_title, data.appLabel) :
-                getString(R.string.ask_service_permission_title, data.appLabel));
+        title.setText(isOAuth() ? getString(R.string.ask_scope_permission_title, data.appLabel)
+                : getString(R.string.ask_service_permission_title, data.appLabel));
 
         permissionsList.setAdapter(new PermissionAdapter());
 
@@ -153,18 +157,23 @@ public class AskPermissionActivity extends AccountAuthenticatorActivity {
     }
 
     private void loadAccountPhoto(ImageView target) {
-        Bitmap profileIcon = PeopleManager.getOwnerAvatarBitmap(this, data.accountName, false);
-        if (profileIcon != null) {
-            target.setImageBitmap(profileIcon);
-        } else {
-            new Thread(() -> {
-                final Bitmap freshProfileIcon = PeopleManager.getOwnerAvatarBitmap(AskPermissionActivity.this, data.accountName, true);
-                runOnUiThread(() -> target.setImageBitmap(freshProfileIcon));
-            }).start();
-        }
+        // TokenG: PeopleManager removed, skip avatar loading
+        // Bitmap profileIcon = PeopleManager.getOwnerAvatarBitmap(this,
+        // data.accountName, false);
+        // if (profileIcon != null) {
+        // target.setImageBitmap(profileIcon);
+        // } else {
+        // new Thread(() -> {
+        // final Bitmap freshProfileIcon =
+        // PeopleManager.getOwnerAvatarBitmap(AskPermissionActivity.this,
+        // data.accountName, true);
+        // runOnUiThread(() -> target.setImageBitmap(freshProfileIcon));
+        // }).start();
+        // }
     }
 
-    public void onAllow(AlertDialog dialog, LinearProgressIndicator progressBar, MaterialButton allowButton, MaterialButton denyButton) {
+    public void onAllow(AlertDialog dialog, LinearProgressIndicator progressBar, MaterialButton allowButton,
+            MaterialButton denyButton) {
         authManager.setPermitted(true);
         allowButton.setEnabled(false);
         denyButton.setEnabled(false);
@@ -241,7 +250,8 @@ public class AskPermissionActivity extends AccountAuthenticatorActivity {
     }
 
     private String getServiceLabel(String service) {
-        int labelResource = getResources().getIdentifier("permission_service_" + service + "_label", "string", getPackageName());
+        int labelResource = getResources().getIdentifier("permission_service_" + service + "_label", "string",
+                getPackageName());
         if (labelResource != 0) {
             return getString(labelResource);
         }
@@ -298,6 +308,7 @@ public class AskPermissionActivity extends AccountAuthenticatorActivity {
         class ViewHolder extends RecyclerView.ViewHolder {
             TextView text1;
             TextView text2;
+
             ViewHolder(View view) {
                 super(view);
                 text1 = view.findViewById(android.R.id.text1);

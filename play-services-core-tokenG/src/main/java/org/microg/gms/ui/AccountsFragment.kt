@@ -23,7 +23,8 @@ import androidx.navigation.fragment.findNavController
 import androidx.preference.Preference
 import androidx.preference.PreferenceCategory
 import androidx.preference.PreferenceFragmentCompat
-import com.google.android.gms.R
+// import com.google.android.gms.R
+import com.google.android.gms.tokeng.R
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.color.MaterialColors
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
@@ -38,8 +39,8 @@ import kotlinx.coroutines.withContext
 import org.microg.gms.account.AccountPreference
 import org.microg.gms.auth.AuthConstants
 import org.microg.gms.auth.login.LoginActivity
-import org.microg.gms.people.DatabaseHelper
-import org.microg.gms.people.PeopleManager
+// import org.microg.gms.people.DatabaseHelper
+// import org.microg.gms.people.PeopleManager
 
 class AccountsFragment : PreferenceFragmentCompat() {
 
@@ -117,8 +118,8 @@ class AccountsFragment : PreferenceFragmentCompat() {
         category.isVisible = accounts.isNotEmpty()
 
         accounts.forEachIndexed { index, account ->
-            val displayName = getDisplayName(account)
-            val photo = PeopleManager.getOwnerAvatarBitmap(context, account.name, false)
+            val displayName = account.name // getDisplayName(account)
+            // val photo = PeopleManager.getOwnerAvatarBitmap(context, account.name, false)
 
             val preference = AccountPreference(context).apply {
                 title = displayName ?: account.name
@@ -127,11 +128,12 @@ class AccountsFragment : PreferenceFragmentCompat() {
                 position = index
                 itemCount = accounts.size
 
-                accountAvatar = getCircleDrawable(photo)
+                accountAvatar = getCircleDrawable(null) // photo
                 onRemoveListener = { showRemovalDialog(account) }
             }
             category.addPreference(preference)
 
+            /*
             if (photo == null) {
                 viewLifecycleOwner.lifecycleScope.launch {
                     val hdPhoto = withContext(Dispatchers.IO) {
@@ -142,6 +144,7 @@ class AccountsFragment : PreferenceFragmentCompat() {
                     }
                 }
             }
+            */
         }
     }
 
@@ -162,10 +165,10 @@ class AccountsFragment : PreferenceFragmentCompat() {
         val buttonCancel = dialogView.findViewById<MaterialButton>(R.id.dialog_cancel_button)
 
         viewLifecycleOwner.lifecycleScope.launch(Dispatchers.IO) {
-            val bmp = PeopleManager.getOwnerAvatarBitmap(requireContext(), account.name, true)
+            // val bmp = PeopleManager.getOwnerAvatarBitmap(requireContext(), account.name, true)
             withContext(Dispatchers.Main) {
                 dialogView.findViewById<ShapeableImageView>(R.id.account_avatar)
-                    .setImageDrawable(getCircleDrawable(bmp))
+                    .setImageDrawable(getCircleDrawable(null))
             }
         }
 
@@ -204,7 +207,9 @@ class AccountsFragment : PreferenceFragmentCompat() {
     }
 
     private fun getDisplayName(account: Account): String? {
-        val dbHelper = DatabaseHelper(requireContext())
+        // val dbHelper = DatabaseHelper(requireContext())
+        return null
+        /*
         return try {
             dbHelper.getOwner(account.name).use { cursor ->
                 if (cursor.moveToNext()) {
@@ -217,6 +222,7 @@ class AccountsFragment : PreferenceFragmentCompat() {
         } finally {
             dbHelper.close()
         }
+        */
     }
 
     private fun getCircleDrawable(bmp: Bitmap?): Drawable {
