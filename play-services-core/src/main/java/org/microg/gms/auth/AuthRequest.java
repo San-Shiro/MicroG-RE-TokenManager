@@ -58,7 +58,7 @@ public class AuthRequest extends HttpFormClient.Request {
     public String service;
     @RequestContent("source")
     public String source;
-    @RequestContent({"is_called_from_account_manager", "_opt_is_called_from_account_manager"})
+    @RequestContent({ "is_called_from_account_manager", "_opt_is_called_from_account_manager" })
     public boolean isCalledFromAccountManager;
     @RequestContent("Token")
     public String token;
@@ -68,8 +68,8 @@ public class AuthRequest extends HttpFormClient.Request {
     public boolean getAccountId;
     @RequestContent("ACCESS_TOKEN")
     public boolean isAccessToken;
-//    @RequestContent("droidguard_results")
-//    public String droidguardResults;
+    // @RequestContent("droidguard_results")
+    // public String droidguardResults;
     @RequestContent("has_permission")
     public boolean hasPermission;
     @RequestContent("add_account")
@@ -157,11 +157,11 @@ public class AuthRequest extends HttpFormClient.Request {
     }
 
     public AuthRequest appIsGms() {
-        return app(Constants.GMS_PACKAGE_NAME, Constants.GMS_PACKAGE_SIGNATURE_SHA1);
+        return app(Constants.GOOGLE_GMS_PACKAGE_NAME, Constants.GMS_PACKAGE_SIGNATURE_SHA1);
     }
 
     public AuthRequest callerIsGms() {
-        return caller(Constants.GMS_PACKAGE_NAME, Constants.GMS_PACKAGE_SIGNATURE_SHA1);
+        return caller(Constants.GOOGLE_GMS_PACKAGE_NAME, Constants.GMS_PACKAGE_SIGNATURE_SHA1);
     }
 
     public AuthRequest callerIsApp() {
@@ -204,10 +204,10 @@ public class AuthRequest extends HttpFormClient.Request {
         return this;
     }
 
-//    public AuthRequest droidguardResults(String droidguardResults) {
-//        this.droidguardResults = droidguardResults;
-//        return this;
-//    }
+    // public AuthRequest droidguardResults(String droidguardResults) {
+    // this.droidguardResults = droidguardResults;
+    // return this;
+    // }
 
     public AuthRequest delegation(int delegationType, String delegateeUserId) {
         this.delegationType = delegationType == 0 ? null : Integer.toString(delegationType);
