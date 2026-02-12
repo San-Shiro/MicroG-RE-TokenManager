@@ -21,21 +21,7 @@
         android:name="${basePackageName}.android.providers.gsf.permission.READ_GSERVICES"
         android:label="@string/perm_gsf_read_gservices_label"
         android:protectionLevel="normal" />
-    <permission
-        android:name="${basePackageName}.android.c2dm.permission.RECEIVE"
-        android:label="@string/perm_c2dm_receive_label"
-        android:permissionGroup="android.permission-group.NETWORK"
-        android:protectionLevel="normal" />
-    <permission
-        android:name="${basePackageName}.android.c2dm.permission.SEND"
-        android:label="@string/perm_c2dm_send_label"
-        android:permissionGroup="android.permission-group.NETWORK"
-        android:protectionLevel="privileged|signature" />
-    <permission
-        android:name="${basePackageName}.android.gtalkservice.permission.GTALK_SERVICE"
-        android:label="@string/perm_gtalk_svc_label"
-        android:permissionGroup="android.permission-group.MESSAGES"
-        android:protectionLevel="signature" />
+
 
     <permission-tree
         android:name="${basePackageName}.android.googleapps.permission.GOOGLE_AUTH"
@@ -68,9 +54,7 @@
         tools:ignore="ScopedStorage" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
-    <uses-permission android:name="${basePackageName}.android.c2dm.permission.RECEIVE" />
-    <uses-permission android:name="${basePackageName}.android.c2dm.permission.SEND" />
-    <uses-permission android:name="${basePackageName}.android.gtalkservice.permission.GTALK_SERVICE" />
+
 
     <uses-permission android:name="${basePackageName}.microg.gms.STATUS_BROADCAST" />
 
@@ -454,9 +438,7 @@
                 <action android:name="com.google.android.contextmanager.service.ContextManagerService.START" />
                 <action android:name="com.google.android.gms.accounts.ACCOUNT_SERVICE" />
                 <action android:name="com.google.android.gms.auth.service.START" />
-                <action android:name="com.google.android.gms.cast.firstparty.START" />
-                <action android:name="com.google.android.gms.cast_mirroring.service.START" />
-                <action android:name="com.google.android.gms.cast.remote_display.service.START" />
+
                 <action android:name="com.google.android.gms.auth.api.credentials.service.START" />
                 <action android:name="com.google.android.gms.common.service.START" />
                 <action android:name="com.google.android.gms.identity.service.BIND" />
@@ -466,9 +448,7 @@
         <meta-data
             android:name="org.microg.gms.settings.checkin_enable_service"
             android:value="true" />
-        <meta-data
-            android:name="org.microg.gms.settings.gcm_enable_mcs_service"
-            android:value="true" />
+
     </application>
 
 </manifest>

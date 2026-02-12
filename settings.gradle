@@ -23,15 +23,9 @@ include ':play-services-auth'
 include ':play-services-auth-base'
 include ':play-services-base'
 include ':play-services-basement'
-include ':play-services-cast'
-include ':play-services-cast-framework'
-include ':play-services-gcm'
-include ':play-services-gmscompliance'
-include ':play-services-iid'
 include ':play-services-tasks'
 
 include ':play-services-api'
-include ':play-services'
 
 // core only
 
@@ -41,12 +35,7 @@ sublude ':play-services-basement:ktx'
 sublude ':play-services-tasks:ktx'
 
 sublude ':play-services-base:core'
-sublude ':play-services-cast:core'
-sublude ':play-services-cast-framework:core'
 include ':play-services-conscrypt-provider-core'
-sublude ':play-services-gmscompliance:core'
 
-include ':play-services-core:microg-ui-tools' // Legacy
-include ':play-services-core'
+include ':play-services-core:microg-ui-tools'
 include ':play-services-core-tokenG'
-

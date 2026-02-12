@@ -25,8 +25,6 @@ dependencies {
     implementation "androidx.multidex:multidex:$multidexVersion"
     //noinspection GradleDependency
     implementation "androidx.appcompat:appcompat:$appcompatVersion"
-    //noinspection GradleDependency
-    implementation "androidx.mediarouter:mediarouter:$mediarouterVersion"
     implementation "androidx.preference:preference-ktx:$preferenceVersion"
     //noinspection GradleDependency
     implementation "androidx.webkit:webkit:$webkitVersion"
@@ -74,7 +72,7 @@ android {
         multiDexKeepProguard file('multidex-keep.pro')
 
         ndk {
-            abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
+            abiFilters "arm64-v8a"
         }
 
         buildConfigField "String", "APPLICATION_NAMESPACE", "\"${android.namespace}\""
@@ -107,7 +105,8 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.debug
         }
@@ -122,10 +121,6 @@ android {
     productFlavors {
         "default" {
             dimension 'target'
-        }
-        "huawei" {
-            dimension 'target'
-            versionNameSuffix "-hw"
         }
     }
 
