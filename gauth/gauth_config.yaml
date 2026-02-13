@@ -1,0 +1,17 @@
+android_id: 36166a483cca9b38
+security_token: "1912882901202957864"
+email: ketan.saini62@gmail.com
+master_token: aas_et/AKppINbFIDyK_f5zWRSLlzCetXurQ53PAO1lC0efPPHA4mGrFt_rahSefa7fdS_dT_b1KdUkZuTKPyMwz-EnvbdyttP5zo9b24BWgznm3ESdZR-IsAZE2DgtL30_xl6dFIav9gKVxiHWvbtXOpwr0wbDgRCfi247oYaPlFwQYzIKnEWtsRZ61VMusLyeyAhT8XA8yC_76ZkqiF0KRXTgPfg=
+device:
+    model: Pixel 7
+    brand: google
+    manufacturer: Google
+    device: panther
+    product: panther
+    hardware: tensor
+    fingerprint: google/panther/panther:13/TQ3A.230901.001/10750268:user/release-keys
+    bootloader: slider-1.2-9971768
+    build_id: TQ3A.230901.001
+    sdk_version: 33
+    build_time: 1693440000
+server_port: 8080
