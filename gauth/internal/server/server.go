@@ -40,6 +40,9 @@ type StatusResponse struct {
 func Start(cfg *config.Config, port int) error {
 	mux := http.NewServeMux()
 
+	// Proxy state for browser login
+	proxyState := NewProxyState()
+
 	// Status endpoint
 	mux.HandleFunc("/api/status", func(w http.ResponseWriter, r *http.Request) {
 		resp := StatusResponse{
@@ -51,6 +54,33 @@ func Start(cfg *config.Config, port int) error {
 		writeJSON(w, http.StatusOK, resp)
 	})
 
+	// Login status poll endpoint (for browser login page)
+	mux.HandleFunc("/api/login-status", func(w http.ResponseWriter, r *http.Request) {
+		proxyState.mu.Lock()
+		resp := map[string]interface{}{
+			"captured": proxyState.captured,
+			"email":    proxyState.email,
+			"error":    proxyState.error,
+		}
+		proxyState.mu.Unlock()
+		writeJSON(w, http.StatusOK, resp)
+	})
+
+	// Proxy extract trigger — called by injected JS when closeView fires
+	mux.HandleFunc("/api/proxy-extract", func(w http.ResponseWriter, r *http.Request) {
+		if proxyState.IsCaptured() {
+			writeJSON(w, http.StatusOK, map[string]interface{}{
+				"success": true,
+				"email":   cfg.Email,
+			})
+		} else {
+			writeJSON(w, http.StatusOK, map[string]interface{}{
+				"success": false,
+				"message": "token not yet captured",
+			})
+		}
+	})
+
 	// Fetch token endpoint
 	mux.HandleFunc("/api/token", func(w http.ResponseWriter, r *http.Request) {
 		if r.Method != "POST" && r.Method != "GET" {
@@ -59,7 +89,7 @@ func Start(cfg *config.Config, port int) error {
 		}
 
 		if !cfg.HasMasterToken() {
-			writeJSON(w, http.StatusUnauthorized, TokenResponse{Error: "not logged in; run 'gauth login' first"})
+			writeJSON(w, http.StatusUnauthorized, TokenResponse{Error: "not logged in; use /login or run 'gauth login' first"})
 			return
 		}
 
@@ -136,17 +166,35 @@ func Start(cfg *config.Config, port int) error {
 		writeJSON(w, http.StatusOK, apps)
 	})
 
-	// Simple web UI
+	// === BROWSER LOGIN FLOW ===
+	// Login landing page
+	mux.HandleFunc("/login", func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "text/html")
+		fmt.Fprint(w, loginPageHTML)
+	})
+
+	// Google login proxy
+	mux.Handle("/glogin/", googleProxyHandler(cfg, proxyState, port))
+
+	// Static resource proxy
+	mux.Handle("/gproxy/", staticProxyHandler(cfg, port))
+
+	// Web UI (existing)
 	mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		if r.URL.Path != "/" {
+			http.NotFound(w, r)
+			return
+		}
 		w.Header().Set("Content-Type", "text/html")
 		fmt.Fprintf(w, webUI, port)
 	})
 
 	addr := fmt.Sprintf(":%d", port)
 	log.Printf("[gauth] Server starting on http://localhost%s", addr)
-	log.Printf("[gauth] API endpoints:")
+	log.Printf("[gauth] Endpoints:")
+	log.Printf("  GET  /login          — Browser-based Google sign-in")
 	log.Printf("  GET  /api/status")
-	log.Printf("  POST /api/token  {\"scope\": \"photos\"}")
+	log.Printf("  POST /api/token      {\"scope\": \"photos\"}")
 	log.Printf("  GET  /api/token?scope=photos")
 	log.Printf("  GET  /api/apps")
 
